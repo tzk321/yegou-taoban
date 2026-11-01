@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "html_sha256": "25eb7b1c2d7354d174b6ba7471f6eb8bba5e0437ad4a6889c57d9e39455d2b9d",
+  "svg_sha256": "d9df6b697357131b51a4e20bc9525db5cecbd825d3be297ddc356c0f57df3f2c",
+  "source_rebuild_identical": true,
+  "old_v3_intact": true,
+  "functional_tests": 42,
+  "reports": {
+    "qa-v4-final.json": {
+      "passed": 30,
+      "errors": 0,
+      "network": 0
+    },
+    "qa-v4-edge.json": {
+      "passed": 10,
+      "errors": 0,
+      "network": 0
+    },
+    "qa-v4-realtime.json": {
+      "passed": 2,
+      "errors": 0,
+      "network": 0
+    },
+    "qa-visual.json": {
+      "passed": 3,
+      "errors": 0,
+      "network": 0
+    }
+  },
+  "html_bytes": 137138,
+  "svg_bytes": 136496
+}

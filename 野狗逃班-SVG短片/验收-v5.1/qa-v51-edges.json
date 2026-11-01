@@ -1,0 +1,94 @@
+{
+  "success": true,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "tests": [
+    {
+      "name": "tutorial-paid-lock-restart-fuel-and-no-archive-wallet",
+      "passed": true
+    },
+    {
+      "name": "time-stop-freezes-street-not-courier-schedule-menu-freezes-both",
+      "passed": true,
+      "data": {
+        "route": "courier",
+        "bag": 0,
+        "delivered": 3,
+        "station": 2,
+        "date": "2026-10-15",
+        "seed": 71,
+        "hubOpen": false,
+        "hubTab": "routes",
+        "routeConfirm": "",
+        "mapIndex": 0,
+        "secrets": [],
+        "records": {},
+        "contracts": []
+      }
+    },
+    {
+      "name": "real-notice-collision-drops-one-actual-carried-cup",
+      "passed": true,
+      "data": {
+        "old": 1,
+        "now": 0,
+        "t": 4.991666666666704
+      }
+    },
+    {
+      "name": "rail-complete-fairness-lock-then-restoration",
+      "passed": true
+    },
+    {
+      "name": "hidden-under-extra-dialog-real-action-functions-guarded",
+      "passed": true
+    },
+    {
+      "name": "new-running-mode-single-equipment-slot-locked",
+      "passed": true
+    },
+    {
+      "name": "extras-save-validation-whitelist-finite-records-clamps",
+      "passed": true,
+      "data": {
+        "records": {},
+        "secrets": [
+          "moon"
+        ],
+        "seen": [
+          "0"
+        ],
+        "contracts": [
+          "first"
+        ],
+        "storyRuns": 0,
+        "bossWins": 0,
+        "delivered": 7,
+        "endlessBest": 0,
+        "nightTint": 0
+      }
+    },
+    {
+      "name": "wild-endless-effect-caps-clean-settlement-no-double-wallet",
+      "passed": true,
+      "data": {
+        "bolts": 0,
+        "echoes": 0,
+        "particles": 2,
+        "trails": 0,
+        "items": 7
+      }
+    },
+    {
+      "name": "extra-focus-trap-and-escape-no-native-hotkey-interference",
+      "passed": true
+    },
+    {
+      "name": "write-quota-failure-keeps-memory-gallery-secrets",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Real natural object collision tests bag loss. Explicit isolated save corruption/scenarios for time-stop unit checks and denied write quota. No user browser data touched."
+}

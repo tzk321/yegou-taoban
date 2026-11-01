@@ -1,0 +1,123 @@
+{
+  "version": "5.1",
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "html_bytes": 1232915,
+  "size_floor_bytes": 524288,
+  "reports": [
+    {
+      "report": "qa-v41.json",
+      "tests": 29,
+      "success": true
+    },
+    {
+      "report": "qa-v41-regression.json",
+      "tests": 30,
+      "success": true
+    },
+    {
+      "report": "qa-v41-edges.json",
+      "tests": 10,
+      "success": true
+    },
+    {
+      "report": "qa-v41-realtime.json",
+      "tests": 3,
+      "success": true
+    },
+    {
+      "report": "qa-v5.json",
+      "tests": 46,
+      "success": true
+    },
+    {
+      "report": "qa-v5-boundaries.json",
+      "tests": 12,
+      "success": true
+    },
+    {
+      "report": "qa-v5-balance.json",
+      "tests": 28,
+      "success": true
+    },
+    {
+      "report": "qa-v5-archive.json",
+      "tests": 7,
+      "success": true
+    },
+    {
+      "report": "qa-v5-economy.json",
+      "tests": 10,
+      "success": true
+    },
+    {
+      "report": "qa-v5-visual.json",
+      "tests": 50,
+      "success": true
+    },
+    {
+      "report": "qa-v5-results.json",
+      "tests": 20,
+      "success": true
+    },
+    {
+      "report": "qa-v5-benchmark.json",
+      "tests": 4,
+      "success": true
+    },
+    {
+      "report": "qa-v5-realtime.json",
+      "tests": 6,
+      "success": true
+    },
+    {
+      "report": "qa-v51-new.json",
+      "tests": 12,
+      "success": true
+    },
+    {
+      "report": "qa-v51-layout.json",
+      "tests": 16,
+      "success": true
+    },
+    {
+      "report": "qa-v51-balance.json",
+      "tests": 6,
+      "success": true
+    },
+    {
+      "report": "qa-v51-integration.json",
+      "tests": 16,
+      "success": true
+    },
+    {
+      "report": "qa-v51-edges.json",
+      "tests": 10,
+      "success": true
+    },
+    {
+      "report": "qa-v51-results.json",
+      "tests": 20,
+      "success": true
+    },
+    {
+      "report": "qa-v51-realtime.json",
+      "tests": 5,
+      "success": true
+    },
+    {
+      "report": "qa-v51-gallery-perf.json",
+      "tests": 3,
+      "success": true
+    }
+  ],
+  "tests_total": 343,
+  "postcards": 12,
+  "old_main": "preserved frozen 5.0 plus additive extensions",
+  "wallet": "single nightOffProgressV4 with original voyage.devClaimed",
+  "environment": "Kali Chromium150/Node24 CDP emulated viewports, not physical phone gameplay",
+  "ordinary_clock": "native 90s cruise+60s contract+dojo win; new75s daily+90s courier; original120s film+real-time chrono Boss; no forced QA clocks for ordinary-entry suites",
+  "note": "Explicit unit QA scenarios/isolated test wallets named in each report. Independent 4.2 branch reports NOT counted.",
+  "rebuild_identical": true,
+  "delivered_tests": 4,
+  "tests_including_delivered": 347
+}

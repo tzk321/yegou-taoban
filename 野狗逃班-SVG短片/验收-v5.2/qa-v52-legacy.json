@@ -1,0 +1,587 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "original120-main-perfect-legal-actions",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "bossGate",
+          "mode": "play",
+          "t": 120,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 19,
+          "hits": 0,
+          "smashed": 35,
+          "distance": 37380.74048666875,
+          "spawn": -6.358901202838541,
+          "chapter": 3,
+          "ending": "",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 0,
+          "maxCombo": 66,
+          "comboTime": 0,
+          "energy": 5,
+          "freedom": 0,
+          "superUses": 6,
+          "nearMiss": 32,
+          "jumpBuffer": 0,
+          "score": 1604,
+          "beat": 279,
+          "spawnIndex": 88,
+          "completedMain": true,
+          "bossEligible": true,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 153,
+          "mainReward": true,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 153,
+            "ownedSkins": [
+              "original"
+            ],
+            "ownedSkills": [],
+            "skin": "original",
+            "skill": "",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {},
+              "achievements": [],
+              "secrets": [],
+              "runs": 0,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "contracts": [],
+                "storyRuns": 1,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "story",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "story",
+            "life": 3,
+            "finished": false,
+            "reason": "",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 0,
+            "goals": [],
+            "daily": "",
+            "gear": "stock",
+            "resultCoins": 0,
+            "recorded": false,
+            "tier": 0,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [],
+            "secrets": [],
+            "records": {},
+            "runs": 0,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "hits": [],
+        "actions": [
+          {
+            "t": 3.733333333333325,
+            "action": "jump"
+          },
+          {
+            "t": 6.399999999999983,
+            "action": "jump"
+          },
+          {
+            "t": 8.533333333333337,
+            "action": "jump"
+          },
+          {
+            "t": 9.733333333333396,
+            "action": "dash"
+          },
+          {
+            "t": 12.933333333333556,
+            "action": "jump"
+          },
+          {
+            "t": 19.86666666666682,
+            "action": "jump"
+          },
+          {
+            "t": 21.06666666666675,
+            "action": "dash"
+          },
+          {
+            "t": 24.399999999999896,
+            "action": "jump"
+          },
+          {
+            "t": 26.533333333333108,
+            "action": "jump"
+          },
+          {
+            "t": 29.066666666666297,
+            "action": "dash"
+          },
+          {
+            "t": 35.199999999999285,
+            "action": "dash"
+          },
+          {
+            "t": 38.26666666666578,
+            "action": "jump"
+          },
+          {
+            "t": 38.933333333332406,
+            "action": "jump"
+          },
+          {
+            "t": 40.533333333332315,
+            "action": "dash"
+          },
+          {
+            "t": 48.13333333333188,
+            "action": "jump"
+          },
+          {
+            "t": 49.999999999998444,
+            "action": "dash"
+          },
+          {
+            "t": 53.99999999999822,
+            "action": "jump"
+          },
+          {
+            "t": 55.06666666666482,
+            "action": "jump"
+          },
+          {
+            "t": 57.199999999998035,
+            "action": "dash"
+          },
+          {
+            "t": 59.066666666664595,
+            "action": "jump"
+          },
+          {
+            "t": 59.733333333331224,
+            "action": "jump"
+          },
+          {
+            "t": 68.13333333333075,
+            "action": "dash"
+          },
+          {
+            "t": 71.06666666666392,
+            "action": "jump"
+          },
+          {
+            "t": 73.19999999999713,
+            "action": "dash"
+          },
+          {
+            "t": 77.06666666666358,
+            "action": "dash"
+          },
+          {
+            "t": 81.99999999999663,
+            "action": "dash"
+          },
+          {
+            "t": 85.9999999999964,
+            "action": "dash"
+          },
+          {
+            "t": 88.79999999999625,
+            "action": "jump"
+          },
+          {
+            "t": 89.46666666666287,
+            "action": "jump"
+          },
+          {
+            "t": 102.79999999999545,
+            "action": "jump"
+          },
+          {
+            "t": 105.33333333332864,
+            "action": "jump"
+          },
+          {
+            "t": 107.86666666666183,
+            "action": "dash"
+          },
+          {
+            "t": 111.46666666666162,
+            "action": "jump"
+          },
+          {
+            "t": 113.86666666666149,
+            "action": "jump"
+          }
+        ]
+      }
+    },
+    {
+      "name": "original-three-stage-boss-legal-actions-with-window-caps",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 120,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0.7916666666666781,
+          "coffee": 19,
+          "hits": 0,
+          "smashed": 35,
+          "distance": 40065.82382001325,
+          "spawn": -6.358901202838541,
+          "chapter": 3,
+          "ending": "终审作废，准时自由",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 4,
+          "maxCombo": 66,
+          "comboTime": 1.2916666666666519,
+          "energy": 1.5,
+          "freedom": 0,
+          "superUses": 9,
+          "nearMiss": 32,
+          "jumpBuffer": 0,
+          "score": 2004,
+          "beat": 109,
+          "spawnIndex": 88,
+          "completedMain": true,
+          "bossEligible": true,
+          "bossWon": true,
+          "offset": 0,
+          "runCoins": 183,
+          "mainReward": true,
+          "bossReward": true,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [
+            "天亮了",
+            "不批不改",
+            "三杯续命",
+            "消息免疫"
+          ],
+          "version": "5.2",
+          "wallet": {
+            "balance": 183,
+            "ownedSkins": [
+              "original"
+            ],
+            "ownedSkills": [],
+            "skin": "original",
+            "skill": "",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "story:stock": {
+                  "runs": 1,
+                  "best": 2004,
+                  "time": 120,
+                  "wins": 1
+                }
+              },
+              "achievements": [
+                "first",
+                "story",
+                "perfect"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11"
+                ],
+                "contracts": [],
+                "storyRuns": 1,
+                "bossWins": 1,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "story",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "story",
+            "life": 3,
+            "finished": false,
+            "reason": "",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 0,
+            "goals": [],
+            "daily": "",
+            "gear": "stock",
+            "resultCoins": 0,
+            "recorded": true,
+            "tier": 0,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "story",
+              "perfect"
+            ],
+            "secrets": [],
+            "records": {
+              "story:stock": {
+                "runs": 1,
+                "best": 2004,
+                "time": 120,
+                "wins": 1
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 38.3583333333318,
+            "hp": 0,
+            "maxHP": 12,
+            "player": 1,
+            "stage": 3,
+            "state": "defeated",
+            "timer": -0.008333333333324288,
+            "elapsed": 4.8250000000000295,
+            "pattern": "high",
+            "cycle": 6,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 2,
+            "landed": 12,
+            "blocked": 0,
+            "won": true,
+            "flash": 0,
+            "burst": 3.2083333333333246,
+            "notice": "",
+            "openSerial": 6,
+            "windowDamage": 2,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "stages": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "original-dojo-no-wallet-no-main-pollution",
+      "passed": true,
+      "data": {
+        "route": "dojo",
+        "life": 3,
+        "finished": true,
+        "reason": "victory",
+        "milestone": 0,
+        "shieldMark": 0,
+        "elapsed": 38.3583333333318,
+        "goals": [],
+        "daily": "",
+        "gear": "stock",
+        "resultCoins": 0,
+        "recorded": true,
+        "tier": 0,
+        "panel": "",
+        "devClaimed": false,
+        "motion": "system",
+        "reduced": false,
+        "achievements": [
+          "first",
+          "story",
+          "perfect",
+          "dojo"
+        ],
+        "secrets": [],
+        "records": {
+          "story:stock": {
+            "runs": 1,
+            "best": 2004,
+            "time": 120,
+            "wins": 1
+          },
+          "dojo:stock": {
+            "runs": 1,
+            "best": 1262,
+            "time": 38.3583333333318,
+            "wins": 1
+          }
+        },
+        "runs": 2,
+        "pinLength": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "RAF isolated; existing planner observes only then legal jump/dash/super and QA advance, no life/time/score state injection."
+}

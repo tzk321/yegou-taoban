@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "zip": "/mnt/data/user/0/me.rerere.rikkahub/files/tmp/野狗逃班-6.0-技能特效接力包.zip",
+  "zip_bytes": 5394046,
+  "zip_sha256": "78d9913875920dec10eef3529ab0049b09bbe3bd84826217278e1786abb2ede9",
+  "file_count": 143,
+  "baseline_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "reports": 22,
+  "tests": 431,
+  "skillfx_task_included": true,
+  "credentials_or_profile_included": false
+}

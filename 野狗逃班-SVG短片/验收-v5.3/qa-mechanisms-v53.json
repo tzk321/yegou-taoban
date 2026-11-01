@@ -1,0 +1,290 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "rail actual 8 seconds and super cannot reset",
+      "passed": true,
+      "data": [
+        0,
+        8.009999999999977
+      ]
+    },
+    {
+      "name": "real top-right menu opens unified deck pauses and resumes",
+      "passed": true,
+      "data": {
+        "menu": {
+          "x": 349.375,
+          "y": 27.083343505859375,
+          "w": 39,
+          "h": 39
+        },
+        "pause": {
+          "x": 124.58333206176758,
+          "y": 39.54167556762695,
+          "w": 162.5,
+          "h": 50.916664123535156
+        }
+      }
+    },
+    {
+      "name": "real translucent stick drag steers dog and releases",
+      "passed": true,
+      "data": {
+        "move": -160
+      }
+    },
+    {
+      "name": "fastfall and deck pause guard freezes movement",
+      "passed": true
+    },
+    {
+      "name": "two-finger stick and jump real touch",
+      "passed": true
+    },
+    {
+      "name": "visible control bounds 390",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "jumpBtn",
+            "x": 21.66666603088379,
+            "y": 714,
+            "w": 108.33333587646484,
+            "h": 54.1666259765625,
+            "hide": false
+          },
+          {
+            "id": "dashBtn",
+            "x": 249.1666717529297,
+            "y": 714,
+            "w": 108.33332824707031,
+            "h": 54.1666259765625,
+            "hide": false
+          },
+          {
+            "id": "fallBtn",
+            "x": 146.25,
+            "y": 624.625,
+            "w": 75.83332824707031,
+            "h": 39,
+            "hide": false
+          },
+          {
+            "id": "counterBtn",
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "hide": true
+          },
+          {
+            "id": "v53MenuBtn",
+            "x": 329.875,
+            "y": 7.583343505859375,
+            "w": 39,
+            "h": 39,
+            "hide": false
+          },
+          {
+            "id": "stickBase",
+            "x": 22.20833396911621,
+            "y": 592.6666259765625,
+            "w": 112.66666412353516,
+            "h": 112.66668701171875,
+            "hide": false
+          },
+          {
+            "id": "stickKnob",
+            "x": 56.875,
+            "y": 627.3333129882812,
+            "w": 43.333335876464844,
+            "h": 43.33331298828125,
+            "hide": false
+          }
+        ],
+        "screen": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "visible control bounds 844",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "jumpBtn",
+            "x": 146.27906799316406,
+            "y": 344.65118408203125,
+            "w": 101.58140563964844,
+            "h": 43.53485107421875,
+            "hide": false
+          },
+          {
+            "id": "dashBtn",
+            "x": 596.1395263671875,
+            "y": 344.65118408203125,
+            "w": 101.58135986328125,
+            "h": 43.53485107421875,
+            "hide": false
+          },
+          {
+            "id": "fallBtn",
+            "x": 236.0697784423828,
+            "y": 294.7674560546875,
+            "w": 54.41859436035156,
+            "h": 25.39532470703125,
+            "hide": false
+          },
+          {
+            "id": "counterBtn",
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "hide": true
+          },
+          {
+            "id": "v53MenuBtn",
+            "x": 674.1395263671875,
+            "y": 3.6279125213623047,
+            "w": 32.651123046875,
+            "h": 32.651161193847656,
+            "hide": false
+          },
+          {
+            "id": "stickBase",
+            "x": 143.55813598632812,
+            "y": 261.20928955078125,
+            "w": 76.18605041503906,
+            "h": 76.18606567382812,
+            "hide": false
+          },
+          {
+            "id": "stickKnob",
+            "x": 166.68605041503906,
+            "y": 284.3371887207031,
+            "w": 29.930221557617188,
+            "h": 29.930267333984375,
+            "hide": false
+          }
+        ],
+        "screen": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "name": "visible control bounds 1280",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "jumpBtn",
+            "x": 97.69230651855469,
+            "y": 831.53857421875,
+            "w": 225.96156311035156,
+            "h": 86.76922607421875,
+            "hide": false
+          },
+          {
+            "id": "dashBtn",
+            "x": 956.3462524414062,
+            "y": 831.53857421875,
+            "w": 225.96160888671875,
+            "h": 86.76922607421875,
+            "hide": false
+          },
+          {
+            "id": "fallBtn",
+            "x": 278.4615478515625,
+            "y": 741.1539306640625,
+            "w": 108.46157836914062,
+            "h": 50.61541748046875,
+            "hide": false
+          },
+          {
+            "id": "counterBtn",
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "hide": true
+          },
+          {
+            "id": "v53MenuBtn",
+            "x": 1142.53857421875,
+            "y": 7.230770111083984,
+            "w": 65.076904296875,
+            "h": 65.07693481445312,
+            "hide": false
+          },
+          {
+            "id": "stickBase",
+            "x": 85.03845977783203,
+            "y": 665.2308349609375,
+            "w": 151.84616088867188,
+            "h": 151.84619140625,
+            "hide": false
+          },
+          {
+            "id": "stickKnob",
+            "x": 131.13462829589844,
+            "y": 711.3270263671875,
+            "w": 59.65385437011719,
+            "h": 59.65380859375,
+            "hide": false
+          }
+        ],
+        "screen": [
+          1280,
+          940
+        ]
+      }
+    },
+    {
+      "name": "prism real .9 second barrier lifecycle",
+      "passed": true
+    },
+    {
+      "name": "echo two-jump landing real wave and 6 second cooldown",
+      "passed": true
+    },
+    {
+      "name": "crane spawns real escort every three seconds",
+      "passed": true,
+      "data": [
+        {
+          "kind": "crane-spawn",
+          "t": 0.016666666666666666
+        },
+        {
+          "kind": "crane-obstacle",
+          "data": "folder",
+          "t": 2.8666666666666614
+        },
+        {
+          "kind": "crane-spawn",
+          "t": 3.0333333333333274
+        }
+      ]
+    },
+    {
+      "name": "nightvision draws real projectile prediction lines",
+      "passed": true,
+      "data": 2
+    },
+    {
+      "name": "daily and tutorial all skills remain disabled",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

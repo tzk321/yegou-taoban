@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "files": [
+    {
+      "extension": "html",
+      "sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+      "identical": true
+    },
+    {
+      "extension": "svg",
+      "sha256": "be18d3ec8db826f11e039bded477f3f537cb644a23a04eae9dd267e1932c5318",
+      "identical": true
+    }
+  ],
+  "note": "Staged standalone source rebuilt with only python3 prepare-v5.py / build-v5.py and syntax checked. Outputs byte-identical to tested delivery."
+}

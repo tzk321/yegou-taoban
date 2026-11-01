@@ -1,0 +1,143 @@
+{
+  "version": "5.2",
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "html_bytes": 1519815,
+  "reports": [
+    {
+      "file": "qa-v52-smoke.json",
+      "tests": 1,
+      "sha256": "e22280f2c2f4884b99cce51cde7bf901a459093199312ceaf43e408b6c244046"
+    },
+    {
+      "file": "qa-v52-maps.json",
+      "tests": 24,
+      "sha256": "16533ad28acdf84986fe02e0846fbd4ea54087992c8220674000b7d1895c3196"
+    },
+    {
+      "file": "qa-v52-audit.json",
+      "tests": 21,
+      "sha256": "3d3fd0e2e11a1e0bbfc864405c31902775e9149b234709c386e3a64ce0bb6a4f"
+    },
+    {
+      "file": "qa-v52-codex.json",
+      "tests": 1,
+      "sha256": "5a632c891253b1abf7662c61711c5a6a6202631e5df36ed582c8547657030379"
+    },
+    {
+      "file": "qa-v52-balance-new.json",
+      "tests": 25,
+      "sha256": "b0c7541b0e6f3ff75eb76dca30ed4306f494c162ed4bfbcda7e5f9464d4e4c60"
+    },
+    {
+      "file": "qa-v52-legacy.json",
+      "tests": 3,
+      "sha256": "151043348a633c35ace77687aa18e97c81da8d230b7015b3cfb1425958cd4862"
+    },
+    {
+      "file": "qa-v52-gear-maps.json",
+      "tests": 21,
+      "sha256": "046cba251d831e96edac715b0f6d0c0ff0dbae1eadc9773d6eced0830ced7f0c"
+    },
+    {
+      "file": "qa-v52-persistence.json",
+      "tests": 7,
+      "sha256": "aa3eef100085730096112e43ff33aff81b4cd70e500343e74baa57bf0bfd8bec"
+    },
+    {
+      "file": "qa-v52-branches.json",
+      "tests": 10,
+      "sha256": "8c7a13791569a1f309e9fbbce7a5c60cc0a317aa4aa357f3384f79f2ad8abca2"
+    },
+    {
+      "file": "qa-v52-matrix.json",
+      "tests": 8,
+      "sha256": "5ceebe8d885e7637250e0c7a63adf5d8f5b723e976073ed09ba01bff0cb6206e"
+    },
+    {
+      "file": "qa-v52-shop.json",
+      "tests": 7,
+      "sha256": "14dd42c57c2ac9a45498344137a5e0d6754188ebd7fb97f8bf1a13805943344d"
+    },
+    {
+      "file": "qa-v52-edges-new.json",
+      "tests": 18,
+      "sha256": "bc958d109952685dc240946d80f3ee642e05117e5a13f0f75034df2007995c30"
+    },
+    {
+      "file": "qa-v52-assets.json",
+      "tests": 14,
+      "sha256": "f1298c21731358c7e6b618085b59752443b6ea271f1d3d4220f0deef2167ac9a"
+    },
+    {
+      "file": "qa-v52-native-boundaries.json",
+      "tests": 12,
+      "sha256": "e4827b30c044a9d471f9a8eb3b79207f78a4064b1785cb48cd665b7e8163e794"
+    },
+    {
+      "file": "qa-v52-native-economy.json",
+      "tests": 10,
+      "sha256": "0875f794dbc22812de820bb9ef2239291bdd8e3b77e11f3f951b7b8815526250"
+    },
+    {
+      "file": "qa-v52-cap.json",
+      "tests": 3,
+      "sha256": "5d2afaed4c0957464c6fb4b1420b6775f601781d29fe9b7aac57d25c36a1955a"
+    },
+    {
+      "file": "qa-v52-native-balance.json",
+      "tests": 28,
+      "sha256": "81683a5b62ee2642b3bff2cc4db9a2a2df510c55becb4398beae1dbeb761fac1"
+    },
+    {
+      "file": "qa-v52-native-integration.json",
+      "tests": 16,
+      "sha256": "17609bb888145d454728048731a589359830e23dfb1936474014e0a210f157aa"
+    },
+    {
+      "file": "qa-v52-cosmetics.json",
+      "tests": 9,
+      "sha256": "44007ffb94566064cb40d05c8a955de0448fbc87ab60b6600f80e3130bfc661b"
+    },
+    {
+      "file": "qa-v52-hud.json",
+      "tests": 12,
+      "sha256": "52a3e3e2f57e5bca207e322375ba103269edde7b12dbe965c745d2f55777f28e"
+    },
+    {
+      "file": "qa-v52-readable.json",
+      "tests": 16,
+      "sha256": "a169d0f705bc7cfe1a94d8be94b59f5fbacd38774117296b0714cf05d152383b"
+    },
+    {
+      "file": "qa-v52-realtime.json",
+      "tests": 3,
+      "sha256": "4e56b7fb37be1566898442ebe327ed53b6bbb6ee1aa4dc53a60aab6cbfb424a3"
+    },
+    {
+      "file": "qa-v52-delivered.json",
+      "tests": 4,
+      "sha256": "30980f204da98ce6d14c52b3c973271eced4145ffe69ba959b41554be7765a3b"
+    }
+  ],
+  "passed": 273,
+  "report_count": 23,
+  "rebuild_verified": true,
+  "physical_phone_gameplay": false,
+  "rebuild_comparisons": [
+    {
+      "file": "night-off.html",
+      "identical": true,
+      "sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3"
+    },
+    {
+      "file": "night-off.svg",
+      "identical": true,
+      "sha256": "f295df4d9551159abfb31acb7751dc18f1532d2321c627a69e209b77c086caef"
+    },
+    {
+      "file": "build-manifest.json",
+      "identical": true,
+      "sha256": "5bda05cb652c24c8682ff67be53affd2afb7e410e0398f4c57603906f55fbac9"
+    }
+  ]
+}

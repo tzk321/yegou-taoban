@@ -1,0 +1,1213 @@
+{
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "tests": [
+    {
+      "name": "old-v4-wallet-outfit-skill-migrate-unchanged",
+      "passed": true,
+      "data": {
+        "balance": 321,
+        "ownedSkins": [
+          "original",
+          "mint",
+          "whale"
+        ],
+        "ownedSkills": [
+          "shield"
+        ],
+        "skin": "whale",
+        "skill": "shield",
+        "voyage": {
+          "version": 1,
+          "devClaimed": false,
+          "settings": {
+            "motion": "system"
+          },
+          "records": {},
+          "achievements": [],
+          "secrets": [],
+          "runs": 0
+        }
+      }
+    },
+    {
+      "name": "legend-page-and-no-money-rejection",
+      "passed": true,
+      "data": [
+        "霓虹暴雨",
+        "月蚀巡游",
+        "日冕金权",
+        "邕江龙王"
+      ]
+    },
+    {
+      "name": "free-dragon-preview-replay-no-money-no-equip",
+      "passed": true
+    },
+    {
+      "name": "sky-price-confirm-charge-once-and-persist",
+      "passed": true,
+      "data": {
+        "balance": 1112,
+        "ownedSkins": [
+          "original",
+          "dragon"
+        ],
+        "ownedSkills": [],
+        "skin": "dragon",
+        "skill": "",
+        "voyage": {
+          "version": 1,
+          "devClaimed": false,
+          "settings": {
+            "motion": "system"
+          },
+          "records": {},
+          "achievements": [],
+          "secrets": [],
+          "runs": 0
+        }
+      }
+    },
+    {
+      "name": "legend-skill-pagination-confirm-switch-unload",
+      "passed": true,
+      "data": {
+        "balance": 4912,
+        "ownedSkins": [
+          "original"
+        ],
+        "ownedSkills": [
+          "rail",
+          "chrono"
+        ],
+        "skin": "original",
+        "skill": "chrono",
+        "voyage": {
+          "version": 1,
+          "devClaimed": false,
+          "settings": {
+            "motion": "system"
+          },
+          "records": {},
+          "achievements": [],
+          "secrets": [],
+          "runs": 0
+        }
+      }
+    },
+    {
+      "name": "rail-projectile-truly-breaks-distant-obstacle",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 4.799999999999988,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 1.0000000000000029,
+        "inv": 0.17999999999999855,
+        "coffee": 1,
+        "hits": 0,
+        "smashed": 2,
+        "distance": 1306.944666666661,
+        "spawn": 0.6913922902770955,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 3,
+        "maxCombo": 3,
+        "comboTime": 4.473333333333334,
+        "energy": 2,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 65,
+        "beat": 11,
+        "spawnIndex": 4,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 42.56666666666663,
+        "runCoins": 10,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": false,
+        "compact": false,
+        "items": 1,
+        "particles": 29,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 75010,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "soda",
+            "whale",
+            "neon",
+            "eclipse",
+            "corona",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "neon",
+          "skill": "rail",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0
+          }
+        },
+        "voyage": {
+          "route": "story",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 1,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "rail-fx-cleanup-no-dom-leak",
+      "passed": true
+    },
+    {
+      "name": "orbit-passive-break-collect-protects-real-run",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 22.999999999999975,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 5,
+        "hits": 0,
+        "smashed": 13,
+        "distance": 6095.000000000081,
+        "spawn": 0.4667341017707548,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 18,
+        "maxCombo": 18,
+        "comboTime": 3.950000000000002,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 400,
+        "beat": 53,
+        "spawnIndex": 20,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 41,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": false,
+        "compact": false,
+        "items": 13,
+        "particles": 6,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 75041,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "soda",
+            "whale",
+            "neon",
+            "eclipse",
+            "corona",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "eclipse",
+          "skill": "orbit",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0
+          }
+        },
+        "voyage": {
+          "route": "story",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "orbit-auto-attacks-open-boss",
+      "passed": true,
+      "data": {
+        "t": 6.9999999999999805,
+        "hp": 11,
+        "maxHP": 12,
+        "player": 2,
+        "stage": 1,
+        "state": "open",
+        "timer": 1.8166666666666704,
+        "elapsed": 1.0833333333333344,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": true,
+        "pulse2": false,
+        "hits": 1,
+        "landed": 1,
+        "blocked": 0,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "",
+        "openSerial": 1,
+        "shots": 1
+      }
+    },
+    {
+      "name": "whale-initial-sweep-collect-and-extended-freedom",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 7.999999999999977,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 3.1500000000000137,
+        "coffee": 2,
+        "hits": 0,
+        "smashed": 3,
+        "distance": 2289.599999999981,
+        "spawn": 0.7586668849177652,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 5,
+        "maxCombo": 5,
+        "comboTime": 4.1833333333333345,
+        "energy": 0,
+        "freedom": 2.800000000000014,
+        "superUses": 1,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 105,
+        "beat": 18,
+        "spawnIndex": 7,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 11,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0.26333333333333336,
+        "legendSerial": -1,
+        "mobile": false,
+        "compact": false,
+        "items": 12,
+        "particles": 6,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 75011,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "soda",
+            "whale",
+            "neon",
+            "eclipse",
+            "corona",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "dragon",
+          "skill": "leviathan",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0
+          }
+        },
+        "voyage": {
+          "route": "story",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "whale-open-window-three-damage-cannon",
+      "passed": true,
+      "data": {
+        "t": 7.099999999999979,
+        "hp": 9,
+        "maxHP": 12,
+        "player": 2,
+        "stage": 1,
+        "state": "open",
+        "timer": 1.7166666666666714,
+        "elapsed": 1.1833333333333333,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": true,
+        "pulse2": false,
+        "hits": 1,
+        "landed": 1,
+        "blocked": 0,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "",
+        "openSerial": 1,
+        "shots": 0
+      }
+    },
+    {
+      "name": "chrono-freezes-world-not-player-short-dash-pause-resume",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 5.399999999999986,
+        "paused": false,
+        "y": -120.66666666666669,
+        "vy": 5.000000000000007,
+        "jumps": 1,
+        "dash": 0,
+        "cool": 0,
+        "inv": 4.950000000000001,
+        "coffee": 1,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 1325.0000000000016,
+        "spawn": 0.4847256236104282,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0.44999999999999896,
+        "shake": 0,
+        "combo": 1,
+        "maxCombo": 1,
+        "comboTime": 3.5500000000000034,
+        "energy": 0,
+        "freedom": 4.600000000000001,
+        "superUses": 1,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 15,
+        "beat": 12,
+        "spawnIndex": 4,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 5,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 4.600000000000001,
+        "legendPulse": 0.29999999999999943,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": false,
+        "compact": false,
+        "items": 8,
+        "particles": 47,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 75005,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "soda",
+            "whale",
+            "neon",
+            "eclipse",
+            "corona",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "corona",
+          "skill": "chrono",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0
+          }
+        },
+        "voyage": {
+          "route": "story",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "chrono-locks-boss-opening-projectiles-still-hit",
+      "passed": true,
+      "data": {
+        "t": 6.299999999999983,
+        "hp": 10,
+        "maxHP": 12,
+        "player": 2,
+        "stage": 1,
+        "state": "open",
+        "timer": 2.516666666666668,
+        "elapsed": 0.3833333333333333,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": true,
+        "pulse2": false,
+        "hits": 1,
+        "landed": 1,
+        "blocked": 0,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "",
+        "openSerial": 1,
+        "shots": 0
+      }
+    },
+    {
+      "name": "retry-clears-legends-keeps-main-qualification",
+      "passed": true
+    },
+    {
+      "name": "legend-shop-preview-layout 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "shopPrevBtn",
+          "inside": true
+        },
+        {
+          "id": "shopNextBtn",
+          "inside": true
+        },
+        {
+          "id": "shopCloseBtn",
+          "inside": true
+        },
+        {
+          "id": "shopInfo0",
+          "inside": true
+        },
+        {
+          "id": "shopInfo1",
+          "inside": true
+        },
+        {
+          "id": "shopInfo2",
+          "inside": true
+        },
+        {
+          "id": "shopInfo3",
+          "inside": true
+        },
+        {
+          "id": "shopBuy0",
+          "inside": true
+        },
+        {
+          "id": "shopBuy1",
+          "inside": true
+        },
+        {
+          "id": "shopBuy2",
+          "inside": true
+        },
+        {
+          "id": "shopBuy3",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "legend-shop-preview-layout 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "shopPrevBtn",
+          "inside": true
+        },
+        {
+          "id": "shopNextBtn",
+          "inside": true
+        },
+        {
+          "id": "shopCloseBtn",
+          "inside": true
+        },
+        {
+          "id": "shopInfo0",
+          "inside": true
+        },
+        {
+          "id": "shopInfo1",
+          "inside": true
+        },
+        {
+          "id": "shopInfo2",
+          "inside": true
+        },
+        {
+          "id": "shopInfo3",
+          "inside": true
+        },
+        {
+          "id": "shopBuy0",
+          "inside": true
+        },
+        {
+          "id": "shopBuy1",
+          "inside": true
+        },
+        {
+          "id": "shopBuy2",
+          "inside": true
+        },
+        {
+          "id": "shopBuy3",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "legend-shop-preview-layout 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "shopPrevBtn",
+          "inside": true
+        },
+        {
+          "id": "shopNextBtn",
+          "inside": true
+        },
+        {
+          "id": "shopCloseBtn",
+          "inside": true
+        },
+        {
+          "id": "shopInfo0",
+          "inside": true
+        },
+        {
+          "id": "shopInfo1",
+          "inside": true
+        },
+        {
+          "id": "shopInfo2",
+          "inside": true
+        },
+        {
+          "id": "shopInfo3",
+          "inside": true
+        },
+        {
+          "id": "shopBuy0",
+          "inside": true
+        },
+        {
+          "id": "shopBuy1",
+          "inside": true
+        },
+        {
+          "id": "shopBuy2",
+          "inside": true
+        },
+        {
+          "id": "shopBuy3",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "legend-shop-preview-layout 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "shopPrevBtn",
+          "inside": true
+        },
+        {
+          "id": "shopNextBtn",
+          "inside": true
+        },
+        {
+          "id": "shopCloseBtn",
+          "inside": true
+        },
+        {
+          "id": "shopInfo0",
+          "inside": true
+        },
+        {
+          "id": "shopInfo1",
+          "inside": true
+        },
+        {
+          "id": "shopInfo2",
+          "inside": true
+        },
+        {
+          "id": "shopInfo3",
+          "inside": true
+        },
+        {
+          "id": "shopBuy0",
+          "inside": true
+        },
+        {
+          "id": "shopBuy1",
+          "inside": true
+        },
+        {
+          "id": "shopBuy2",
+          "inside": true
+        },
+        {
+          "id": "shopBuy3",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "legend-shop-preview-layout 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "shopPrevBtn",
+          "inside": true
+        },
+        {
+          "id": "shopNextBtn",
+          "inside": true
+        },
+        {
+          "id": "shopCloseBtn",
+          "inside": true
+        },
+        {
+          "id": "shopInfo0",
+          "inside": true
+        },
+        {
+          "id": "shopInfo1",
+          "inside": true
+        },
+        {
+          "id": "shopInfo2",
+          "inside": true
+        },
+        {
+          "id": "shopInfo3",
+          "inside": true
+        },
+        {
+          "id": "shopBuy0",
+          "inside": true
+        },
+        {
+          "id": "shopBuy1",
+          "inside": true
+        },
+        {
+          "id": "shopBuy2",
+          "inside": true
+        },
+        {
+          "id": "shopBuy3",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "legend-skin-neon-unique-vector-accessories",
+      "passed": true,
+      "data": 311
+    },
+    {
+      "name": "legend-skin-eclipse-unique-vector-accessories",
+      "passed": true,
+      "data": 311
+    },
+    {
+      "name": "legend-skin-corona-unique-vector-accessories",
+      "passed": true,
+      "data": 311
+    },
+    {
+      "name": "legend-skin-dragon-unique-vector-accessories",
+      "passed": true,
+      "data": 311
+    },
+    {
+      "name": "original-no-skill-full-main-still-perfect",
+      "passed": true,
+      "data": {
+        "phase": "bossGate",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 20,
+        "hits": 0,
+        "smashed": 35,
+        "distance": 37340.479240002,
+        "spawn": -6.358901202838541,
+        "chapter": 3,
+        "ending": "",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 8,
+        "maxCombo": 80,
+        "comboTime": 0.28333333333334426,
+        "energy": 5,
+        "freedom": 0,
+        "superUses": 6,
+        "nearMiss": 33,
+        "jumpBuffer": 0,
+        "score": 1696,
+        "beat": 279,
+        "spawnIndex": 88,
+        "completedMain": true,
+        "bossEligible": true,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 155,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 75155,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "soda",
+            "whale",
+            "neon",
+            "eclipse",
+            "corona",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "original",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0
+          }
+        },
+        "voyage": {
+          "route": "story",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "gate-loadout-locked-no-late-skill-swap",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion-retains-legend-mechanics",
+      "passed": true
+    },
+    {
+      "name": "storage-denied-preview-film-no-free-coins",
+      "passed": true
+    },
+    {
+      "name": "standalone-svg-legend-shop",
+      "passed": true
+    },
+    {
+      "name": "no-qa-normal-entry-no-errors-network",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "New expensive purchases tested with seeded wallet only in isolated browser profile. Item mechanics tested on natural spawns; dedicated super/Boss unit tests use explicit QA scenarios. Original main uses action-only predictive bot."
+}

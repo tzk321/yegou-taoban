@@ -1,0 +1,13 @@
+{
+  "version": "5.3",
+  "html_bytes": 1553603,
+  "svg_bytes": 1552786,
+  "sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "svg_sha256": "0dd9fa36ee6565258cefe4c511df93ae020f2bcdfe42046f6da5bf4f7563ee36",
+  "frozen_baseline": "5.2 published landscape/HUD repair",
+  "bosses": 13,
+  "skins": 10,
+  "skills": 11,
+  "tracks": 7,
+  "size_floor_bytes": 524288
+}

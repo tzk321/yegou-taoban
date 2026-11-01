@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "original grant one-billion cap exactly once",
+      "passed": true,
+      "data": 1000000000
+    },
+    {
+      "name": "storage failure preserves balance ownership and grant only once memory honest notice",
+      "passed": true
+    },
+    {
+      "name": "denied persistence never claimed saved to disk",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

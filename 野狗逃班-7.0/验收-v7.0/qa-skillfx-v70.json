@@ -1,0 +1,605 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "unequipped original dash has start and finish without changing controls",
+      "passed": true
+    },
+    {
+      "name": "shared-art free retained dynamic preview wind",
+      "passed": true,
+      "data": {
+        "id": "wind",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview magnet",
+      "passed": true,
+      "data": {
+        "id": "magnet",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview shield",
+      "passed": true,
+      "data": {
+        "id": "shield",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview rail",
+      "passed": true,
+      "data": {
+        "id": "rail",
+        "nodes": 27,
+        "cycle": 8,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview orbit",
+      "passed": true,
+      "data": {
+        "id": "orbit",
+        "nodes": 27,
+        "cycle": 2.1,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview leviathan",
+      "passed": true,
+      "data": {
+        "id": "leviathan",
+        "nodes": 27,
+        "cycle": 6,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview chrono",
+      "passed": true,
+      "data": {
+        "id": "chrono",
+        "nodes": 27,
+        "cycle": 4.6,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview prism",
+      "passed": true,
+      "data": {
+        "id": "prism",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview echo",
+      "passed": true,
+      "data": {
+        "id": "echo",
+        "nodes": 27,
+        "cycle": 6,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview crane",
+      "passed": true,
+      "data": {
+        "id": "crane",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview nightvision",
+      "passed": true,
+      "data": {
+        "id": "nightvision",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview capacitor",
+      "passed": true,
+      "data": {
+        "id": "capacitor",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview glide",
+      "passed": true,
+      "data": {
+        "id": "glide",
+        "nodes": 27,
+        "cycle": 3.2,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "shared-art free retained dynamic preview pulse",
+      "passed": true,
+      "data": {
+        "id": "pulse",
+        "nodes": 27,
+        "cycle": 8,
+        "stage": "出手"
+      }
+    },
+    {
+      "name": "real wind start, no cooldown fake cast, finite finish",
+      "passed": true
+    },
+    {
+      "name": "real rail start, no cooldown fake cast, finite finish",
+      "passed": true
+    },
+    {
+      "name": "real prism start, no cooldown fake cast, finite finish",
+      "passed": true
+    },
+    {
+      "name": "real pulse start, no cooldown fake cast, finite finish",
+      "passed": true
+    },
+    {
+      "name": "shield consumed once: true fold-shatter and no ghost shield",
+      "passed": true
+    },
+    {
+      "name": "legal full route remains completable magnet",
+      "passed": true,
+      "data": {
+        "phase": "bossGate"
+      }
+    },
+    {
+      "name": "legal full route remains completable orbit",
+      "passed": true,
+      "data": {
+        "phase": "bossGate"
+      }
+    },
+    {
+      "name": "legal full route remains completable nightvision",
+      "passed": true,
+      "data": {
+        "phase": "bossGate"
+      }
+    },
+    {
+      "name": "legal full route remains completable capacitor",
+      "passed": true,
+      "data": {
+        "phase": "bossGate"
+      }
+    },
+    {
+      "name": "legal full route remains completable leviathan",
+      "passed": true,
+      "data": {
+        "phase": "bossGate"
+      }
+    },
+    {
+      "name": "only real in-range pickup attraction and collection magnet",
+      "passed": true
+    },
+    {
+      "name": "only real in-range pickup attraction and collection nightvision",
+      "passed": true
+    },
+    {
+      "name": "orbit burns energy only on real obstacle interception with paper feedback",
+      "passed": true
+    },
+    {
+      "name": "isolated energy fixture: real leviathan duration and expiry, no balance/HP edits",
+      "passed": true
+    },
+    {
+      "name": "isolated energy fixture: real chrono duration and expiry, no balance/HP edits",
+      "passed": true
+    },
+    {
+      "name": "glide actual slow-fall wings only, immediate fastfall fold and landing cleanup",
+      "passed": true
+    },
+    {
+      "name": "echo only real double-jump landing and never cooldown fake wave",
+      "passed": true
+    },
+    {
+      "name": "true hostile impact location prism",
+      "passed": true,
+      "data": {
+        "id": "prism",
+        "stage": "impact",
+        "t": 4.29999999999999,
+        "x": 377.60121111148203,
+        "y": 507,
+        "reason": "bullet-block"
+      }
+    },
+    {
+      "name": "true hostile impact location pulse",
+      "passed": true,
+      "data": {
+        "id": "pulse",
+        "stage": "impact",
+        "t": 5.508333333333397,
+        "x": 427.0383617912806,
+        "y": 507,
+        "reason": "bullet-cleared"
+      }
+    },
+    {
+      "name": "true hostile impact location crane",
+      "passed": true,
+      "data": {
+        "id": "crane",
+        "stage": "impact",
+        "t": 5.533333333333398,
+        "x": 400.14599639783575,
+        "y": 477.629075901261,
+        "reason": "real-intercept"
+      }
+    },
+    {
+      "name": "qualified real Boss HP contact rail",
+      "passed": true
+    },
+    {
+      "name": "qualified real Boss HP contact orbit",
+      "passed": true
+    },
+    {
+      "name": "qualified real Boss HP contact leviathan",
+      "passed": true
+    },
+    {
+      "name": "qualified real Boss HP contact chrono",
+      "passed": true
+    },
+    {
+      "name": "actual third cup at full energy shows capped, never fake extra charge",
+      "passed": true,
+      "data": {
+        "event": {
+          "kind": "capacitor-charge",
+          "data": {
+            "cups": 6,
+            "energy": 6,
+            "gained": 0
+          },
+          "t": 31.124999999998874
+        },
+        "fx": [
+          {
+            "id": "capacitor",
+            "stage": "impact",
+            "t": 26.674999999999127,
+            "x": 439.9019999999947,
+            "y": 523,
+            "reason": "dash-or-super-obstacle"
+          },
+          {
+            "id": "base",
+            "stage": "end",
+            "t": 27.20833333333243,
+            "x": 410.4166666666667,
+            "y": 508
+          },
+          {
+            "id": "base",
+            "stage": "start",
+            "t": 29.841666666665613,
+            "x": 317,
+            "y": 508
+          },
+          {
+            "id": "base",
+            "stage": "end",
+            "t": 30.41666666666558,
+            "x": 410.4166666666667,
+            "y": 508
+          },
+          {
+            "id": "capacitor",
+            "stage": "capped",
+            "t": 31.11666666666554,
+            "x": 317,
+            "y": 458
+          }
+        ],
+        "energy": 6
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe wind",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe magnet",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe shield",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe rail",
+      "passed": true,
+      "data": {
+        "max": 2,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe orbit",
+      "passed": true,
+      "data": {
+        "max": 4,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe leviathan",
+      "passed": true,
+      "data": {
+        "max": 5,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe chrono",
+      "passed": true,
+      "data": {
+        "max": 4,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe prism",
+      "passed": true,
+      "data": {
+        "max": 4,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe echo",
+      "passed": true,
+      "data": {
+        "max": 5,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe crane",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe nightvision",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe capacitor",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe glide",
+      "passed": true,
+      "data": {
+        "max": 3,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "all skills reduced/load bounded and restart-safe pulse",
+      "passed": true,
+      "data": {
+        "max": 4,
+        "nodes": 99
+      }
+    },
+    {
+      "name": "bounded warm FX, paused/blur freeze, home/retry cleanup full",
+      "passed": true
+    },
+    {
+      "name": "bounded warm FX, paused/blur freeze, home/retry cleanup reduce",
+      "passed": true
+    },
+    {
+      "name": "dense Boss readable world-layer FX behind red bullets 390x844",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "parent": "world",
+        "behind": true,
+        "opaque": 0
+      }
+    },
+    {
+      "name": "dense Boss readable world-layer FX behind red bullets 844x390",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "parent": "world",
+        "behind": true,
+        "opaque": 0
+      }
+    },
+    {
+      "name": "dense Boss readable world-layer FX behind red bullets 2400x1080",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "parent": "world",
+        "behind": true,
+        "opaque": 0
+      }
+    },
+    {
+      "name": "skill FX obey original no-equipment route wind daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route wind tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route magnet daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route magnet tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route shield daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route shield tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route rail daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route rail tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route orbit daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route orbit tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route leviathan daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route leviathan tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route chrono daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route chrono tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route prism daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route prism tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route echo daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route echo tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route crane daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route crane tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route nightvision daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route nightvision tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route capacitor daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route capacitor tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route glide daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route glide tutorial",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route pulse daily",
+      "passed": true
+    },
+    {
+      "name": "skill FX obey original no-equipment route pulse tutorial",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Real actions/contacts, isolated profiles only. Two duration tests explicitly use QA energy=6 fixture, no life/HP/wallet injection. Warm 28+5 slots/99 descendants; preview shared SVG art. Headless screenshots are not physical phone FPS."
+}

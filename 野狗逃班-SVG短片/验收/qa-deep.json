@@ -1,0 +1,330 @@
+{
+  "success": true,
+  "tests": [
+    {
+      "name": "collect-and-smash",
+      "passed": true,
+      "data": {
+        "coffee": 22,
+        "smashed": 4,
+        "hits": 18,
+        "ending": "咖啡因自由人"
+      }
+    },
+    {
+      "name": "quiet-third-ending",
+      "passed": true,
+      "data": {
+        "coffee": 10,
+        "hits": 5,
+        "ending": "无米，但自由"
+      }
+    },
+    {
+      "name": "viewport 360x640",
+      "passed": true,
+      "data": {
+        "mobile": true,
+        "svg": {
+          "x": 0,
+          "y": 7.5,
+          "width": 360,
+          "height": 625,
+          "top": 7.5,
+          "right": 360,
+          "bottom": 632.5,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "id": "filmBtn",
+            "width": 147.5,
+            "height": 43,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 157.5,
+            "height": 43,
+            "inside": true
+          },
+          {
+            "id": "jumpBtn",
+            "width": 154,
+            "height": 53.5,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 154,
+            "height": 53.5,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 98,
+            "height": 41,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 98,
+            "height": 41,
+            "inside": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport 390x844",
+      "passed": true,
+      "data": {
+        "mobile": true,
+        "svg": {
+          "x": 0,
+          "y": 83.453125,
+          "width": 390,
+          "height": 677.078125,
+          "top": 83.453125,
+          "right": 390,
+          "bottom": 760.53125,
+          "left": 0
+        },
+        "buttons": [
+          {
+            "id": "filmBtn",
+            "width": 159.79043579101562,
+            "height": 46.582977294921875,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 170.62368774414062,
+            "height": 46.582977294921875,
+            "inside": true
+          },
+          {
+            "id": "jumpBtn",
+            "width": 166.83204650878906,
+            "height": 57.9578857421875,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 166.83204650878906,
+            "height": 57.9578857421875,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 106.16584777832031,
+            "height": 44.41632080078125,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 106.16584777832031,
+            "height": 44.41632080078125,
+            "inside": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport 768x1024",
+      "passed": true,
+      "data": {
+        "mobile": true,
+        "svg": {
+          "x": 89.09375,
+          "y": 0,
+          "width": 589.8125,
+          "height": 1024,
+          "top": 0,
+          "right": 678.90625,
+          "bottom": 1024,
+          "left": 89.09375
+        },
+        "buttons": [
+          {
+            "id": "filmBtn",
+            "width": 241.6593017578125,
+            "height": 70.4498291015625,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 258.04296875,
+            "height": 70.4498291015625,
+            "inside": true
+          },
+          {
+            "id": "jumpBtn",
+            "width": 252.30868530273438,
+            "height": 87.6527099609375,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 252.3087158203125,
+            "height": 87.6527099609375,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 160.56005859375,
+            "height": 67.17303466796875,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 160.56005859375,
+            "height": 67.173095703125,
+            "inside": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport 844x390",
+      "passed": true,
+      "data": {
+        "mobile": false,
+        "svg": {
+          "x": 60.265625,
+          "y": 0,
+          "width": 723.46875,
+          "height": 390,
+          "top": 0,
+          "right": 783.734375,
+          "bottom": 390,
+          "left": 60.265625
+        },
+        "buttons": [
+          {
+            "id": "filmBtn",
+            "width": 132.8243408203125,
+            "height": 45.216796875,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 141.30247497558594,
+            "height": 45.216796875,
+            "inside": true
+          },
+          {
+            "id": "jumpBtn",
+            "width": 118.694091796875,
+            "height": 54.260162353515625,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 118.694091796875,
+            "height": 54.260162353515625,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 73.477294921875,
+            "height": 45.216796875,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 73.477294921875,
+            "height": 45.216796875,
+            "inside": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "viewport 1920x1080",
+      "passed": true,
+      "data": {
+        "mobile": false,
+        "svg": {
+          "x": 156.28125,
+          "y": 0,
+          "width": 1607.4375,
+          "height": 1080,
+          "top": 0,
+          "right": 1763.71875,
+          "bottom": 1080,
+          "left": 156.28125
+        },
+        "buttons": [
+          {
+            "id": "filmBtn",
+            "width": 295.115478515625,
+            "height": 84.1392822265625,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 313.95263671875,
+            "height": 84.1392822265625,
+            "inside": true
+          },
+          {
+            "id": "jumpBtn",
+            "width": 263.72021484375,
+            "height": 86.65093994140625,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 263.72021484375,
+            "height": 86.65093994140625,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 163.25537109375,
+            "height": 67.81378173828125,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 163.25537109375,
+            "height": 67.81378173828125,
+            "inside": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "wsl-headless-animation-cadence",
+      "passed": true,
+      "data": {
+        "frames": 240,
+        "median": 16.699999999999818,
+        "p95": 16.700000000000273,
+        "max": 16.800000000000182
+      }
+    },
+    {
+      "name": "visibility-change-auto-pause",
+      "passed": true,
+      "data": 5.175499999999911
+    },
+    {
+      "name": "visibility-resume-does-not-jump",
+      "passed": true,
+      "data": 0.26900000000009605
+    },
+    {
+      "name": "real-time-full-65s-film-no-qa-hook",
+      "passed": true,
+      "data": {
+        "start": 0.07199999999981374,
+        "end": 65,
+        "ending": "今天不改了"
+      }
+    }
+  ],
+  "errors": [],
+  "note": "Cadence measured on WSL headless software rasterizer, not physical phone. Browser visibility tested with a synthetic hidden property."
+}

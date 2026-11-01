@@ -1,0 +1,152 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "all guardian failures checkpoint and direct retry 0",
+      "passed": true,
+      "data": {
+        "c": 29,
+        "run": "2026-10-15-1792047365005-qmvkkyi"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 1",
+      "passed": true,
+      "data": {
+        "c": 24,
+        "run": "2026-10-15-1792047367569-clavtsz"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 2",
+      "passed": true,
+      "data": {
+        "c": 27,
+        "run": "2026-10-15-1792047370324-zg10ueb"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 3",
+      "passed": true,
+      "data": {
+        "c": 26,
+        "run": "2026-10-15-1792047372854-ee5cdbk"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 4",
+      "passed": true,
+      "data": {
+        "c": 29,
+        "run": "2026-10-15-1792047375675-aifrt7c"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 5",
+      "passed": true,
+      "data": {
+        "c": 27,
+        "run": "2026-10-15-1792047378243-g660t4f"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 6",
+      "passed": true,
+      "data": {
+        "c": 29,
+        "run": "2026-10-15-1792047382312-5g6q8ct"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 7",
+      "passed": true,
+      "data": {
+        "c": 30,
+        "run": "2026-10-15-1792047385610-0flx05l"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 8",
+      "passed": true,
+      "data": {
+        "c": 31,
+        "run": "2026-10-15-1792047388400-sbfl4hm"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 9",
+      "passed": true,
+      "data": {
+        "c": 34,
+        "run": "2026-10-15-1792047391783-j4xe1q1"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 10",
+      "passed": true,
+      "data": {
+        "c": 35,
+        "run": "2026-10-15-1792047394868-kv48pbk"
+      }
+    },
+    {
+      "name": "all guardian failures checkpoint and direct retry 11",
+      "passed": true,
+      "data": {
+        "c": 33,
+        "run": "2026-10-15-1792047398165-yauenbt"
+      }
+    },
+    {
+      "name": "new actual Boss window damage cap including chrono rail",
+      "passed": true,
+      "data": {
+        "damage": 2,
+        "time": 9.383333333333441
+      }
+    },
+    {
+      "name": "new actual Boss window damage cap including chrono orbit",
+      "passed": true,
+      "data": {
+        "damage": 3,
+        "time": 9.383333333333441
+      }
+    },
+    {
+      "name": "new actual Boss window damage cap including chrono leviathan",
+      "passed": true,
+      "data": {
+        "damage": 3,
+        "time": 9.383333333333441
+      }
+    },
+    {
+      "name": "new actual Boss window damage cap including chrono chrono",
+      "passed": true,
+      "data": {
+        "damage": 3,
+        "time": 7.875000000000175
+      }
+    },
+    {
+      "name": "denied storage map fully playable memory ticket",
+      "passed": true
+    },
+    {
+      "name": "corrupt maps save clamps whitelists and rejects invalid checkpoint",
+      "passed": true,
+      "data": {
+        "wins": [],
+        "records": {},
+        "awards": {},
+        "checkpoint": null
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "12 legal routes then natural no-action Boss failures, direct retries, reload checkpoints. Window cap energy fixture explicit, no HP/score changes. Denied/corrupt saves isolated."
+}

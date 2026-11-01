@@ -1,0 +1,199 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "map vitals clear of dog and readable 390x844",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "雨夜门口 · 耐心 4/4",
+        "font": 25.846153846153847,
+        "textW": 230,
+        "bgW": 531.6923076923076,
+        "bgH": 55.38461538461539,
+        "screenH": 30,
+        "screenW": 288,
+        "box": [
+          12,
+          92,
+          300,
+          122
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog at jump apex 390x844",
+      "passed": true,
+      "data": [
+        88,
+        376,
+        189,
+        450
+      ]
+    },
+    {
+      "name": "obstacles spawn off-screen right 390x844",
+      "passed": true,
+      "data": {
+        "edge": 800,
+        "xs": [
+          913,
+          1008,
+          1063,
+          1118
+        ]
+      }
+    },
+    {
+      "name": "retained extra route badge fits 390x844",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "咖啡快送 / 杯架 1 / 3",
+        "font": 25.846153846153847,
+        "textW": 246,
+        "bgW": 531.6923076923076,
+        "bgH": 55.38461538461539,
+        "screenH": 30,
+        "screenW": 288,
+        "box": [
+          12,
+          92,
+          300,
+          122
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog and readable 844x390",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "雨夜门口 · 耐心 4/4",
+        "font": 21.232227488151658,
+        "textW": 189,
+        "bgW": 426.70710900473927,
+        "bgH": 45.49763033175355,
+        "screenH": 30,
+        "screenW": 281,
+        "box": [
+          473,
+          92,
+          754,
+          122
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog at jump apex 844x390",
+      "passed": true,
+      "data": [
+        119,
+        69,
+        256,
+        169
+      ]
+    },
+    {
+      "name": "obstacles spawn off-screen right 844x390",
+      "passed": true,
+      "data": {
+        "edge": 1280,
+        "xs": [
+          1383,
+          1478,
+          1533,
+          1588
+        ]
+      }
+    },
+    {
+      "name": "retained extra route badge fits 844x390",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "咖啡快送 / 杯架 0 / 3",
+        "font": 21.232227488151658,
+        "textW": 202,
+        "bgW": 426.70710900473927,
+        "bgH": 45.49763033175355,
+        "screenH": 30,
+        "screenW": 281,
+        "box": [
+          473,
+          92,
+          754,
+          122
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog and readable 1365x900",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "雨夜门口 · 耐心 4/4",
+        "font": 13.128205128205128,
+        "textW": 117,
+        "bgW": 328.20512820512823,
+        "bgH": 28.13186813186813,
+        "screenH": 30,
+        "screenW": 350,
+        "box": [
+          764,
+          92,
+          1114,
+          122
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog at jump apex 1365x900",
+      "passed": true,
+      "data": [
+        193,
+        273,
+        414,
+        435
+      ]
+    },
+    {
+      "name": "obstacles spawn off-screen right 1365x900",
+      "passed": true,
+      "data": {
+        "edge": 1280,
+        "xs": [
+          1383,
+          1478,
+          1533,
+          1588
+        ]
+      }
+    },
+    {
+      "name": "retained extra route badge fits 1365x900",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "咖啡快送 / 杯架 0 / 3",
+        "font": 13.128205128205128,
+        "textW": 125,
+        "bgW": 328.20512820512823,
+        "bgH": 28.13186813186813,
+        "screenH": 30,
+        "screenW": 350,
+        "box": [
+          764,
+          92,
+          1114,
+          122
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Overlap measured on real DOM box geometry, painted-after-the-dog only, full-screen tints/weather/effects exempt. Not a physical phone."
+}

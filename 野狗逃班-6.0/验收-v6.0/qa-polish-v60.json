@@ -1,0 +1,1193 @@
+{
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "tests": [
+    {
+      "name": "no HUD/skill/controls overlap 390 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 12,
+            "y": 12.00001049041748,
+            "w": 288.0000305175781,
+            "h": 34
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 12,
+            "y": 54.0000114440918,
+            "w": 230,
+            "h": 29.999996185302734
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 12,
+            "y": 92.00001525878906,
+            "w": 288.0000305175781,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 12,
+            "y": 129.00001525878906,
+            "w": 48.015621185302734,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 326.0000305175781,
+            "y": 16.000009536743164,
+            "w": 47.999969482421875,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 312,
+            "y": 772,
+            "w": 62,
+            "h": 53.99993896484375
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 240,
+            "y": 772,
+            "w": 62,
+            "h": 53.99993896484375
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 390 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 390 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 12,
+            "y": 84.00000762939453,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 12,
+            "y": 12.00001049041748,
+            "w": 288.0000305175781,
+            "h": 63.999996185302734
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 12,
+            "y": 146,
+            "w": 335.0000305175781,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 12,
+            "y": 123.00001525878906,
+            "w": 48.015621185302734,
+            "h": 14.999984741210938
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 326.0000305175781,
+            "y": 16.000009536743164,
+            "w": 47.999969482421875,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 312,
+            "y": 772,
+            "w": 62,
+            "h": 53.99993896484375
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 240,
+            "y": 772,
+            "w": 62,
+            "h": 53.99993896484375
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 312,
+            "y": 708,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 390 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 390",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 360 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 12,
+            "y": 12,
+            "w": 258,
+            "h": 34
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 12,
+            "y": 54,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 12,
+            "y": 92,
+            "w": 258,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 12,
+            "y": 129,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 296,
+            "y": 16,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 282,
+            "y": 708,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 210,
+            "y": 708,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 360 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 360 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 12,
+            "y": 84,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 12,
+            "y": 12,
+            "w": 258,
+            "h": 64
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 12,
+            "y": 146,
+            "w": 324,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 12,
+            "y": 123,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 296,
+            "y": 16,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 282,
+            "y": 708,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 210,
+            "y": 708,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 282,
+            "y": 644,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 360 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 360",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 844 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 12.000005722045898,
+            "w": 281.3600158691406,
+            "h": 34
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 54.00000762939453,
+            "w": 229.99996948242188,
+            "h": 30
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 92,
+            "w": 281.3600158691406,
+            "h": 30.00000762939453
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 129.00001525878906,
+            "w": 48.015594482421875,
+            "h": 14.999984741210938
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 780.0000610351562,
+            "y": 16.000003814697266,
+            "w": 47.99993896484375,
+            "h": 48.000003814697266
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 766,
+            "y": 318,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 694,
+            "y": 318,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 844 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 844 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 84.00000762939453,
+            "w": 229.99996948242188,
+            "h": 29.99999237060547
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 12.000005722045898,
+            "w": 281.3600158691406,
+            "h": 64
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 146,
+            "w": 335.0000305175781,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 472.6399841308594,
+            "y": 123.00000762939453,
+            "w": 48.015594482421875,
+            "h": 14.999992370605469
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 780.0000610351562,
+            "y": 16.000003814697266,
+            "w": 47.99993896484375,
+            "h": 48.000003814697266
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 766,
+            "y": 318,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 694,
+            "y": 318,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 766,
+            "y": 254,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 844 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 844",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 915 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 11.999999046325684,
+            "w": 312.60003662109375,
+            "h": 34.000003814697266
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 54,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 91.99999237060547,
+            "w": 312.60003662109375,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 129,
+            "w": 47.93756103515625,
+            "h": 14.999984741210938
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 851,
+            "y": 16,
+            "w": 47.99993896484375,
+            "h": 47.999996185302734
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 837,
+            "y": 340,
+            "w": 61.99993896484375,
+            "h": 54.000030517578125
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 765,
+            "y": 340,
+            "w": 62.00006103515625,
+            "h": 54.000030517578125
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 915 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 915 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 84,
+            "w": 230,
+            "h": 29.99999237060547
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 11.999999046325684,
+            "w": 312.60003662109375,
+            "h": 64
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 146,
+            "w": 335,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 512.3999633789062,
+            "y": 123.00000762939453,
+            "w": 47.93756103515625,
+            "h": 14.999992370605469
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 851,
+            "y": 16,
+            "w": 47.99993896484375,
+            "h": 47.999996185302734
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 837,
+            "y": 340,
+            "w": 61.99993896484375,
+            "h": 54.000030517578125
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 765,
+            "y": 340,
+            "w": 62.00006103515625,
+            "h": 54.000030517578125
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 837,
+            "y": 276,
+            "w": 61.99993896484375,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 915 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 915",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 2400 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 1344,
+            "y": 12,
+            "w": 540,
+            "h": 34
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 1344,
+            "y": 54,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 1344,
+            "y": 92,
+            "w": 350,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 1344,
+            "y": 129,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 2335.999755859375,
+            "y": 16,
+            "w": 48.000244140625,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 2322,
+            "y": 1007.9999389648438,
+            "w": 62,
+            "h": 53.99993896484375
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 2250,
+            "y": 1007.9999389648438,
+            "w": 62,
+            "h": 53.99993896484375
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 2400 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 2400 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 1344,
+            "y": 84,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 1344,
+            "y": 12,
+            "w": 530,
+            "h": 64.00000762939453
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 1344,
+            "y": 146,
+            "w": 335,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 1344,
+            "y": 123,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 2335.999755859375,
+            "y": 16,
+            "w": 48.000244140625,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 2322,
+            "y": 1007.9999389648438,
+            "w": 62,
+            "h": 53.99993896484375
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 2250,
+            "y": 1007.9999389648438,
+            "w": 62,
+            "h": 53.99993896484375
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 2322,
+            "y": 944,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 2400 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 2400",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 1365 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 12,
+            "w": 510.60003662109375,
+            "h": 34
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 54,
+            "w": 230.00006103515625,
+            "h": 30
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 92,
+            "w": 350.00006103515625,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 129,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 1301,
+            "y": 16,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 1287,
+            "y": 828,
+            "w": 62,
+            "h": 54.00006103515625
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 1215,
+            "y": 828,
+            "w": 62,
+            "h": 54.00006103515625
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 1365 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 1365 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 84,
+            "w": 230.00006103515625,
+            "h": 30
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 12,
+            "w": 510.60003662109375,
+            "h": 64
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 146,
+            "w": 335.00006103515625,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 764.3999633789062,
+            "y": 123,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 1301,
+            "y": 16,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 1287,
+            "y": 828,
+            "w": 62,
+            "h": 54.00006103515625
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 1215,
+            "y": 828,
+            "w": 62,
+            "h": 54.00006103515625
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 1287,
+            "y": 764,
+            "w": 62,
+            "h": 54.00006103515625
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 1365 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 1365",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 720 running",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "hud",
+            "hide": false,
+            "x": 12,
+            "y": 12,
+            "w": 360,
+            "h": 34
+          },
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 12,
+            "y": 54,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "extraBadge",
+            "hide": false,
+            "x": 12,
+            "y": 92,
+            "w": 350,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 12,
+            "y": 129,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 656,
+            "y": 16,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 642,
+            "y": 648,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 570,
+            "y": 648,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 720 running",
+      "passed": true
+    },
+    {
+      "name": "no HUD/skill/controls overlap 720 boss",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "skillHud",
+            "hide": false,
+            "x": 12,
+            "y": 84,
+            "w": 230,
+            "h": 30
+          },
+          {
+            "id": "bossHud",
+            "hide": false,
+            "x": 12,
+            "y": 12,
+            "w": 530,
+            "h": 64
+          },
+          {
+            "id": "bossCallout",
+            "hide": false,
+            "x": 12,
+            "y": 146,
+            "w": 335,
+            "h": 30
+          },
+          {
+            "id": "polishSkillBadge",
+            "hide": false,
+            "x": 12,
+            "y": 123,
+            "w": 48.015625,
+            "h": 15
+          },
+          {
+            "id": "v60MenuBtn",
+            "hide": false,
+            "x": 656,
+            "y": 16,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "id": "dashBtn",
+            "hide": false,
+            "x": 642,
+            "y": 648,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "superBtn",
+            "hide": false,
+            "x": 570,
+            "y": 648,
+            "w": 62,
+            "h": 54
+          },
+          {
+            "id": "counterBtn",
+            "hide": false,
+            "x": 642,
+            "y": 584,
+            "w": 62,
+            "h": 54
+          }
+        ],
+        "bad": []
+      }
+    },
+    {
+      "name": "tint/transition/flash/pause cover real scene, no centered rectangle 720 boss",
+      "passed": true
+    },
+    {
+      "name": "old jump/fastfall/left/right buttons retired from rendering hit tests and keyboard focus 720",
+      "passed": true
+    },
+    {
+      "name": "14 distinct bounded shop icons, no art/name overlap, all previews free",
+      "passed": true
+    },
+    {
+      "name": "new skills real shop purchase prices, expensive confirmation, single-slot replacement and reload persistence",
+      "passed": true,
+      "data": {
+        "balance": 7000,
+        "ownedSkins": [
+          "original"
+        ],
+        "ownedSkills": [
+          "capacitor",
+          "glide",
+          "pulse"
+        ],
+        "skin": "original",
+        "skill": "pulse",
+        "voyage": {
+          "version": 1,
+          "devClaimed": true,
+          "settings": {
+            "motion": "system"
+          },
+          "records": {},
+          "achievements": [],
+          "secrets": [],
+          "runs": 0,
+          "extras": {
+            "records": {},
+            "secrets": [],
+            "seen": [],
+            "contracts": [],
+            "storyRuns": 0,
+            "bossWins": 0,
+            "delivered": 0,
+            "endlessBest": 0,
+            "nightTint": 0,
+            "maps": {
+              "wins": [],
+              "records": {},
+              "awards": {},
+              "checkpoint": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "capacitor grants extra energy only after actual third coffee pickup",
+      "passed": true,
+      "data": [
+        {
+          "kind": "capacitor-charge",
+          "data": {
+            "cups": 3,
+            "energy": 4.7
+          },
+          "t": 14.049999999999843
+        },
+        {
+          "kind": "capacitor-charge",
+          "data": {
+            "cups": 6,
+            "energy": 2
+          },
+          "t": 31.2583333333322
+        }
+      ]
+    },
+    {
+      "name": "glide physically caps second-jump falling speed, fastfall immediately cancels, no invulnerability",
+      "passed": true,
+      "data": {
+        "y": -89.5044444444446,
+        "vy": 260,
+        "inv": 0,
+        "skill": {
+          "chargeCups": 0,
+          "pulseReadyAt": 0,
+          "glideDrop": false,
+          "glideActive": true
+        }
+      }
+    },
+    {
+      "name": "pulse removes actual nearby hostile bullets, hard eight-second pulse ledger preserved",
+      "passed": true,
+      "data": [
+        {
+          "kind": "pulse-clear",
+          "data": {
+            "count": 1,
+            "x": 317,
+            "y": 495
+          },
+          "t": 5.500000000000063
+        }
+      ]
+    },
+    {
+      "name": "cranes remove DOM on interception and clear all state on retry/home",
+      "passed": true,
+      "data": {
+        "arr": 0,
+        "els": 0
+      }
+    },
+    {
+      "name": "new skill disabled under original fair rules capacitor daily",
+      "passed": true
+    },
+    {
+      "name": "new skill disabled under original fair rules capacitor tutorial",
+      "passed": true
+    },
+    {
+      "name": "new skill disabled under original fair rules glide daily",
+      "passed": true
+    },
+    {
+      "name": "new skill disabled under original fair rules glide tutorial",
+      "passed": true
+    },
+    {
+      "name": "new skill disabled under original fair rules pulse daily",
+      "passed": true
+    },
+    {
+      "name": "new skill disabled under original fair rules pulse tutorial",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Real browser geometry, legal input and isolated fixtures only. Old inert SVG IDs retained only in nonrendered defs for frozen-code references; not buttons or touch targets."
+}

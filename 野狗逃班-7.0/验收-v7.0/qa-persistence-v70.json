@@ -1,0 +1,58 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "two actual pages concurrent developer grant exactly once",
+      "passed": true,
+      "data": 100050
+    },
+    {
+      "name": "other page skin purchase spends45 retained",
+      "passed": true,
+      "data": 100005
+    },
+    {
+      "name": "checkpoint stale page keeps newer balance record ownership marker",
+      "passed": true,
+      "data": 100052
+    },
+    {
+      "name": "old run victory cannot erase newer run checkpoint",
+      "passed": true,
+      "data": {
+        "id": 0,
+        "createdAt": 1792134800190,
+        "skill": "",
+        "skin": "original",
+        "coins": 28,
+        "tokens": 3,
+        "coffee": 6,
+        "hits": 0,
+        "smashed": 1,
+        "maxCombo": 2,
+        "routePoints": 90,
+        "runId": "newer-other-run"
+      }
+    },
+    {
+      "name": "same map replay no reward and actual map ticket",
+      "passed": true,
+      "data": 100160
+    },
+    {
+      "name": "route score frozen checkpoint reload exact",
+      "passed": true,
+      "data": 64
+    },
+    {
+      "name": "two actual page Boss wins one wallet award",
+      "passed": true,
+      "data": 100276
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Two isolated same-file Chromium pages, real concurrent grant/purchase. Explicit stale stored fixtures for +47/record/new run checkpoint; no real user save. Maps legal action bot for wins."
+}

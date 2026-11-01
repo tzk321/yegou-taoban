@@ -1,0 +1,430 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "actual equipped route 0 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 1 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 2 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 3 rail",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "actual equipped route 4 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 5 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 6 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 7 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 8 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 9 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 10 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 11 rail",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 0 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 0 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 1 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 1 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 2 prism",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "actual equipped Boss 2 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 3 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 3 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 4 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 4 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 5 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 5 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 6 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 6 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 7 prism",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "actual equipped Boss 7 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 8 prism",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "actual equipped Boss 8 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 9 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 9 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 10 prism",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "actual equipped Boss 10 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 11 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 11 prism",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 0 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 0 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 1 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 1 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 2 echo",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "actual equipped Boss 2 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 3 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 3 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 4 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 4 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 5 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 5 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 6 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 6 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 7 echo",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "actual equipped Boss 7 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 8 echo",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "actual equipped Boss 8 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 9 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 9 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 10 echo",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "actual equipped Boss 10 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped route 11 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "actual equipped Boss 11 echo",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "All twelve actual run sections with rail/prism/echo, both new skills all twelve Bosses. Legal observation-only bots, no life/HP editing."
+}

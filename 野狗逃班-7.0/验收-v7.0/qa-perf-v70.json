@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "menu-paused ordinary RAF performs zero recurring SVG rendering",
+      "passed": true,
+      "data": {
+        "attrs": 0,
+        "added": 0,
+        "removed": 0,
+        "t": 0.18860000000298024
+      }
+    },
+    {
+      "name": "shop idle never reclones dog or rebuilds icons each frame",
+      "passed": true,
+      "data": {
+        "attrs": 0,
+        "added": 0,
+        "removed": 0,
+        "same": true
+      }
+    },
+    {
+      "name": "nightvision real RAF retains same line node as projectile moves",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Structural CPU/DOM regression guards under normal RAF; FPS not promised on physical phone. Separate bench-before/after.json reports measured headless performance."
+}

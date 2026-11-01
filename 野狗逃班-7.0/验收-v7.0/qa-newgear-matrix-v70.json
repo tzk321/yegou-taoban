@@ -1,0 +1,514 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "new equipped legal route 0 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 0 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 1 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 1 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 2 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "new equipped legal Boss 2 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 3 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 3 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 4 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 4 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 5 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 5 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 6 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 6 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 7 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "new equipped legal Boss 7 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 8 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "new equipped legal Boss 8 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 9 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 9 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 10 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "new equipped legal Boss 10 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 11 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 11 capacitor",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 0 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 0 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 1 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 1 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 2 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 2 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 3 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 3 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 4 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 4 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 5 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 5 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 6 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 6 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 7 glide",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "new equipped legal Boss 7 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 8 glide",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "new equipped legal Boss 8 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 9 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 9 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 10 glide",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "new equipped legal Boss 10 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 11 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 11 glide",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 0 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 0 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 1 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 1 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 2 pulse",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "new equipped legal Boss 2 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 3 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 3 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 4 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 4 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 5 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 5 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 6 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 6 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 7 pulse",
+      "passed": true,
+      "data": {
+        "hits": 1
+      }
+    },
+    {
+      "name": "new equipped legal Boss 7 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 8 pulse",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "new equipped legal Boss 8 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 9 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 9 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 10 pulse",
+      "passed": true,
+      "data": {
+        "hits": 2
+      }
+    },
+    {
+      "name": "new equipped legal Boss 10 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal route 11 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    },
+    {
+      "name": "new equipped legal Boss 11 pulse",
+      "passed": true,
+      "data": {
+        "hits": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "All 3 new skills across 12 actual routes and 12 Bosses, isolated wallet fixture then only legal observation/action bots. No HP/life edits."
+}

@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "developer capped increment10 persists marker exact1b",
+      "passed": true
+    },
+    {
+      "name": "repeat claim at cap does not subtract existing grant",
+      "passed": true
+    },
+    {
+      "name": "natural coin gain capped persisted exact1b",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Isolated explicit near1b test fixtures, no real user wallet."
+}

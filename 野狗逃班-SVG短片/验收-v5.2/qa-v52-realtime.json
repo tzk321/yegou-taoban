@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "normal entry real RAF map movement 5 wall seconds",
+      "passed": true,
+      "data": {
+        "t": 5.083200000000001,
+        "distance": 1280.9664000000032,
+        "notPhoneFPS": true
+      }
+    },
+    {
+      "name": "normal RAF modal pause resume",
+      "passed": true
+    },
+    {
+      "name": "retained original dojo actual RAF telegraphs",
+      "passed": true,
+      "data": {
+        "bossTime": 8.068800000001499
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "No QA hooks or manual clocks. Chromium headless real RAF for wall-time subset only, not complete physical phone gameplay or mobile FPS."
+}

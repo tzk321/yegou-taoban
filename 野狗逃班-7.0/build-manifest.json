@@ -1,0 +1,15 @@
+{
+  "version": "7.0",
+  "html_bytes": 1584288,
+  "svg_bytes": 1583471,
+  "sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "svg_sha256": "de804096f77847dbe8b46345178ebe25116d9d036a8f8c3a3ba57b6233dfd840",
+  "branch": "standalone 7.0 skill-FX revision forked from published 6.0",
+  "parent_html_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "frozen_baseline": "5.2 published landscape/HUD repair",
+  "bosses": 13,
+  "skins": 10,
+  "skills": 14,
+  "tracks": 7,
+  "size_floor_bytes": 524288
+}

@@ -1,0 +1,266 @@
+{
+  "label": "baseline",
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "res": [
+    {
+      "frames": 194,
+      "mut": 15703,
+      "added": 4094,
+      "removed": 4087,
+      "elapsed": 3247.0999999940395,
+      "dom": 14519,
+      "name": "run",
+      "scriptMs": 306.94,
+      "layoutMs": 114.994,
+      "taskMs": 1371.798,
+      "p50": 16.699999999999818,
+      "p95": 16.799999999999727,
+      "fps": 59.74561916798255
+    },
+    {
+      "frames": 194,
+      "mut": 14304,
+      "added": 1958,
+      "removed": 1954,
+      "elapsed": 3242.7999999970198,
+      "dom": 14503,
+      "name": "boss-nv",
+      "scriptMs": 310.66399999999993,
+      "layoutMs": 117.04200000000003,
+      "taskMs": 1404.359,
+      "p50": 16.699999999999818,
+      "p95": 16.800000000000182,
+      "fps": 59.82484272856121
+    },
+    {
+      "frames": 194,
+      "mut": 0,
+      "added": 0,
+      "removed": 0,
+      "elapsed": 3237.8999999910593,
+      "dom": 14619,
+      "name": "shop",
+      "scriptMs": 49.964000000000006,
+      "layoutMs": 0,
+      "taskMs": 275.2840000000001,
+      "p50": 16.69999999999891,
+      "p95": 16.799999999999272,
+      "fps": 59.915377250852615
+    }
+  ],
+  "rects": [
+    {
+      "id": "v60Backdrop",
+      "parent": "nightOff",
+      "x": 0,
+      "y": 0,
+      "w": 2400,
+      "h": 1080,
+      "opacity": "1",
+      "fill": "rgb(8, 14, 28)"
+    },
+    {
+      "id": "",
+      "parent": "world",
+      "x": -2812.5,
+      "y": -2277,
+      "w": 9375,
+      "h": 3375,
+      "opacity": "1",
+      "fill": "url(\"#nightSky\")"
+    },
+    {
+      "id": "dawn",
+      "parent": "world",
+      "x": -2812.5,
+      "y": -2277,
+      "w": 9375,
+      "h": 3375,
+      "opacity": "0",
+      "fill": "url(\"#dawnSky\")"
+    },
+    {
+      "id": "",
+      "parent": "river",
+      "x": -187.5,
+      "y": 413.625,
+      "w": 3000,
+      "h": 247.5,
+      "opacity": "1",
+      "fill": "rgb(57, 82, 104)"
+    },
+    {
+      "id": "",
+      "parent": "river",
+      "x": -187.5,
+      "y": 413.625,
+      "w": 3000,
+      "h": 247.5,
+      "opacity": "1",
+      "fill": "url(\"#riverRipple\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 33.75,
+      "y": 209.25001525878906,
+      "w": 510,
+      "h": 178.12498474121094,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 633.75,
+      "y": 274.875,
+      "w": 510,
+      "h": 112.5,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 1233.75,
+      "y": 134.25001525878906,
+      "w": 510,
+      "h": 253.12498474121094,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 1833.75,
+      "y": 199.87501525878906,
+      "w": 510,
+      "h": 187.49998474121094,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 3033.75,
+      "y": 209.25001525878906,
+      "w": 510,
+      "h": 178.12498474121094,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 3633.75,
+      "y": 274.875,
+      "w": 510,
+      "h": 112.5,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 4233.75,
+      "y": 134.25001525878906,
+      "w": 510,
+      "h": 253.12498474121094,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "",
+      "parent": "",
+      "x": 4833.75,
+      "y": 199.87501525878906,
+      "w": 510,
+      "h": 187.49998474121094,
+      "opacity": "1",
+      "fill": "url(\"#windowGrid\")"
+    },
+    {
+      "id": "liveNightSky",
+      "parent": "nightLiveBG",
+      "x": -2812.5,
+      "y": -6027,
+      "w": 9375,
+      "h": 11250,
+      "opacity": "1",
+      "fill": "rgb(16, 39, 55)"
+    },
+    {
+      "id": "nightRoad",
+      "parent": "nightLiveBG",
+      "x": -2812.5,
+      "y": 589.875,
+      "w": 9375,
+      "h": 7500,
+      "opacity": "1",
+      "fill": "rgb(22, 45, 56)"
+    },
+    {
+      "id": "nightGlow",
+      "parent": "nightLiveBG",
+      "x": -2812.5,
+      "y": -2277,
+      "w": 9375,
+      "h": 2866.875,
+      "opacity": "0.06",
+      "fill": "rgb(255, 211, 152)"
+    },
+    {
+      "id": "",
+      "parent": "scene",
+      "x": -2812.5,
+      "y": -2277,
+      "w": 9375,
+      "h": 3468.75,
+      "opacity": "1",
+      "fill": "url(\"#vignette\")"
+    },
+    {
+      "id": "streetTint",
+      "parent": "v60ScreenFX",
+      "x": 0,
+      "y": 0,
+      "w": 2400,
+      "h": 1080,
+      "opacity": "0",
+      "fill": "rgb(209, 155, 87)"
+    },
+    {
+      "id": "legendFlash",
+      "parent": "v60ScreenFX",
+      "x": 0,
+      "y": 0,
+      "w": 2400,
+      "h": 1080,
+      "opacity": "0",
+      "fill": "rgb(195, 226, 242)"
+    },
+    {
+      "id": "transition",
+      "parent": "v60ScreenFX",
+      "x": 0,
+      "y": 0,
+      "w": 2400,
+      "h": 1080,
+      "opacity": "0",
+      "fill": "rgb(210, 228, 213)"
+    },
+    {
+      "id": "pauseRect",
+      "parent": "pauseVeil",
+      "x": 0,
+      "y": 0,
+      "w": 2400,
+      "h": 1080,
+      "opacity": "0.64",
+      "fill": "rgb(8, 19, 36)"
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "note": "Headless Chromium 3.2s samples, phone CPU shared load. Structural DOM counts meaningful; not physical browser FPS claim."
+}

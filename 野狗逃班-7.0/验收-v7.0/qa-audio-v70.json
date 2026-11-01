@@ -1,0 +1,267 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "street actual WebAudio PCM nonzero",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.55,
+        "busGain": 0.4399999976158142,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.003192651318386197,
+        "allowed": true,
+        "context": "running",
+        "theme": "street",
+        "beat": 6,
+        "active": 4,
+        "started": 18,
+        "rms": 0.0012761081878726835,
+        "contexts": 1,
+        "scheduled": 4,
+        "next": 1.772755102040816,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ],
+        "maxRMS": 0.06524693551118213
+      }
+    },
+    {
+      "name": "pause immediately stops all musical nodes",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.55,
+        "busGain": 0.4399999976158142,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.003192651318386197,
+        "allowed": false,
+        "context": "suspended",
+        "theme": "",
+        "beat": 0,
+        "active": 0,
+        "started": 18,
+        "rms": 0.0012761081878726835,
+        "contexts": 1,
+        "scheduled": 0,
+        "next": 0,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "menu close and home switch to cover nav theme without stacking",
+      "passed": true
+    },
+    {
+      "name": "resume menu home no lingering voices",
+      "passed": true
+    },
+    {
+      "name": "night theme independently scheduled",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.55,
+        "busGain": 0.4399999976158142,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.07082822918891907,
+        "allowed": true,
+        "context": "running",
+        "theme": "night",
+        "beat": 1,
+        "active": 6,
+        "started": 36,
+        "rms": 0.03778172541625762,
+        "contexts": 1,
+        "scheduled": 6,
+        "next": 2.4765356220007386,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "seven authored themes and cover nav melody",
+      "passed": true,
+      "data": [
+        "street",
+        "night",
+        "boss",
+        "rain",
+        "dawn",
+        "signal",
+        "nav"
+      ]
+    },
+    {
+      "name": "rain night map uses its own rain theme",
+      "passed": true,
+      "data": "rain"
+    },
+    {
+      "name": "boss theme on same single audio context",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.55,
+        "busGain": 0.4399999976158142,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.04157726466655731,
+        "allowed": true,
+        "context": "running",
+        "theme": "boss",
+        "beat": 2,
+        "active": 8,
+        "started": 68,
+        "rms": 0.01829394615785335,
+        "contexts": 1,
+        "scheduled": 8,
+        "next": 3.1023449669722964,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "retries never stack players and count matches",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.55,
+        "busGain": 0.4399999976158142,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.17027394473552704,
+        "allowed": true,
+        "context": "running",
+        "theme": "boss",
+        "beat": 5,
+        "active": 6,
+        "started": 76,
+        "rms": 0.0631360299427623,
+        "contexts": 1,
+        "scheduled": 6,
+        "next": 3.754518880015775,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "independent BGM volume and SFX switch",
+      "passed": true
+    },
+    {
+      "name": "background stops notes suspends context and pauses game",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.8,
+        "busGain": 0.6390866041183472,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.005695141851902008,
+        "allowed": false,
+        "context": "suspended",
+        "theme": "",
+        "beat": 0,
+        "active": 0,
+        "started": 78,
+        "rms": 0.0024061144569354296,
+        "contexts": 1,
+        "scheduled": 0,
+        "next": 0,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "manual foreground resume and BGM off",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Headless actual AudioContext oscillators/gain/analyser PCM output; no claim of physical speaker listening."
+}

@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "actual public file byte identical final artifact",
+      "passed": true,
+      "data": {
+        "bytes": 1584288,
+        "sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+      }
+    },
+    {
+      "name": "actual public ordinary entry initialized 7.0 without QA",
+      "passed": true
+    },
+    {
+      "name": "actual public native fullscreen and edge-to-edge viewport",
+      "passed": true,
+      "data": {
+        "w": 390,
+        "h": 844,
+        "iw": 390,
+        "ih": 844
+      }
+    },
+    {
+      "name": "actual public old large buttons and shelf absent from render and focus",
+      "passed": true
+    },
+    {
+      "name": "actual public roomier right-up joystick placement and 80 percent dog",
+      "passed": true,
+      "data": {
+        "x": 109.99999618530273,
+        "y": 738.0000305175781,
+        "w": 120,
+        "h": 120.00006103515625
+      }
+    },
+    {
+      "name": "actual public visible menu enables BGM and adjusts new volume ladder, resumes",
+      "passed": true,
+      "data": {
+        "from": 55,
+        "to": 80
+      }
+    },
+    {
+      "name": "actual public normal RAF keyboard movement",
+      "passed": true
+    },
+    {
+      "name": "actual public single-finger diagonal stick swipe jumps under ordinary RAF",
+      "passed": true
+    },
+    {
+      "name": "actual public floating dash button real pointer works without legacy jump key",
+      "passed": true,
+      "data": {
+        "x": 343,
+        "y": 798.9999694824219,
+        "w": 62,
+        "h": 53.99993896484375
+      }
+    },
+    {
+      "name": "actual public landscape menu pause error-free offline",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Opens real Download pathname in separate isolated Chromium profile, never real user browser storage. Actual RAF and real visible pointer/touch, no QA time or hidden-button fallback."
+}

@@ -1,0 +1,30 @@
+<g id="overpass" opacity="0"><path d="M-100 130H1500V165H-100Z" fill="#0b1727"/><path d="M-100 159H1500" stroke="#375571" stroke-width="5"/><path d="M20 550V168h38v382m337 0V168h38v382m337 0V168h38v382m337 0V168h38v382" fill="#18273d"/><path d="M10 169h57m320 0h57m320 0h57m320 0h57" stroke="#4b6b79" stroke-width="4"/><g fill="#acedd8" opacity=".3"><rect x="110" y="174" width="84" height="4"/><rect x="486" y="174" width="84" height="4"/><rect x="862" y="174" width="84" height="4"/><rect x="1238" y="174" width="84" height="4"/></g><path d="M65 400H300m132 0h300m76 0h280" stroke="#519893" stroke-width="2" opacity=".25"/></g>
+<g id="bossWorld" class="hide" pointer-events="none">
+<rect x="-200" y="-300" width="1700" height="850" fill="#071020" opacity=".35"/>
+<g id="arenaBars" fill="#1a293b" opacity=".75"><path d="M-100 433H1480v12H-100ZM-100 481H1480v6H-100Z"/><path d="M20 435v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110m90-110v110" stroke="#416579" stroke-width="4"/></g>
+<g id="bossShadow"><ellipse cx="870" cy="562" rx="145" ry="16" fill="#050910"/><ellipse cx="870" cy="557" rx="88" ry="4" fill="#ec94b0" opacity=".2"/></g>
+<g id="bossMachine" transform="translate(870,337)">
+<g id="bossBack">
+<path d="M-110-115l-53-32 4 43-28 17 56 42M110-115l53-32-4 43 28 17-56 42" fill="#28374b" stroke="#647786" stroke-width="3"/>
+<circle r="163" fill="#ffbba1" opacity=".035"/><circle r="147" fill="#25374c" stroke="#92a6b3" stroke-width="5"/>
+<g id="bossGear" fill="#34495b" stroke="#8aa2ab" stroke-width="2"><path d="M-13-166h26v24h-26ZM-13 142h26v24h-26ZM142-13h24v26h-24ZM-166-13h24v26h-24ZM101-120l19 19-17 17-19-19ZM-120 101l19 19 17-17-19-19ZM-120-101l19-19 17 17-19 19ZM120 101l-19 19-17-17 19-19Z"/></g>
+<circle r="128" fill="#13233a" stroke="#d2aaa1" stroke-width="3"/>
+<g stroke="#dba7a0" stroke-width="3" opacity=".8"><path d="M0-117v15M0 102v15M102 0h15M-117 0h15M83-83l-10 10M-83 83l10-10M-83-83l10 10M83 83l-10-10"/></g>
+<circle r="103" fill="#293d53" stroke="#7796a2" stroke-width="2"/>
+<path d="M-73-74L-99-128M73-74L99-128" stroke="#889598" stroke-width="6"/>
+<rect x="-74" y="-143" width="148" height="31" rx="8" fill="#111c2c" stroke="#938a85" stroke-width="2"/><text y="-122" text-anchor="middle" font-size="18" font-weight="800" fill="#f1c2ae">永 不 下 班</text>
+<g id="bossHands" stroke="#9bb2b3" stroke-linecap="round"><path d="M0 0V-85" stroke-width="7"/><path d="M0 0L64 36" stroke-width="5"/></g>
+<path d="M-76-27h43M33-27h43" stroke="#ef87a4" stroke-width="9" stroke-linecap="round"/><path d="M-68-17l27-12M68-17L41-29" stroke="#ffe0c6" stroke-width="2"/>
+<g id="bossShield"><path d="M-38 5L0-17 38 5v38L0 65-38 43Z" fill="#335168" stroke="#90bccc" stroke-width="3"/><path d="M-26 12L0-3 26 12v24L0 51-26 36Z" fill="#1a2e47" stroke="#679dae" stroke-width="2"/><text y="34" text-anchor="middle" font-size="18" fill="#96c5c6" font-weight="800">锁</text></g>
+<g id="bossCore"><circle cy="22" r="30" fill="#f6ba7d" opacity=".1"/><circle cy="22" r="23" fill="#d6636e" stroke="#ffddb4" stroke-width="3"/><path d="M-8 9L5 14-4 24l11 7-16 10" fill="none" stroke="#ffeccb" stroke-width="4"/></g>
+<path d="M-63 87q63 24 126 0" fill="none" stroke="#dfa496" stroke-width="3"/><rect x="-43" y="78" width="86" height="18" rx="4" fill="#102032"/><path d="M-31 84h12m9 0h12m9 0h12" stroke="#ffb7a4" stroke-width="3"/>
+</g>
+<g id="bossArmLeft"><path d="M-111 69L-160 117-165 178" fill="none" stroke="#24374b" stroke-width="22" stroke-linejoin="round"/><path d="M-111 69L-160 117-165 168" fill="none" stroke="#819599" stroke-width="5"/><circle cx="-160" cy="117" r="14" fill="#263c51" stroke="#a3b6b2" stroke-width="3"/><rect x="-204" y="169" width="79" height="28" rx="5" fill="#6c4154" stroke="#dfa2b1" stroke-width="3"/><text x="-165" y="189" text-anchor="middle" font-size="17" font-weight="800" fill="#ffe4d1">批准</text></g>
+<g id="bossArmRight"><path d="M111 69L160 117 165 178" fill="none" stroke="#24374b" stroke-width="22" stroke-linejoin="round"/><path d="M111 69L160 117 165 168" fill="none" stroke="#819599" stroke-width="5"/><circle cx="160" cy="117" r="14" fill="#263c51" stroke="#a3b6b2" stroke-width="3"/><rect x="125" y="169" width="79" height="28" rx="5" fill="#6c4154" stroke="#dfa2b1" stroke-width="3"/><text x="165" y="189" text-anchor="middle" font-size="17" font-weight="800" fill="#ffe4d1">驳回</text></g>
+<g id="bossCracks" fill="none" stroke="#ffe7b8" stroke-width="3" opacity="0"><path d="M-109-63l24 15-13 22 23 27M77-106l-11 36 18 16-14 32M-65 68l20-18-7-21M101 66L79 52l8-13"/></g>
+</g>
+<g id="bossWarnings"/>
+<g id="bossWaves"/>
+<g id="bossShots"/>
+<g id="bossBurst" opacity="0"><circle id="burstRing" cx="870" cy="337" r="60" fill="none" stroke="#b7f6d3" stroke-width="4"/><path id="burstStar" d="M870 237v200m-100-100h200m-171-71 142 142m-142 0 142-142" stroke="#ffe9b3" stroke-width="3"/></g>
+</g>

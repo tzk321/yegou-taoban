@@ -1,0 +1,150 @@
+{
+  "version": "6.0",
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "reports": [
+    {
+      "report": "qa-bosses-v60.json",
+      "tests": 28,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-mechanisms-v60.json",
+      "tests": 13,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-audio-v60.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-bgm-level-v60.json",
+      "tests": 13,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-visual-v60.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-realtime-v60.json",
+      "tests": 4,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-regression-v60.json",
+      "tests": 48,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-hud-v60.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-movehud-v60.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-persistence-v60.json",
+      "tests": 7,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-observable-v60.json",
+      "tests": 5,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-overlap-v60.json",
+      "tests": 26,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-gear-matrix-v60.json",
+      "tests": 60,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-lastedges-v60.json",
+      "tests": 7,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-grant-quota-v60.json",
+      "tests": 3,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-audit-v60.json",
+      "tests": 5,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-stick-fullscreen-v60.json",
+      "tests": 22,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-polish-v60.json",
+      "tests": 47,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-tuning-v60.json",
+      "tests": 10,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-newgear-matrix-v60.json",
+      "tests": 72,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-perf-v60.json",
+      "tests": 3,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    },
+    {
+      "report": "qa-public-v60.json",
+      "tests": 10,
+      "success": true,
+      "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5"
+    }
+  ],
+  "report_count": 22,
+  "test_count": 431,
+  "rebuild": {
+    "success": true,
+    "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+    "html_equal": true,
+    "svg_equal": true,
+    "note": "Copied public source into independent directory and rebuilt only with packaged files"
+  },
+  "note": "Isolated Chromium/CDP, not physical phone gameplay/FPS/speaker listening; ordinary public entry post-copy report added after release.",
+  "public_entry_verified": true
+}

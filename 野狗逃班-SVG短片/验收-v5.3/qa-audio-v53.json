@@ -1,0 +1,207 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "street actual WebAudio PCM nonzero",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.35,
+        "allowed": true,
+        "context": "running",
+        "theme": "street",
+        "beat": 6,
+        "active": 4,
+        "started": 18,
+        "rms": 0.002156934464235811,
+        "contexts": 1,
+        "scheduled": 4,
+        "next": 1.772755102040816,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ],
+        "maxRMS": 0.011539981952724349
+      }
+    },
+    {
+      "name": "pause immediately stops all musical nodes",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.35,
+        "allowed": false,
+        "context": "suspended",
+        "theme": "",
+        "beat": 0,
+        "active": 0,
+        "started": 18,
+        "rms": 0.002156934464235811,
+        "contexts": 1,
+        "scheduled": 0,
+        "next": 0,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "menu close and home switch to cover nav theme without stacking",
+      "passed": true
+    },
+    {
+      "name": "resume menu home no lingering voices",
+      "passed": true
+    },
+    {
+      "name": "night theme independently scheduled",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.35,
+        "allowed": true,
+        "context": "running",
+        "theme": "night",
+        "beat": 1,
+        "active": 6,
+        "started": 36,
+        "rms": 0.00571200576903819,
+        "contexts": 1,
+        "scheduled": 6,
+        "next": 2.3952657807308975,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "seven authored themes and cover nav melody",
+      "passed": true,
+      "data": [
+        "street",
+        "night",
+        "boss",
+        "rain",
+        "dawn",
+        "signal",
+        "nav"
+      ]
+    },
+    {
+      "name": "rain night map uses its own rain theme",
+      "passed": true,
+      "data": "rain"
+    },
+    {
+      "name": "boss theme on same single audio context",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.35,
+        "allowed": true,
+        "context": "running",
+        "theme": "boss",
+        "beat": 2,
+        "active": 8,
+        "started": 68,
+        "rms": 0.003486519830135056,
+        "contexts": 1,
+        "scheduled": 8,
+        "next": 2.9804402050675347,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "retries never stack players and count matches",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.35,
+        "allowed": true,
+        "context": "running",
+        "theme": "boss",
+        "beat": 5,
+        "active": 6,
+        "started": 76,
+        "rms": 0.0002669939609880325,
+        "contexts": 1,
+        "scheduled": 6,
+        "next": 3.632614118111013,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "independent BGM volume and SFX switch",
+      "passed": true
+    },
+    {
+      "name": "background stops notes suspends context and pauses game",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 0.55,
+        "allowed": false,
+        "context": "suspended",
+        "theme": "",
+        "beat": 0,
+        "active": 0,
+        "started": 76,
+        "rms": 0.02051001097409068,
+        "contexts": 1,
+        "scheduled": 0,
+        "next": 0,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "manual foreground resume and BGM off",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Headless actual AudioContext oscillators/gain/analyser PCM output; no claim of physical speaker listening."
+}

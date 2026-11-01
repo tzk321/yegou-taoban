@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "source": "only packaged 源码-v5.1 in isolated directory",
+  "html_bytes": 1232915,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "rebuilt_html_identical": true,
+  "rebuilt_svg_identical": true,
+  "frozen_v5_unmodified": true
+}

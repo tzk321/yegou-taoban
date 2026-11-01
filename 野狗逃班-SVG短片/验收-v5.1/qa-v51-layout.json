@@ -1,0 +1,153 @@
+{
+  "success": true,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "tests": [
+    {
+      "name": "text-not-over-buttons-or-other-text 360 routeTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 360 mapTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 360 journalTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 360 settingsTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 390 routeTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 390 mapTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 390 journalTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 390 settingsTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 844 routeTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 844 mapTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 844 journalTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 844 settingsTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 1365 routeTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 1365 mapTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 1365 journalTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    },
+    {
+      "name": "text-not-over-buttons-or-other-text 1365 settingsTab",
+      "passed": true,
+      "data": {
+        "overlaps": [],
+        "textButtons": [],
+        "outside": []
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

@@ -1,0 +1,271 @@
+{
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "tests": [
+    {
+      "name": "new preferences default 55 percent while autoplay remains off",
+      "passed": true
+    },
+    {
+      "name": "old 20/35/55 and new 80/100 preferences survive reload, same key",
+      "passed": true
+    },
+    {
+      "name": "live music bus actual gain 0.8 at maximum, not just label change",
+      "passed": true,
+      "data": {
+        "on": true,
+        "volume": 1,
+        "busGain": 0.800000011920929,
+        "masterGain": 0.8,
+        "levels": [
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1
+        ],
+        "peak": 0.05317843705415726,
+        "allowed": true,
+        "context": "running",
+        "theme": "street",
+        "beat": 2,
+        "active": 7,
+        "started": 8,
+        "rms": 0.026064349779516046,
+        "contexts": 1,
+        "scheduled": 7,
+        "next": 0.7535714285714286,
+        "tracks": [
+          "street",
+          "night",
+          "boss",
+          "rain",
+          "dawn",
+          "signal",
+          "nav"
+        ]
+      }
+    },
+    {
+      "name": "all five volume levels change actual gain and persist",
+      "passed": true
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom street",
+      "passed": true,
+      "data": {
+        "theme": "street",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.35679128766059875,
+        "rms": 0.030127333131615777,
+        "clipped": 0,
+        "samples": 250715,
+        "seconds": 10.446428571428571
+      }
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom night",
+      "passed": true,
+      "data": {
+        "theme": "night",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.4021672308444977,
+        "rms": 0.0313842050124238,
+        "clipped": 0,
+        "samples": 326512,
+        "seconds": 13.604651162790699
+      }
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom boss",
+      "passed": true,
+      "data": {
+        "theme": "boss",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.34190845489501953,
+        "rms": 0.03117397161996482,
+        "clipped": 0,
+        "samples": 203479,
+        "seconds": 8.478260869565217
+      }
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom rain",
+      "passed": true,
+      "data": {
+        "theme": "rain",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.3564283549785614,
+        "rms": 0.03250099171009482,
+        "clipped": 0,
+        "samples": 298724,
+        "seconds": 12.446808510638299
+      }
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom dawn",
+      "passed": true,
+      "data": {
+        "theme": "dawn",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.44646796584129333,
+        "rms": 0.03183913125866463,
+        "clipped": 0,
+        "samples": 275295,
+        "seconds": 11.470588235294118
+      }
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom signal",
+      "passed": true,
+      "data": {
+        "theme": "signal",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.43143293261528015,
+        "rms": 0.030404391678225194,
+        "clipped": 0,
+        "samples": 230164,
+        "seconds": 9.59016393442623
+      }
+    },
+    {
+      "name": "seven-theme full-volume PCM peak has headroom nav",
+      "passed": true,
+      "data": {
+        "theme": "nav",
+        "volume": 1,
+        "gain": 0.8,
+        "peak": 0.38232889771461487,
+        "rms": 0.031137454505713563,
+        "clipped": 0,
+        "samples": 369474,
+        "seconds": 15.394736842105264
+      }
+    },
+    {
+      "name": "same old 35 percent is 2.86x signal amplitude; fresh default is 4.49x",
+      "passed": true,
+      "data": {
+        "before": {
+          "theme": "street",
+          "volume": 0.35,
+          "gain": 0.28,
+          "peak": 0.04370693489909172,
+          "rms": 0.0036905981492227234,
+          "clipped": 0,
+          "samples": 250715,
+          "seconds": 10.446428571428571
+        },
+        "after": {
+          "theme": "street",
+          "volume": 0.35,
+          "gain": 0.8,
+          "peak": 0.1248769462108612,
+          "rms": 0.010544566451398842,
+          "clipped": 0,
+          "samples": 250715,
+          "seconds": 10.446428571428571
+        },
+        "newDefault": {
+          "theme": "street",
+          "volume": 0.55,
+          "gain": 0.8,
+          "peak": 0.19623520970344543,
+          "rms": 0.016570032849061923,
+          "clipped": 0,
+          "samples": 250715,
+          "seconds": 10.446428571428571
+        },
+        "sameLevelRatio": 2.8571429413466847,
+        "defaultRatio": 4.489796011129452
+      }
+    },
+    {
+      "name": "SFX beep implementation exactly unchanged from frozen baseline",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Live gain plus deterministic OfflineAudioContext renders all seven complete themes. PCM headroom is music-only, not a physical speaker listening/phone system volume test.",
+  "peaks": [
+    {
+      "theme": "street",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.35679128766059875,
+      "rms": 0.030127333131615777,
+      "clipped": 0,
+      "samples": 250715,
+      "seconds": 10.446428571428571
+    },
+    {
+      "theme": "night",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.4021672308444977,
+      "rms": 0.0313842050124238,
+      "clipped": 0,
+      "samples": 326512,
+      "seconds": 13.604651162790699
+    },
+    {
+      "theme": "boss",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.34190845489501953,
+      "rms": 0.03117397161996482,
+      "clipped": 0,
+      "samples": 203479,
+      "seconds": 8.478260869565217
+    },
+    {
+      "theme": "rain",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.3564283549785614,
+      "rms": 0.03250099171009482,
+      "clipped": 0,
+      "samples": 298724,
+      "seconds": 12.446808510638299
+    },
+    {
+      "theme": "dawn",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.44646796584129333,
+      "rms": 0.03183913125866463,
+      "clipped": 0,
+      "samples": 275295,
+      "seconds": 11.470588235294118
+    },
+    {
+      "theme": "signal",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.43143293261528015,
+      "rms": 0.030404391678225194,
+      "clipped": 0,
+      "samples": 230164,
+      "seconds": 9.59016393442623
+    },
+    {
+      "theme": "nav",
+      "volume": 1,
+      "gain": 0.8,
+      "peak": 0.38232889771461487,
+      "rms": 0.031137454505713563,
+      "clipped": 0,
+      "samples": 369474,
+      "seconds": 15.394736842105264
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "standing damage preceded by real visible moving bullet contacts",
+      "passed": true,
+      "data": [
+        {
+          "t": 4.466666666666678,
+          "before": [
+            {
+              "x": 358.2645061578394,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.7666666666666664,
+              "owner": 0
+            },
+            {
+              "x": 432.2645061578389,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.5666666666666671,
+              "owner": 0
+            },
+            {
+              "x": 503.18117282450515,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.36666666666666736,
+              "owner": 0
+            }
+          ],
+          "life": 2
+        },
+        {
+          "t": 14.091666666666507,
+          "before": [
+            {
+              "x": 358.4839469949033,
+              "y": 480.46883273882577,
+              "vx": -349.1966470169494,
+              "vy": 122.31803510570343,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.8083333333333329,
+              "owner": 0
+            }
+          ],
+          "life": 1
+        }
+      ]
+    },
+    {
+      "name": "moving and jumping outside real bullets does not take timed zone damage",
+      "passed": true
+    },
+    {
+      "name": "prism intercepts actual hostile geometry",
+      "passed": true,
+      "data": [
+        {
+          "kind": "prism-created",
+          "data": {
+            "x": 335,
+            "y": 495
+          },
+          "t": 3.899999999999991
+        },
+        {
+          "kind": "prism-block",
+          "data": 1,
+          "t": 4.29999999999999
+        },
+        {
+          "kind": "prism-block",
+          "data": 2,
+          "t": 4.616666666666656
+        }
+      ]
+    },
+    {
+      "name": "echo landing wave clears actual nearby bullets",
+      "passed": true,
+      "data": [
+        {
+          "kind": "echo-wave",
+          "data": {
+            "count": 1,
+            "x": 317,
+            "y": 495
+          },
+          "t": 4.333333333333323
+        }
+      ]
+    },
+    {
+      "name": "rail boss green window does not erase actual cooldown",
+      "passed": true,
+      "data": 3.800000000000015
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Explicit checkpoint fixtures to isolate Boss. Standing contact checked against preceding visible projectile snapshots; no hidden time-zone damage."
+}

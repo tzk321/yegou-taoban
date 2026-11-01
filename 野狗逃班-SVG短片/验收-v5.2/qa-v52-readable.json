@@ -1,0 +1,137 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "text extent overlap 360 mapTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 360 routeTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 360 journalTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 360 settingsTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 390 mapTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 390 routeTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 390 journalTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 390 settingsTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 844 mapTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 844 routeTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 844 journalTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 844 settingsTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 1365 mapTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 1365 routeTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 1365 journalTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    },
+    {
+      "name": "text extent overlap 1365 settingsTab",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "overlap": []
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

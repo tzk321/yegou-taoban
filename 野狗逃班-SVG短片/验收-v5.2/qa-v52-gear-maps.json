@@ -1,0 +1,283 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "legal-action gear wind map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 1,
+        "bossHits": 1,
+        "bossTime": 31.54999999999885,
+        "score": 843,
+        "reward": 131,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear wind map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 2,
+        "bossHits": 0,
+        "bossTime": 47.85833333333126,
+        "score": 845,
+        "reward": 207,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear wind map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 49.05833333333119,
+        "score": 786,
+        "reward": 246,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear magnet map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 1,
+        "bossHits": 1,
+        "bossTime": 31.774999999998837,
+        "score": 923,
+        "reward": 143,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear magnet map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 2,
+        "bossHits": 0,
+        "bossTime": 48.249999999997904,
+        "score": 862,
+        "reward": 221,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear magnet map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 49.358333333331174,
+        "score": 851,
+        "reward": 263,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear shield map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 31.774999999998837,
+        "score": 846,
+        "reward": 131,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear shield map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 1,
+        "bossHits": 0,
+        "bossTime": 48.249999999997904,
+        "score": 847,
+        "reward": 207,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear shield map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 49.358333333331174,
+        "score": 786,
+        "reward": 245,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear rail map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 1,
+        "bossTime": 32.27499999999881,
+        "score": 886,
+        "reward": 137,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear rail map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 2,
+        "bossHits": 2,
+        "bossTime": 48.658333333331214,
+        "score": 859,
+        "reward": 214,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear rail map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 49.858333333331146,
+        "score": 786,
+        "reward": 255,
+        "windows": 6,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear orbit map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 1,
+        "bossTime": 29.058333333332325,
+        "score": 941,
+        "reward": 143,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear orbit map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 1,
+        "bossHits": 0,
+        "bossTime": 36.11666666666526,
+        "score": 922,
+        "reward": 221,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear orbit map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 36.72499999999856,
+        "score": 864,
+        "reward": 263,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear leviathan map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 1,
+        "bossHits": 1,
+        "bossTime": 29.058333333332325,
+        "score": 845,
+        "reward": 131,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear leviathan map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 2,
+        "bossHits": 0,
+        "bossTime": 36.11666666666526,
+        "score": 896,
+        "reward": 208,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear leviathan map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 36.72499999999856,
+        "score": 799,
+        "reward": 245,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear chrono map 2 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 1,
+        "bossHits": 1,
+        "bossTime": 29.05833333333231,
+        "score": 845,
+        "reward": 131,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear chrono map 8 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 2,
+        "bossHits": 0,
+        "bossTime": 36.116666666665246,
+        "score": 838,
+        "reward": 205,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    },
+    {
+      "name": "legal-action gear chrono map 11 two-phase victory",
+      "passed": true,
+      "data": {
+        "routeHits": 0,
+        "bossHits": 0,
+        "bossTime": 36.724999999998545,
+        "score": 799,
+        "reward": 245,
+        "windows": 4,
+        "skin": "dragon"
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "21 equip×map whole-route+Boss legal observer bots, isolated gear fixture, no life/time/inv/score injection; reduce motion does not skip mechanics."
+}

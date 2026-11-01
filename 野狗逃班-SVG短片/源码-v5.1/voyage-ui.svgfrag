@@ -1,0 +1,27 @@
+<g id="voyageHUD" class="hide" pointer-events="none"><rect id="voyageHUDBG" width="690" height="66" rx="16" fill="#0c2432" stroke="#72b7a2" fill-opacity=".94"/><text id="voyageRouteLabel" x="18" y="24" fill="#f2d69c" font-size="17" font-weight="800">夜航</text><text id="voyageState" x="18" y="51" fill="#bfdfd5" font-size="18">夜航准备中</text></g>
+@BUTTON:voyageBtn:夜航 / 四种玩法@
+@BUTTON:archiveBtn:旅程 / 档案@
+@BUTTON:quickMenuBtn:夜航菜单@
+@BUTTON:cashOutBtn:自愿收工@
+<g id="voyageOverlay" class="hide" role="dialog" aria-modal="true" aria-label="自由夜航菜单"><rect id="voyageVeil" width="1280" height="940" fill="#030b16" opacity=".97"/><g id="voyageContent"><rect id="voyageFrame" width="1080" height="856" rx="26" fill="url(#voyageGrad)" stroke="#789987" stroke-width="2"/><path d="M32 109H1048" stroke="#72998e" opacity=".32"/><text id="voyageTitle" x="30" y="65" fill="#f1ddb1" font-size="44" font-weight="850">自由夜航</text><text id="voyageBalance" x="1050" y="65" text-anchor="end" fill="#ffd99a" font-size="24">金币 0</text><text id="voyageStorage" x="30" y="826" fill="#81a7a8" font-size="17">离线 / 本地保存</text>
+<g id="voyageMenu">
+<g id="routeCard0"><rect class="routeBG" width="480" height="208" rx="19" fill="#112d35" stroke="#5c9e8e"/><path d="M26 27h22m-11-11v22M29 76q22-17 53-11" stroke="#acdccc" fill="none"/><text x="82" y="47" fill="#d9f6d8" font-size="30" font-weight="800">江风兜风</text><text x="25" y="94" fill="#a4c7c2" font-size="18">90秒慢跑 / 不扣耐心 / 完成40币</text><text id="menuCruise" x="25" y="125" fill="#8eadae" font-size="17">赏衣服，练跳跃，捞金币，不必赶路。</text></g>@BUTTON:routePlay0:出门兜风@
+<g id="routeCard1"><rect class="routeBG" width="480" height="208" rx="19" fill="#25283a" stroke="#988496"/><path d="M30 24h34v41H30ZM38 35h17m-17 9h17" stroke="#ddc0ea" fill="none" stroke-width="2"/><text x="82" y="47" fill="#e6dcf6" font-size="30" font-weight="800">街头委托</text><text id="menuContract" x="25" y="94" fill="#b6afce" font-size="17">60秒 / 基础60 + 每单25币</text><text x="25" y="125" fill="#918baa" font-size="17">咖啡、清障、擦身 / 全装备均可接。</text></g>@BUTTON:routePlay1:接单开跑@
+<g id="routeCard2"><rect class="routeBG" width="480" height="208" rx="19" fill="#2b2830" stroke="#b39477"/><path d="M37 24a20 20 0 1 1-7 27m-1-12v14h14" stroke="#edc58d" fill="none" stroke-width="2"/><text x="82" y="47" fill="#f7dbac" font-size="30" font-weight="800">凌晨循环</text><text id="menuEndless" x="25" y="94" fill="#c6b299" font-size="17">3格耐心 / 每30秒20币</text><text x="25" y="125" fill="#a69986" font-size="17">60秒起镀章挡被动技能 / 随时收工。</text></g>@BUTTON:routePlay2:走进夜路@
+<g id="routeCard3"><rect class="routeBG" width="480" height="208" rx="19" fill="#162b3a" stroke="#7d9bac"/><path d="M30 25h31v39H30Zm6 8h19v20H36Z" stroke="#adcde4" fill="none" stroke-width="2"/><text x="82" y="47" fill="#d0e7fa" font-size="30" font-weight="800">拆机道场</text><text id="menuDojo" x="25" y="94" fill="#a2bfcd" font-size="17">直接挑战三阶段Boss / 练习不发金币</text><text x="25" y="125" fill="#879fae" font-size="17">主线不动 / 看预警，等绿盾，再反击。</text></g>@BUTTON:routePlay3:练练拆机@
+<text id="menuEquip" x="30" y="658" fill="#99bbb2" font-size="21">原装无技能</text>
+@BUTTON:devOpenBtn:开发者@
+@BUTTON:settingsOpenBtn:设置@
+@BUTTON:archiveMenuBtn:档案@
+@BUTTON:menuCloseBtn:回去兜风@
+</g>
+<g id="voyageArchive" class="hide"><text id="archiveHead" x="30" y="138" fill="#dcdfc8" font-size="27" font-weight="800">夜航档案</text><g id="archiveBody"/><text id="archiveNote" x="30" y="706" fill="#8eb1a9" font-size="20">本地档案</text><text id="archivePageText" x="286" y="794" fill="#afd5c9" font-size="23">1 / 2</text>@BUTTON:archiveFlipBtn:记录 / 成就@ @BUTTON:archiveCloseBtn:回去兜风@</g>
+<g id="voyageDev" class="hide"><text id="devIntro" x="30" y="145" fill="#bcd2cd" font-size="21">本地开发者入口 / 正确口令领取十万金币</text><text id="devPin" x="540" y="217" fill="#e8d4a1" text-anchor="middle" font-size="36" letter-spacing="8">输入六位口令</text><text id="devStatus" x="540" y="269" fill="#b4dbca" text-anchor="middle" font-size="21" role="status" aria-live="polite">口令未输入</text>
+@BUTTON:devKey0:1@ @BUTTON:devKey1:2@ @BUTTON:devKey2:3@ @BUTTON:devKey3:4@ @BUTTON:devKey4:5@ @BUTTON:devKey5:6@ @BUTTON:devKey6:7@ @BUTTON:devKey7:8@ @BUTTON:devKey8:9@ @BUTTON:devKey9:退格@ @BUTTON:devKey10:0@ @BUTTON:devKey11:清空@ @BUTTON:devClaimBtn:解锁领米@
+<text id="devNote" x="540" y="703" text-anchor="middle" fill="#83a4a5" font-size="17">离线彩蛋，不是安全锁</text>@BUTTON:devCloseBtn:返回菜单@</g>
+<g id="voyageSettings" class="hide">
+@BUTTON:motionBtn:动画 / 跟随系统@
+<text id="settingMessage" x="30" y="340" fill="#c1d8c9" font-size="22">减少动画不削弱技能</text><text id="settingSound" x="30" y="410" fill="#9dbbb4" font-size="21">音效默认关闭</text><text id="settingKeys" x="30" y="482" fill="#8dafac" font-size="21">空格跳 / Shift冲 / E大招 / P暂停 / R重试</text>
+@BUTTON:settingsStoryBtn:返回原版四幕故事@
+@BUTTON:settingsCloseBtn:返回菜单@
+</g></g></g>

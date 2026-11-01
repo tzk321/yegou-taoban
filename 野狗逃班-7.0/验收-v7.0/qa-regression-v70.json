@@ -1,0 +1,323 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "full old wallet purchased gear stats dev marker and map progress preserved",
+      "passed": true
+    },
+    {
+      "name": "12 retained real run route 0",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 28
+      }
+    },
+    {
+      "name": "real route Boss first reward once on replay",
+      "passed": true
+    },
+    {
+      "name": "12 retained real run route 1",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 24
+      }
+    },
+    {
+      "name": "12 retained real run route 2",
+      "passed": true,
+      "data": {
+        "hits": 1,
+        "coins": 27
+      }
+    },
+    {
+      "name": "12 retained real run route 3",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 26
+      }
+    },
+    {
+      "name": "12 retained real run route 4",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 29
+      }
+    },
+    {
+      "name": "12 retained real run route 5",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 27
+      }
+    },
+    {
+      "name": "12 retained real run route 6",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 26
+      }
+    },
+    {
+      "name": "12 retained real run route 7",
+      "passed": true,
+      "data": {
+        "hits": 1,
+        "coins": 30
+      }
+    },
+    {
+      "name": "12 retained real run route 8",
+      "passed": true,
+      "data": {
+        "hits": 2,
+        "coins": 32
+      }
+    },
+    {
+      "name": "12 retained real run route 9",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 34
+      }
+    },
+    {
+      "name": "12 retained real run route 10",
+      "passed": true,
+      "data": {
+        "hits": 2,
+        "coins": 36
+      }
+    },
+    {
+      "name": "12 retained real run route 11",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "coins": 0
+      }
+    },
+    {
+      "name": "original four act 120 second story completes with legal actions",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "hits": 5
+      }
+    },
+    {
+      "name": "original film complete no missing functions",
+      "passed": true
+    },
+    {
+      "name": "retained route complete cruise",
+      "passed": true,
+      "data": {
+        "coins": 361,
+        "phase": "ending"
+      }
+    },
+    {
+      "name": "retained route complete contract",
+      "passed": true,
+      "data": {
+        "coins": 415,
+        "phase": "ending"
+      }
+    },
+    {
+      "name": "retained route complete courier",
+      "passed": true,
+      "data": {
+        "coins": 217,
+        "phase": "ending"
+      }
+    },
+    {
+      "name": "retained route complete daily",
+      "passed": true,
+      "data": {
+        "coins": 115,
+        "phase": "ending"
+      }
+    },
+    {
+      "name": "retained route complete tutorial",
+      "passed": true,
+      "data": {
+        "coins": 0,
+        "phase": "ending"
+      }
+    },
+    {
+      "name": "independent retained endless entry endless",
+      "passed": true
+    },
+    {
+      "name": "independent retained endless entry wildrun",
+      "passed": true
+    },
+    {
+      "name": "all ten skins actual clone preview 0",
+      "passed": true,
+      "data": {
+        "coat": "#ffc64e",
+        "accessories": 0,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 1",
+      "passed": true,
+      "data": {
+        "coat": "#68d8bf",
+        "accessories": 3,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 2",
+      "passed": true,
+      "data": {
+        "coat": "#f58d9b",
+        "accessories": 3,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 3",
+      "passed": true,
+      "data": {
+        "coat": "#c4e5ea",
+        "accessories": 3,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 4",
+      "passed": true,
+      "data": {
+        "coat": "#162f48",
+        "accessories": 5,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 5",
+      "passed": true,
+      "data": {
+        "coat": "#c9d9f4",
+        "accessories": 5,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 6",
+      "passed": true,
+      "data": {
+        "coat": "#25292e",
+        "accessories": 5,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 7",
+      "passed": true,
+      "data": {
+        "coat": "#377e89",
+        "accessories": 6,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 8",
+      "passed": true,
+      "data": {
+        "coat": "#4e7f80",
+        "accessories": 9,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all ten skins actual clone preview 9",
+      "passed": true,
+      "data": {
+        "coat": "#686bb5",
+        "accessories": 6,
+        "balance": 123456
+      }
+    },
+    {
+      "name": "all fourteen skill dynamic preview 0",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 1",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 2",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 3",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 4",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 5",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 6",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 7",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 8",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 9",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 10",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 11",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 12",
+      "passed": true
+    },
+    {
+      "name": "all fourteen skill dynamic preview 13",
+      "passed": true
+    },
+    {
+      "name": "original developer same marker cannot regrant",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

@@ -1,0 +1,2499 @@
+{
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "tests": [
+    {
+      "name": "legacy-wallet-equipment-unchanged",
+      "passed": true,
+      "data": {
+        "balance": 723,
+        "ownedSkins": [
+          "original",
+          "mint",
+          "dragon"
+        ],
+        "ownedSkills": [
+          "wind",
+          "shield",
+          "rail",
+          "orbit",
+          "leviathan",
+          "chrono"
+        ],
+        "skin": "mint",
+        "skill": "",
+        "voyage": {
+          "version": 1,
+          "devClaimed": false,
+          "settings": {
+            "motion": "system"
+          },
+          "records": {},
+          "achievements": [],
+          "secrets": [],
+          "runs": 0
+        }
+      }
+    },
+    {
+      "name": "wrong-password-no-grant",
+      "passed": true
+    },
+    {
+      "name": "546603-grants-exact-100000-no-score",
+      "passed": true,
+      "data": {
+        "balance": 100723,
+        "ownedSkins": [
+          "original",
+          "mint",
+          "dragon"
+        ],
+        "ownedSkills": [
+          "wind",
+          "shield",
+          "rail",
+          "orbit",
+          "leviathan",
+          "chrono"
+        ],
+        "skin": "mint",
+        "skill": "",
+        "voyage": {
+          "version": 1,
+          "devClaimed": true,
+          "settings": {
+            "motion": "system"
+          },
+          "records": {},
+          "achievements": [],
+          "secrets": [],
+          "runs": 0
+        }
+      }
+    },
+    {
+      "name": "grant-one-time-and-persists-atomic-wallet",
+      "passed": true
+    },
+    {
+      "name": "0217-secret-no-coins",
+      "passed": true
+    },
+    {
+      "name": "motion-three-state-persists",
+      "passed": true
+    },
+    {
+      "name": "focus-trap-escape-menu",
+      "passed": true
+    },
+    {
+      "name": "cruise-90s-no-damage-single-reward-no-old-badges",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 90,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 17,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 19353.583333333438,
+        "spawn": -2.695834786457315,
+        "chapter": 3,
+        "ending": "江风不催人",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 3,
+        "comboTime": 0,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 8,
+        "jumpBuffer": 0,
+        "score": 281,
+        "beat": 209,
+        "spawnIndex": 51,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 220,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 220,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "mint",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "cruise:stock": {
+                "runs": 1,
+                "best": 281,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "runs": 1
+          }
+        },
+        "voyage": {
+          "route": "cruise",
+          "life": 3,
+          "finished": true,
+          "reason": "complete",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 90,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 220,
+          "recorded": true,
+          "tier": 3,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "cruise"
+          ],
+          "secrets": [],
+          "records": {
+            "cruise:stock": {
+              "runs": 1,
+              "best": 281,
+              "time": 90,
+              "wins": 0
+            }
+          },
+          "runs": 1,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "new-route-retry-retains-route",
+      "passed": true
+    },
+    {
+      "name": "new-menu-freezes-and-restores-running-state",
+      "passed": true
+    },
+    {
+      "name": "menu-preserves-manual-pause",
+      "passed": true
+    },
+    {
+      "name": "daily-fixed-goals-60s-three-goal-reward",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 60,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 30,
+        "hits": 0,
+        "smashed": 40,
+        "distance": 10,
+        "spawn": 0.5666666666666665,
+        "chapter": 2,
+        "ending": "三单齐收，今晚自由",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 10,
+        "jumpBuffer": 0,
+        "score": 1220,
+        "beat": 139,
+        "spawnIndex": 0,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 135,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 183,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "mint",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "contract:stock": {
+                "runs": 1,
+                "best": 1220,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "contract",
+              "triple"
+            ],
+            "secrets": [],
+            "runs": 1
+          }
+        },
+        "voyage": {
+          "route": "contract",
+          "life": 3,
+          "finished": true,
+          "reason": "complete",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 60,
+          "goals": [
+            {
+              "kind": "coffee",
+              "name": "冰美式",
+              "need": 6,
+              "current": 30
+            },
+            {
+              "kind": "smashed",
+              "name": "撕碎通知",
+              "need": 11,
+              "current": 40
+            },
+            {
+              "kind": "nearMiss",
+              "name": "擦身闪避",
+              "need": 3,
+              "current": 10
+            }
+          ],
+          "daily": "2026-10-14",
+          "gear": "stock",
+          "resultCoins": 135,
+          "recorded": true,
+          "tier": 2,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "contract",
+            "triple"
+          ],
+          "secrets": [],
+          "records": {
+            "contract:stock": {
+              "runs": 1,
+              "best": 1220,
+              "time": 60,
+              "wins": 0
+            }
+          },
+          "runs": 1,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "contract-natural-challenge-completes-and-base-reward",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 60,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 14,
+        "hits": 19,
+        "smashed": 0,
+        "distance": 18005,
+        "spawn": -2.6166666666666623,
+        "chapter": 2,
+        "ending": "委托收工，不用加班",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 3,
+        "comboTime": 0,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 9,
+        "jumpBuffer": 0,
+        "score": 206,
+        "beat": 139,
+        "spawnIndex": 51,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 266,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 1.4333333333333333,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 449,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "mint",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "contract:stock": {
+                "runs": 2,
+                "best": 1220,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "contract",
+              "triple"
+            ],
+            "secrets": [],
+            "runs": 2
+          }
+        },
+        "voyage": {
+          "route": "contract",
+          "life": 3,
+          "finished": true,
+          "reason": "complete",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 60,
+          "goals": [
+            {
+              "kind": "coffee",
+              "name": "冰美式",
+              "need": 6,
+              "current": 14
+            },
+            {
+              "kind": "smashed",
+              "name": "撕碎通知",
+              "need": 11,
+              "current": 0
+            },
+            {
+              "kind": "nearMiss",
+              "name": "擦身闪避",
+              "need": 3,
+              "current": 9
+            }
+          ],
+          "daily": "2026-10-14",
+          "gear": "stock",
+          "resultCoins": 266,
+          "recorded": true,
+          "tier": 2,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "contract",
+            "triple"
+          ],
+          "secrets": [],
+          "records": {
+            "contract:stock": {
+              "runs": 2,
+              "best": 1220,
+              "time": 60,
+              "wins": 0
+            }
+          },
+          "runs": 2,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 19
+      }
+    },
+    {
+      "name": "endless-natural-three-hits-end-once",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 9.833333333333401,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 1.35,
+        "coffee": 2,
+        "hits": 3,
+        "smashed": 0,
+        "distance": 2950,
+        "spawn": 0.5343573251832268,
+        "chapter": 0,
+        "ending": "耐心用完，夜路还在",
+        "toast": 0.85,
+        "shake": 0.17,
+        "combo": 0,
+        "maxCombo": 1,
+        "comboTime": 0,
+        "energy": 2.5,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 1,
+        "jumpBuffer": 0,
+        "score": 28,
+        "beat": 22,
+        "spawnIndex": 8,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 18,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 18,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "mint",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "endless:stock": {
+                "runs": 1,
+                "best": 118,
+                "time": 9.833333333333401,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first"
+            ],
+            "secrets": [],
+            "runs": 1
+          }
+        },
+        "voyage": {
+          "route": "endless",
+          "life": 0,
+          "finished": true,
+          "reason": "out",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 9.833333333333401,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 18,
+          "recorded": true,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first"
+          ],
+          "secrets": [],
+          "records": {
+            "endless:stock": {
+              "runs": 1,
+              "best": 118,
+              "time": 9.833333333333401,
+              "wins": 0
+            }
+          },
+          "runs": 1,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 3
+      }
+    },
+    {
+      "name": "endless-milestones-rising-tier-60s-shield",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 60.99999999999782,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 22,
+        "hits": 0,
+        "smashed": 31,
+        "distance": 18875.999999998603,
+        "spawn": 0.8868229468095424,
+        "chapter": 2,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 53,
+        "maxCombo": 53,
+        "comboTime": 4.433333333333334,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 1105,
+        "beat": 141,
+        "spawnIndex": 50,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 400,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 1,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0.12000000000000002,
+        "orbitTick": 0.35000000000000003,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 7,
+        "particles": 4,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 400,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "mint",
+          "skill": "orbit",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0
+          }
+        },
+        "voyage": {
+          "route": "endless",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 2,
+          "shieldMark": 1,
+          "elapsed": 60.99999999999782,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 2,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 1,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "voluntary-cashout-equipped-record-single-settlement",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 60.99999999999782,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 22,
+        "hits": 0,
+        "smashed": 31,
+        "distance": 18875.999999998603,
+        "spawn": 0.8868229468095424,
+        "chapter": 2,
+        "ending": "凌晨循环，自愿收工",
+        "toast": 0,
+        "shake": 0,
+        "combo": 53,
+        "maxCombo": 53,
+        "comboTime": 4.433333333333334,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 1105,
+        "beat": 141,
+        "spawnIndex": 50,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 400,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 1,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0.12000000000000002,
+        "orbitTick": 0.35000000000000003,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 400,
+          "ownedSkins": [
+            "original",
+            "mint",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "mint",
+          "skill": "orbit",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 1705,
+                "time": 60.99999999999782,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "minute"
+            ],
+            "secrets": [],
+            "runs": 1
+          }
+        },
+        "voyage": {
+          "route": "endless",
+          "life": 3,
+          "finished": true,
+          "reason": "cashout",
+          "milestone": 2,
+          "shieldMark": 1,
+          "elapsed": 60.99999999999782,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 400,
+          "recorded": true,
+          "tier": 2,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "minute"
+          ],
+          "secrets": [],
+          "records": {
+            "endless:equipped": {
+              "runs": 1,
+              "best": 1705,
+              "time": 60.99999999999782,
+              "wins": 0
+            }
+          },
+          "runs": 1,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "endless-armored-notices-survive-passive-orbit",
+      "passed": true,
+      "data": {
+        "x": 459.5999999999981,
+        "y": 560,
+        "coffee": false,
+        "coin": false,
+        "type": "folder",
+        "armored": true
+      }
+    },
+    {
+      "name": "new-route-home-clears-state-effects",
+      "passed": true
+    },
+    {
+      "name": "direct-dojo-three-stage-win-no-coins-no-main-badges",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 120,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0.7916666666666781,
+          "coffee": 0,
+          "hits": 0,
+          "smashed": 0,
+          "distance": 2790.08333333342,
+          "spawn": 0.6,
+          "chapter": 0,
+          "ending": "练熟了，拆机就行",
+          "toast": 0,
+          "shake": 0,
+          "combo": 3,
+          "maxCombo": 4,
+          "comboTime": 1.2916666666666519,
+          "energy": 6,
+          "freedom": 0,
+          "superUses": 2,
+          "nearMiss": 0,
+          "jumpBuffer": 0,
+          "score": 420,
+          "beat": 83,
+          "spawnIndex": 0,
+          "completedMain": false,
+          "bossEligible": true,
+          "bossWon": true,
+          "offset": 0,
+          "runCoins": 0,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.0",
+          "wallet": {
+            "balance": 987,
+            "ownedSkins": [
+              "original",
+              "mint",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "mint",
+            "skill": "chrono",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "dojo:equipped": {
+                  "runs": 1,
+                  "best": 1271,
+                  "time": 29.858333333332354,
+                  "wins": 1
+                }
+              },
+              "achievements": [
+                "first",
+                "dojo"
+              ],
+              "secrets": [],
+              "runs": 1
+            }
+          },
+          "voyage": {
+            "route": "dojo",
+            "life": 3,
+            "finished": true,
+            "reason": "victory",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 29.858333333332354,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 0,
+            "recorded": true,
+            "tier": 0,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "dojo"
+            ],
+            "secrets": [],
+            "records": {
+              "dojo:equipped": {
+                "runs": 1,
+                "best": 1271,
+                "time": 29.858333333332354,
+                "wins": 1
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 29.858333333332354,
+            "hp": 0,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 3,
+            "state": "defeated",
+            "timer": -0.008333333333324288,
+            "elapsed": 3.62499999999999,
+            "pattern": "double",
+            "cycle": 5,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 10,
+            "blocked": 1,
+            "won": true,
+            "flash": 0,
+            "burst": 3.2083333333333246,
+            "notice": "",
+            "openSerial": 5,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "stages": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "dojo-fail-retry-loadout-lock-no-economy-change",
+      "passed": true
+    },
+    {
+      "name": "dog-seven-pets-and-konami-no-coins",
+      "passed": true
+    },
+    {
+      "name": "paper-whale-story-easter-egg",
+      "passed": true
+    },
+    {
+      "name": "archive-achievements-persistent-readable",
+      "passed": true
+    },
+    {
+      "name": "new-menu-controls-fit 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "routePlay0",
+          "x": 254,
+          "y": 159.5,
+          "right": 320,
+          "bottom": 186.5,
+          "inside": true
+        },
+        {
+          "id": "routePlay1",
+          "x": 254,
+          "y": 254.5,
+          "right": 320,
+          "bottom": 281.5,
+          "inside": true
+        },
+        {
+          "id": "routePlay2",
+          "x": 254,
+          "y": 349.5,
+          "right": 320,
+          "bottom": 376.5,
+          "inside": true
+        },
+        {
+          "id": "routePlay3",
+          "x": 254,
+          "y": 444.5,
+          "right": 320,
+          "bottom": 471.5,
+          "inside": true
+        },
+        {
+          "id": "devOpenBtn",
+          "x": 28,
+          "y": 564,
+          "right": 105.5,
+          "bottom": 596.5,
+          "inside": true
+        },
+        {
+          "id": "settingsOpenBtn",
+          "x": 117,
+          "y": 564,
+          "right": 194.5,
+          "bottom": 596.5,
+          "inside": true
+        },
+        {
+          "id": "archiveMenuBtn",
+          "x": 203,
+          "y": 564,
+          "right": 249,
+          "bottom": 596.5,
+          "inside": true
+        },
+        {
+          "id": "menuCloseBtn",
+          "x": 254,
+          "y": 564,
+          "right": 332,
+          "bottom": 596.5,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-dev-controls-fit 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "devKey0",
+          "x": 42.5,
+          "y": 223,
+          "right": 127.5,
+          "bottom": 268.5,
+          "inside": true
+        },
+        {
+          "id": "devKey1",
+          "x": 137.5,
+          "y": 223,
+          "right": 222.5,
+          "bottom": 268.5,
+          "inside": true
+        },
+        {
+          "id": "devKey2",
+          "x": 232.5,
+          "y": 223,
+          "right": 317.5,
+          "bottom": 268.5,
+          "inside": true
+        },
+        {
+          "id": "devKey3",
+          "x": 42.5,
+          "y": 277,
+          "right": 127.5,
+          "bottom": 322.5,
+          "inside": true
+        },
+        {
+          "id": "devKey4",
+          "x": 137.5,
+          "y": 277,
+          "right": 222.5,
+          "bottom": 322.5,
+          "inside": true
+        },
+        {
+          "id": "devKey5",
+          "x": 232.5,
+          "y": 277,
+          "right": 317.5,
+          "bottom": 322.5,
+          "inside": true
+        },
+        {
+          "id": "devKey6",
+          "x": 42.5,
+          "y": 331,
+          "right": 127.5,
+          "bottom": 376.5,
+          "inside": true
+        },
+        {
+          "id": "devKey7",
+          "x": 137.5,
+          "y": 331,
+          "right": 222.5,
+          "bottom": 376.5,
+          "inside": true
+        },
+        {
+          "id": "devKey8",
+          "x": 232.5,
+          "y": 331,
+          "right": 317.5,
+          "bottom": 376.5,
+          "inside": true
+        },
+        {
+          "id": "devKey9",
+          "x": 42.5,
+          "y": 385,
+          "right": 127.5,
+          "bottom": 430.5,
+          "inside": true
+        },
+        {
+          "id": "devKey10",
+          "x": 137.5,
+          "y": 385,
+          "right": 222.5,
+          "bottom": 430.5,
+          "inside": true
+        },
+        {
+          "id": "devKey11",
+          "x": 232.5,
+          "y": 385,
+          "right": 317.5,
+          "bottom": 430.5,
+          "inside": true
+        },
+        {
+          "id": "devClaimBtn",
+          "x": 42.5,
+          "y": 445,
+          "right": 317.5,
+          "bottom": 485.5,
+          "inside": true
+        },
+        {
+          "id": "devCloseBtn",
+          "x": 254,
+          "y": 564,
+          "right": 332,
+          "bottom": 596.5,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-settings-controls-fit 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "motionBtn",
+          "x": 28,
+          "y": 155,
+          "right": 332,
+          "bottom": 205,
+          "inside": true
+        },
+        {
+          "id": "settingsStoryBtn",
+          "x": 28,
+          "y": 367.5,
+          "right": 205.5,
+          "bottom": 407.5,
+          "inside": true
+        },
+        {
+          "id": "settingsCloseBtn",
+          "x": 254,
+          "y": 564,
+          "right": 332,
+          "bottom": 596.5,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-archive-controls-fit 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "archiveFlipBtn",
+          "x": 28,
+          "y": 564,
+          "right": 123,
+          "bottom": 596.5,
+          "inside": true
+        },
+        {
+          "id": "archiveCloseBtn",
+          "x": 254,
+          "y": 564,
+          "right": 332,
+          "bottom": 596.5,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-menu-controls-fit 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "routePlay0",
+          "x": 275.1660461425781,
+          "y": 248.1185302734375,
+          "right": 346.6654968261719,
+          "bottom": 277.3682861328125,
+          "inside": true
+        },
+        {
+          "id": "routePlay1",
+          "x": 275.1660461425781,
+          "y": 351.0343933105469,
+          "right": 346.6654968261719,
+          "bottom": 380.2841796875,
+          "inside": true
+        },
+        {
+          "id": "routePlay2",
+          "x": 275.1660461425781,
+          "y": 453.9502868652344,
+          "right": 346.6654968261719,
+          "bottom": 483.2000427246094,
+          "inside": true
+        },
+        {
+          "id": "routePlay3",
+          "x": 275.1660461425781,
+          "y": 556.8661499023438,
+          "right": 346.6654968261719,
+          "bottom": 586.115966796875,
+          "inside": true
+        },
+        {
+          "id": "devOpenBtn",
+          "x": 30.3346004486084,
+          "y": 686.323486328125,
+          "right": 114.29228782653809,
+          "bottom": 721.5315551757812,
+          "inside": true
+        },
+        {
+          "id": "settingsOpenBtn",
+          "x": 126.75052642822266,
+          "y": 686.323486328125,
+          "right": 210.7082061767578,
+          "bottom": 721.5315551757812,
+          "inside": true
+        },
+        {
+          "id": "archiveMenuBtn",
+          "x": 219.91647338867188,
+          "y": 686.323486328125,
+          "right": 269.7494201660156,
+          "bottom": 721.5315551757812,
+          "inside": true
+        },
+        {
+          "id": "menuCloseBtn",
+          "x": 275.1660461425781,
+          "y": 686.323486328125,
+          "right": 359.6654052734375,
+          "bottom": 721.5315551757812,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-dev-controls-fit 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "devKey0",
+          "x": 46.04281234741211,
+          "y": 316.90966796875,
+          "right": 138.12543869018555,
+          "bottom": 366.2009582519531,
+          "inside": true
+        },
+        {
+          "id": "devKey1",
+          "x": 148.9586944580078,
+          "y": 316.90966796875,
+          "right": 241.0413055419922,
+          "bottom": 366.2009582519531,
+          "inside": true
+        },
+        {
+          "id": "devKey2",
+          "x": 251.8745574951172,
+          "y": 316.90966796875,
+          "right": 343.9571838378906,
+          "bottom": 366.2009582519531,
+          "inside": true
+        },
+        {
+          "id": "devKey3",
+          "x": 46.04281234741211,
+          "y": 375.4092102050781,
+          "right": 138.12543869018555,
+          "bottom": 424.70050048828125,
+          "inside": true
+        },
+        {
+          "id": "devKey4",
+          "x": 148.9586944580078,
+          "y": 375.4092102050781,
+          "right": 241.0413055419922,
+          "bottom": 424.70050048828125,
+          "inside": true
+        },
+        {
+          "id": "devKey5",
+          "x": 251.8745574951172,
+          "y": 375.4092102050781,
+          "right": 343.9571838378906,
+          "bottom": 424.70050048828125,
+          "inside": true
+        },
+        {
+          "id": "devKey6",
+          "x": 46.04281234741211,
+          "y": 433.90875244140625,
+          "right": 138.12543869018555,
+          "bottom": 483.2000427246094,
+          "inside": true
+        },
+        {
+          "id": "devKey7",
+          "x": 148.9586944580078,
+          "y": 433.90875244140625,
+          "right": 241.0413055419922,
+          "bottom": 483.2000427246094,
+          "inside": true
+        },
+        {
+          "id": "devKey8",
+          "x": 251.8745574951172,
+          "y": 433.90875244140625,
+          "right": 343.9571838378906,
+          "bottom": 483.2000427246094,
+          "inside": true
+        },
+        {
+          "id": "devKey9",
+          "x": 46.04281234741211,
+          "y": 492.4083251953125,
+          "right": 138.12543869018555,
+          "bottom": 541.6995849609375,
+          "inside": true
+        },
+        {
+          "id": "devKey10",
+          "x": 148.9586944580078,
+          "y": 492.4083251953125,
+          "right": 241.0413055419922,
+          "bottom": 541.6995849609375,
+          "inside": true
+        },
+        {
+          "id": "devKey11",
+          "x": 251.8745574951172,
+          "y": 492.4083251953125,
+          "right": 343.9571838378906,
+          "bottom": 541.6995849609375,
+          "inside": true
+        },
+        {
+          "id": "devClaimBtn",
+          "x": 46.04281234741211,
+          "y": 557.4078369140625,
+          "right": 343.95718002319336,
+          "bottom": 601.282470703125,
+          "inside": true
+        },
+        {
+          "id": "devCloseBtn",
+          "x": 275.1660461425781,
+          "y": 686.323486328125,
+          "right": 359.6654052734375,
+          "bottom": 721.5315551757812,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-settings-controls-fit 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "motionBtn",
+          "x": 30.3346004486084,
+          "y": 243.24356079101562,
+          "right": 359.6654109954834,
+          "bottom": 297.4097900390625,
+          "inside": true
+        },
+        {
+          "id": "settingsStoryBtn",
+          "x": 30.3346004486084,
+          "y": 473.45013427734375,
+          "right": 222.62479209899902,
+          "bottom": 516.7830810546875,
+          "inside": true
+        },
+        {
+          "id": "settingsCloseBtn",
+          "x": 275.1660461425781,
+          "y": 686.323486328125,
+          "right": 359.6654052734375,
+          "bottom": 721.5315551757812,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-archive-controls-fit 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "archiveFlipBtn",
+          "x": 30.3346004486084,
+          "y": 686.323486328125,
+          "right": 133.2504711151123,
+          "bottom": 721.5315551757812,
+          "inside": true
+        },
+        {
+          "id": "archiveCloseBtn",
+          "x": 275.1660461425781,
+          "y": 686.323486328125,
+          "right": 359.6654052734375,
+          "bottom": 721.5315551757812,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-menu-controls-fit 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "routePlay0",
+          "x": 327.42498779296875,
+          "y": 148.6875,
+          "right": 395.67498779296875,
+          "bottom": 175.0124969482422,
+          "inside": true
+        },
+        {
+          "id": "routePlay1",
+          "x": 580.9249877929688,
+          "y": 148.6875,
+          "right": 649.1749877929688,
+          "bottom": 175.0124969482422,
+          "inside": true
+        },
+        {
+          "id": "routePlay2",
+          "x": 327.42498779296875,
+          "y": 257.88751220703125,
+          "right": 395.67498779296875,
+          "bottom": 284.2124938964844,
+          "inside": true
+        },
+        {
+          "id": "routePlay3",
+          "x": 580.9249877929688,
+          "y": 257.88751220703125,
+          "right": 649.1749877929688,
+          "bottom": 284.2124938964844,
+          "inside": true
+        },
+        {
+          "id": "devOpenBtn",
+          "x": 173.375,
+          "y": 329.0625,
+          "right": 260.1499938964844,
+          "bottom": 360.75,
+          "inside": true
+        },
+        {
+          "id": "settingsOpenBtn",
+          "x": 268.92498779296875,
+          "y": 329.0625,
+          "right": 355.70001220703125,
+          "bottom": 360.75,
+          "inside": true
+        },
+        {
+          "id": "archiveMenuBtn",
+          "x": 364.4750061035156,
+          "y": 329.0625,
+          "right": 451.25,
+          "bottom": 360.75,
+          "inside": true
+        },
+        {
+          "id": "menuCloseBtn",
+          "x": 594.5750122070312,
+          "y": 329.0625,
+          "right": 670.625,
+          "bottom": 360.75,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-dev-controls-fit 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "devKey0",
+          "x": 287.9375,
+          "y": 133.5749969482422,
+          "right": 370.8125,
+          "bottom": 156.97500610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey1",
+          "x": 380.5625,
+          "y": 133.5749969482422,
+          "right": 463.4375,
+          "bottom": 156.97500610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey2",
+          "x": 473.1875,
+          "y": 133.5749969482422,
+          "right": 556.0625,
+          "bottom": 156.97500610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey3",
+          "x": 287.9375,
+          "y": 165.2624969482422,
+          "right": 370.8125,
+          "bottom": 188.66250610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey4",
+          "x": 380.5625,
+          "y": 165.2624969482422,
+          "right": 463.4375,
+          "bottom": 188.66250610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey5",
+          "x": 473.1875,
+          "y": 165.2624969482422,
+          "right": 556.0625,
+          "bottom": 188.66250610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey6",
+          "x": 287.9375,
+          "y": 196.9499969482422,
+          "right": 370.8125,
+          "bottom": 220.35000610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey7",
+          "x": 380.5625,
+          "y": 196.9499969482422,
+          "right": 463.4375,
+          "bottom": 220.35000610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey8",
+          "x": 473.1875,
+          "y": 196.9499969482422,
+          "right": 556.0625,
+          "bottom": 220.35000610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey9",
+          "x": 287.9375,
+          "y": 228.6374969482422,
+          "right": 370.8125,
+          "bottom": 252.03750610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey10",
+          "x": 380.5625,
+          "y": 228.6374969482422,
+          "right": 463.4375,
+          "bottom": 252.03750610351562,
+          "inside": true
+        },
+        {
+          "id": "devKey11",
+          "x": 473.1875,
+          "y": 228.6374969482422,
+          "right": 556.0625,
+          "bottom": 252.03750610351562,
+          "inside": true
+        },
+        {
+          "id": "devClaimBtn",
+          "x": 287.9375,
+          "y": 266.17498779296875,
+          "right": 556.0625,
+          "bottom": 296.88751220703125,
+          "inside": true
+        },
+        {
+          "id": "devCloseBtn",
+          "x": 594.5750122070312,
+          "y": 329.0625,
+          "right": 670.625,
+          "bottom": 360.75,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-settings-controls-fit 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "motionBtn",
+          "x": 173.375,
+          "y": 113.5875015258789,
+          "right": 670.625,
+          "bottom": 152.58749389648438,
+          "inside": true
+        },
+        {
+          "id": "settingsStoryBtn",
+          "x": 173.375,
+          "y": 277.875,
+          "right": 407.375,
+          "bottom": 316.875,
+          "inside": true
+        },
+        {
+          "id": "settingsCloseBtn",
+          "x": 594.5750122070312,
+          "y": 329.0625,
+          "right": 670.625,
+          "bottom": 360.75,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-archive-controls-fit 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "archiveFlipBtn",
+          "x": 173.375,
+          "y": 329.0625,
+          "right": 280.625,
+          "bottom": 360.75,
+          "inside": true
+        },
+        {
+          "id": "archiveCloseBtn",
+          "x": 594.5750122070312,
+          "y": 329.0625,
+          "right": 670.625,
+          "bottom": 360.75,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-menu-controls-fit 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "routePlay0",
+          "x": 505.2392272949219,
+          "y": 249.04193115234375,
+          "right": 613.3715209960938,
+          "bottom": 293.2778625488281,
+          "inside": true
+        },
+        {
+          "id": "routePlay1",
+          "x": 505.2392272949219,
+          "y": 404.6868896484375,
+          "right": 613.3715209960938,
+          "bottom": 448.9228210449219,
+          "inside": true
+        },
+        {
+          "id": "routePlay2",
+          "x": 505.2392272949219,
+          "y": 560.3318481445312,
+          "right": 613.3715209960938,
+          "bottom": 604.5678100585938,
+          "inside": true
+        },
+        {
+          "id": "routePlay3",
+          "x": 505.2392272949219,
+          "y": 715.976806640625,
+          "right": 613.3715209960938,
+          "bottom": 760.2127685546875,
+          "inside": true
+        },
+        {
+          "id": "devOpenBtn",
+          "x": 134.96804809570312,
+          "y": 911.7617797851562,
+          "right": 261.94158935546875,
+          "bottom": 965.0087890625,
+          "inside": true
+        },
+        {
+          "id": "settingsOpenBtn",
+          "x": 280.7828063964844,
+          "y": 911.7617797851562,
+          "right": 407.75634765625,
+          "bottom": 965.0087890625,
+          "inside": true
+        },
+        {
+          "id": "archiveMenuBtn",
+          "x": 421.6824645996094,
+          "y": 911.7617797851562,
+          "right": 497.0473937988281,
+          "bottom": 965.0087890625,
+          "inside": true
+        },
+        {
+          "id": "menuCloseBtn",
+          "x": 505.2392272949219,
+          "y": 911.7617797851562,
+          "right": 633.0319213867188,
+          "bottom": 965.0087890625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-dev-controls-fit 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "devKey0",
+          "x": 158.72439575195312,
+          "y": 353.07830810546875,
+          "right": 297.98565673828125,
+          "bottom": 427.6240539550781,
+          "inside": true
+        },
+        {
+          "id": "devKey1",
+          "x": 314.3693542480469,
+          "y": 353.07830810546875,
+          "right": 453.6306457519531,
+          "bottom": 427.6240539550781,
+          "inside": true
+        },
+        {
+          "id": "devKey2",
+          "x": 470.0143127441406,
+          "y": 353.07830810546875,
+          "right": 609.275634765625,
+          "bottom": 427.6240539550781,
+          "inside": true
+        },
+        {
+          "id": "devKey3",
+          "x": 158.72439575195312,
+          "y": 441.5501708984375,
+          "right": 297.98565673828125,
+          "bottom": 516.095947265625,
+          "inside": true
+        },
+        {
+          "id": "devKey4",
+          "x": 314.3693542480469,
+          "y": 441.5501708984375,
+          "right": 453.6306457519531,
+          "bottom": 516.095947265625,
+          "inside": true
+        },
+        {
+          "id": "devKey5",
+          "x": 470.0143127441406,
+          "y": 441.5501708984375,
+          "right": 609.275634765625,
+          "bottom": 516.095947265625,
+          "inside": true
+        },
+        {
+          "id": "devKey6",
+          "x": 158.72439575195312,
+          "y": 530.0220336914062,
+          "right": 297.98565673828125,
+          "bottom": 604.5678100585938,
+          "inside": true
+        },
+        {
+          "id": "devKey7",
+          "x": 314.3693542480469,
+          "y": 530.0220336914062,
+          "right": 453.6306457519531,
+          "bottom": 604.5678100585938,
+          "inside": true
+        },
+        {
+          "id": "devKey8",
+          "x": 470.0143127441406,
+          "y": 530.0220336914062,
+          "right": 609.275634765625,
+          "bottom": 604.5678100585938,
+          "inside": true
+        },
+        {
+          "id": "devKey9",
+          "x": 158.72439575195312,
+          "y": 618.493896484375,
+          "right": 297.98565673828125,
+          "bottom": 693.0396728515625,
+          "inside": true
+        },
+        {
+          "id": "devKey10",
+          "x": 314.3693542480469,
+          "y": 618.493896484375,
+          "right": 453.6306457519531,
+          "bottom": 693.0396728515625,
+          "inside": true
+        },
+        {
+          "id": "devKey11",
+          "x": 470.0143127441406,
+          "y": 618.493896484375,
+          "right": 609.275634765625,
+          "bottom": 693.0396728515625,
+          "inside": true
+        },
+        {
+          "id": "devClaimBtn",
+          "x": 158.72439575195312,
+          "y": 716.7960205078125,
+          "right": 609.275634765625,
+          "bottom": 783.14990234375,
+          "inside": true
+        },
+        {
+          "id": "devCloseBtn",
+          "x": 505.2392272949219,
+          "y": 911.7617797851562,
+          "right": 633.0319213867188,
+          "bottom": 965.0087890625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-settings-controls-fit 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "motionBtn",
+          "x": 134.96804809570312,
+          "y": 241.6692657470703,
+          "right": 633.0319213867188,
+          "bottom": 323.5876770019531,
+          "inside": true
+        },
+        {
+          "id": "settingsStoryBtn",
+          "x": 134.96804809570312,
+          "y": 589.822509765625,
+          "right": 425.77838134765625,
+          "bottom": 655.357177734375,
+          "inside": true
+        },
+        {
+          "id": "settingsCloseBtn",
+          "x": 505.2392272949219,
+          "y": 911.7617797851562,
+          "right": 633.0319213867188,
+          "bottom": 965.0087890625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-archive-controls-fit 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "archiveFlipBtn",
+          "x": 134.96804809570312,
+          "y": 911.7617797851562,
+          "right": 290.613037109375,
+          "bottom": 965.0087890625,
+          "inside": true
+        },
+        {
+          "id": "archiveCloseBtn",
+          "x": 505.2392272949219,
+          "y": 911.7617797851562,
+          "right": 633.0319213867188,
+          "bottom": 965.0087890625,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-menu-controls-fit 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "routePlay0",
+          "x": 737.1083984375,
+          "y": 375.70361328125,
+          "right": 897.9580078125,
+          "bottom": 437.74560546875,
+          "inside": true
+        },
+        {
+          "id": "routePlay1",
+          "x": 1334.5498046875,
+          "y": 375.70361328125,
+          "right": 1495.3994140625,
+          "bottom": 437.74560546875,
+          "inside": true
+        },
+        {
+          "id": "routePlay2",
+          "x": 737.1083984375,
+          "y": 633.06298828125,
+          "right": 897.9580078125,
+          "bottom": 695.10498046875,
+          "inside": true
+        },
+        {
+          "id": "routePlay3",
+          "x": 1334.5498046875,
+          "y": 633.06298828125,
+          "right": 1495.3994140625,
+          "bottom": 695.10498046875,
+          "inside": true
+        },
+        {
+          "id": "devOpenBtn",
+          "x": 374.0478515625,
+          "y": 911.10302734375,
+          "right": 578.556640625,
+          "bottom": 985.783203125,
+          "inside": true
+        },
+        {
+          "id": "settingsOpenBtn",
+          "x": 599.2373046875,
+          "y": 911.10302734375,
+          "right": 803.74609375,
+          "bottom": 985.783203125,
+          "inside": true
+        },
+        {
+          "id": "archiveMenuBtn",
+          "x": 824.4267578125,
+          "y": 911.10302734375,
+          "right": 1028.935546875,
+          "bottom": 985.783203125,
+          "inside": true
+        },
+        {
+          "id": "menuCloseBtn",
+          "x": 1366.7197265625,
+          "y": 911.10302734375,
+          "right": 1545.9521484375,
+          "bottom": 985.783203125,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-dev-controls-fit 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "devKey0",
+          "x": 644.04541015625,
+          "y": 383.74609375,
+          "right": 839.36279296875,
+          "bottom": 451.53271484375,
+          "inside": true
+        },
+        {
+          "id": "devKey1",
+          "x": 862.34130859375,
+          "y": 383.74609375,
+          "right": 1057.65869140625,
+          "bottom": 451.53271484375,
+          "inside": true
+        },
+        {
+          "id": "devKey2",
+          "x": 1080.63720703125,
+          "y": 383.74609375,
+          "right": 1275.95458984375,
+          "bottom": 451.53271484375,
+          "inside": true
+        },
+        {
+          "id": "devKey3",
+          "x": 644.04541015625,
+          "y": 471.064453125,
+          "right": 839.36279296875,
+          "bottom": 538.85107421875,
+          "inside": true
+        },
+        {
+          "id": "devKey4",
+          "x": 862.34130859375,
+          "y": 471.064453125,
+          "right": 1057.65869140625,
+          "bottom": 538.85107421875,
+          "inside": true
+        },
+        {
+          "id": "devKey5",
+          "x": 1080.63720703125,
+          "y": 471.064453125,
+          "right": 1275.95458984375,
+          "bottom": 538.85107421875,
+          "inside": true
+        },
+        {
+          "id": "devKey6",
+          "x": 644.04541015625,
+          "y": 558.3828125,
+          "right": 839.36279296875,
+          "bottom": 626.16943359375,
+          "inside": true
+        },
+        {
+          "id": "devKey7",
+          "x": 862.34130859375,
+          "y": 558.3828125,
+          "right": 1057.65869140625,
+          "bottom": 626.16943359375,
+          "inside": true
+        },
+        {
+          "id": "devKey8",
+          "x": 1080.63720703125,
+          "y": 558.3828125,
+          "right": 1275.95458984375,
+          "bottom": 626.16943359375,
+          "inside": true
+        },
+        {
+          "id": "devKey9",
+          "x": 644.04541015625,
+          "y": 645.701171875,
+          "right": 839.36279296875,
+          "bottom": 713.48779296875,
+          "inside": true
+        },
+        {
+          "id": "devKey10",
+          "x": 862.34130859375,
+          "y": 645.701171875,
+          "right": 1057.65869140625,
+          "bottom": 713.48779296875,
+          "inside": true
+        },
+        {
+          "id": "devKey11",
+          "x": 1080.63720703125,
+          "y": 645.701171875,
+          "right": 1275.95458984375,
+          "bottom": 713.48779296875,
+          "inside": true
+        },
+        {
+          "id": "devClaimBtn",
+          "x": 644.04541015625,
+          "y": 746.806640625,
+          "right": 1275.95458984375,
+          "bottom": 819.18896484375,
+          "inside": true
+        },
+        {
+          "id": "devCloseBtn",
+          "x": 1366.7197265625,
+          "y": 911.10302734375,
+          "right": 1545.9521484375,
+          "bottom": 985.783203125,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-settings-controls-fit 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "motionBtn",
+          "x": 374.0478515625,
+          "y": 292.98095703125,
+          "right": 1545.9521484375,
+          "bottom": 384.89501953125,
+          "inside": true
+        },
+        {
+          "id": "settingsStoryBtn",
+          "x": 374.0478515625,
+          "y": 680.1689453125,
+          "right": 925.5322265625,
+          "bottom": 772.0830078125,
+          "inside": true
+        },
+        {
+          "id": "settingsCloseBtn",
+          "x": 1366.7197265625,
+          "y": 911.10302734375,
+          "right": 1545.9521484375,
+          "bottom": 985.783203125,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "new-archive-controls-fit 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "archiveFlipBtn",
+          "x": 374.0478515625,
+          "y": 911.10302734375,
+          "right": 626.8115234375,
+          "bottom": 985.783203125,
+          "inside": true
+        },
+        {
+          "id": "archiveCloseBtn",
+          "x": 1366.7197265625,
+          "y": 911.10302734375,
+          "right": 1545.9521484375,
+          "bottom": 985.783203125,
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "storage-denied-grant-memory-once-transparent",
+      "passed": true
+    },
+    {
+      "name": "standalone-svg-digit-keypad",
+      "passed": true
+    },
+    {
+      "name": "normal-entry-no-test-hooks-no-js-errors-offline",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "All wallets/scenarios isolated Chromium profile. Natural cruise/contract/endless plus real action bot dojo. Explicit QA scenarios for target reward, armored boundary and whale timestamp."
+}

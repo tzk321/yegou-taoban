@@ -1,0 +1,21 @@
+set -eu
+cd /mnt/data/user/0/me.rerere.rikkahub/files/tmp/night-off-v53
+sh build-check.sh
+node validate-audit.mjs
+node qa-stick-fullscreen-v53.mjs
+node qa-mechanisms-v53.mjs
+node qa-audio-v53.mjs
+node qa-visual-v53.mjs
+node qa-realtime-v53.mjs
+node qa-movehud-v53.mjs
+node qa-overlap-v53.mjs
+node qa-hud-v53.mjs
+node qa-bosses-v53.mjs
+node qa-regression-v53.mjs
+node qa-persistence-v53.mjs
+node qa-observable-v53.mjs
+node qa-gear-matrix-v53.mjs
+node qa-lastedges-v53.mjs
+node qa-grant-quota-v53.mjs
+python3 audit-proof.py
+chmod -R a+rwX night-off-out

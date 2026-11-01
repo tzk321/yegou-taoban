@@ -1,0 +1,34 @@
+// Every route is a separate authored night: patterns, moving objects, interaction and guardian.
+const NIGHTS=[
+ {name:'雨夜门口',boss:'闸门犬 · 雨锁',seconds:36,speed:252,gap:1.35,color:'#87dfca',prop:'gate',goal:'点亮路灯',pickup:'lamp',effect:'energy',pattern:[['coffee',-54],['ground',0],['token',-90],['high',-166],['coffee',-54],['gate',0],['token',-54],['ground',0]],story:'跳过积水，绿灯时门闸收起；拾灯点亮出口。'},
+ {name:'凌晨骑楼',boss:'檐铃蛛 · 垂幕',seconds:38,speed:258,gap:1.42,color:'#e4a3ca',prop:'arcade',goal:'收拢檐铃',pickup:'bell',effect:'combo',pattern:[['high',-170],['token',-140],['ground',0],['coffee',-54],['swing',-163],['token',-92],['ground',0],['coffee',-140]],story:'檐铃上下摆动，地面推车与吊灯交错；别一直抢跳。'},
+ {name:'冰美式窗口',boss:'冰釜章鱼 · 加冰',seconds:40,speed:264,gap:1.4,color:'#ffdb96',prop:'cafe',goal:'装杯交货',pickup:'cup',effect:'delivery',pattern:[['coffee',-54],['token',-54],['ground',0],['bubble',-110],['token',-145],['coffee',-140],['ground',0],['token',-54]],story:'收三杯即交一单；冰块浮沉，挨撞会洒一杯。'},
+ {name:'旧书铺',boss:'折页魇 · 未读',seconds:42,speed:248,gap:1.55,color:'#ddd0aa',prop:'book',goal:'捡回散页',pickup:'page',effect:'energy',pattern:[['token',-145],['ground',0],['coffee',-54],['leaf',-150],['token',-54],['high',-172],['coffee',-54],['ground',0]],story:'飞页沿弧线飘过，书箱接吊牌；收页给反击充能。'},
+ {name:'机修棚',boss:'曲轴牛 · 空转',seconds:44,speed:274,gap:1.48,color:'#e8b789',prop:'repair',goal:'组装备用盾',pickup:'gear',effect:'repair',pattern:[['ground',0],['token',-85],['coffee',-54],['wheel',0],['token',-140],['high',-180],['coffee',-54],['ground',0]],story:'滚轮忽快忽慢；每集齐三齿轮补一盾，最多一层。'},
+ {name:'地铁末班',boss:'车厢蜈蚣 · 末站',seconds:46,speed:292,gap:1.6,color:'#adcde8',prop:'metro',goal:'检回车票',pickup:'ticket',effect:'combo',pattern:[['gate',0],['token',-60],['high',-180],['coffee',-54],['ground',0],['token',-145],['coffee',-54],['gate',0]],story:'红灯闸机闭合，绿灯无碰撞；站牌低顶时留在地面。'},
+ {name:'高架底下',boss:'回声蝠 · 混响',seconds:48,speed:302,gap:1.62,color:'#e6c499',prop:'bridge',goal:'拾取回声',pickup:'echo',effect:'energy',pattern:[['ground',0],['coffee',-54],['token',-145],['swing',-170],['ground',0],['token',-54],['wheel',0],['coffee',-140]],story:'桥下阵风每八秒提速；回声环与滚桶都有自己的节拍。'},
+ {name:'屋顶电台',boss:'频谱鸢 · 白噪',seconds:50,speed:278,gap:1.55,color:'#d5bcff',prop:'radio',goal:'对齐信号',pickup:'signal',effect:'combo',pattern:[['high',-180],['token',-145],['coffee',-54],['ground',0],['leaf',-140],['token',-54],['coffee',-145],['high',-174]],story:'风把天线吊带吹起；每十秒风向切换，信号不是金币。'},
+ {name:'邕江南岸',boss:'潮汐龟 · 逆流',seconds:52,speed:268,gap:1.58,color:'#9debdc',prop:'river',goal:'拾贝点灯',pickup:'shell',effect:'energy',pattern:[['bubble',-92],['token',-145],['ground',0],['coffee',-54],['token',-54],['high',-175],['coffee',-140],['bubble',-112]],story:'潮线明暗涨落；泡沫沿水波移动，贝壳藏在高低两路。'},
+ {name:'码头仓库',boss:'吊钩蟹 · 封箱',seconds:54,speed:288,gap:1.58,color:'#d7b289',prop:'dock',goal:'查收封签',pickup:'tag',effect:'repair',pattern:[['ground',0],['token',-70],['high',-184],['coffee',-54],['wheel',0],['token',-145],['ground',0],['coffee',-145]],story:'木箱、吊钩、滚桶不是同一危险；三封签换一层防护。'},
+ {name:'纸鲸灯会',boss:'墨灯鲤 · 未寄',seconds:56,speed:278,gap:1.5,color:'#bce9e1',prop:'festival',goal:'放飞来信',pickup:'letter',effect:'energy',pattern:[['leaf',-143],['token',-145],['ground',0],['coffee',-54],['swing',-167],['token',-54],['coffee',-140],['bubble',-100]],story:'纸鲸在远处，来信在手边；飘灯与墨泡上下交错。'},
+ {name:'天亮早市',boss:'秤盘鹿 · 收摊',seconds:58,speed:300,gap:1.57,color:'#ffe0ad',prop:'market',goal:'收集早点',pickup:'fruit',effect:'delivery',pattern:[['ground',0],['token',-54],['coffee',-145],['wheel',0],['token',-140],['high',-178],['coffee',-54],['ground',0]],story:'车轮夹着菜筐；三份早点交一篮，晨光不是无敌外挂。'}
+];
+NIGHTS.forEach((n,i)=>{n.id=i;n.reward=80+i*12;n.hp=i<4?8:i<8?10:12;ROUTES['map'+i]={name:n.name,duration:n.seconds}});
+const isMap=()=>/^map(?:[0-9]|1[01])$/.test(V.route),night=()=>NIGHTS[Number(V.route.slice(3))];
+// Distinct attacks are event scores, not renamed versions of the original approval machine.
+const E=(t,kind,dur=.32,y=0)=>({t,kind,dur,y});
+const A=(name,duration,events)=>({name,duration,events});
+const GUARDIANS=[
+ [[A('闸口两拍',1.9,[E(.28,'floor'),E(1.3,'high')]),A('雨锁追踪',1.5,[E(.65,'lock',.32)])],[A('雨锁三拍',2.6,[E(.28,'floor'),E(1.3,'high'),E(2.16,'floor')]),A('门禁扫光',2.2,[E(.2,'bolt',.8,498),E(1.2,'lock')])]],
+ [[A('檐铃坠落',2.2,[E(.3,'high',.4),E(1.5,'floor')]),A('蛛丝横牵',2,[E(.38,'bolt',.8,370),E(1.2,'bolt',.8,510)])],[A('垂幕折返',2.8,[E(.25,'high'),E(1.1,'floor'),E(2.15,'high')]),A('四线织网',2.9,[E(.2,'bolt',.8,370),E(.8,'bolt',.8,510),E(1.5,'bolt',.8,370),E(2.1,'bolt',.8,510)])]],
+ [[A('加冰弹珠',2.6,[E(.1,'orb',1.4,498),E(1.2,'orb',1.4,385)]),A('蒸汽倾倒',2.1,[E(.3,'floor',.44),E(1.45,'high',.38)])],[A('冰釜沸腾',3,[E(.1,'orb',1.3,498),E(.75,'orb',1.3,385),E(1.55,'floor')]),A('八足追杯',2.5,[E(.45,'lock'),E(1.55,'lock')])]],
+ [[A('书脊合拢',2.2,[E(.38,'high',.4),E(1.4,'floor',.4)]),A('飞页扇面',2.4,[E(.2,'bolt',1,360),E(1.1,'bolt',1,510)])],[A('三页未读',3.3,[E(.25,'high'),E(1.45,'floor'),E(2.55,'high')]),A('折页追读',2.7,[E(.45,'lock'),E(1.55,'orb',1.1,490)])]],
+ [[A('曲轴敲地',2.3,[E(.3,'floor'),E(1.45,'floor')]),A('滚轴飞轮',2.4,[E(.2,'wheel',1.1,518),E(1.2,'bolt',1,368)])],[A('双缸错拍',3.2,[E(.25,'floor'),E(1.35,'high'),E(2.4,'floor')]),A('离合飞轮',2.8,[E(.15,'wheel',1.2,515),E(1.3,'wheel',1.2,515),E(2,'lock')])]],
+ [[A('末班压顶',2.5,[E(.25,'high',.5),E(1.55,'floor')]),A('车门交替',2.6,[E(.2,'bolt',1,505),E(1.3,'bolt',1,365)])],[A('三节换乘',3.2,[E(.25,'high'),E(1.35,'floor'),E(2.5,'high')]),A('报站追光',3,[E(.3,'lock'),E(1.3,'lock'),E(2.3,'lock')])]],
+ [[A('低频回声',2.6,[E(.25,'floor'),E(1.55,'floor')]),A('超声穿梁',2.6,[E(.1,'orb',1.2,360),E(1.2,'orb',1.2,495)])],[A('回声三连',3.4,[E(.2,'floor'),E(1.45,'high'),E(2.7,'floor')]),A('蝠群折返',3,[E(.1,'orb',1.2,360),E(.9,'orb',1.2,495),E(1.8,'lock')])]],
+ [[A('白噪扫描',2.5,[E(.4,'lock'),E(1.5,'high')]),A('频谱折线',2.8,[E(.15,'bolt',1,355),E(1.4,'bolt',1,510)])],[A('频段跳变',3.2,[E(.35,'lock'),E(1.4,'floor'),E(2.5,'high')]),A('调频追踪',3.1,[E(.35,'lock'),E(1.45,'lock'),E(2.5,'lock')])]],
+ [[A('潮汐涨落',2.6,[E(.3,'floor',.42),E(1.6,'high',.42)]),A('龟壳水弹',2.7,[E(.2,'orb',1.2,510),E(1.35,'orb',1.2,370)])],[A('三重浪线',3.5,[E(.2,'floor'),E(1.55,'high'),E(2.85,'floor')]),A('逆流水弹',3.1,[E(.1,'orb',1.3,510),E(1.15,'orb',1.3,370),E(2.05,'lock')])]],
+ [[A('吊钩落点',2.6,[E(.5,'lock'),E(1.6,'floor')]),A('封箱滚桶',2.8,[E(.15,'wheel',1.2,516),E(1.4,'bolt',1.1,368)])],[A('双钩封仓',3.2,[E(.4,'lock'),E(1.55,'lock'),E(2.6,'floor')]),A('货仓连滚',3.4,[E(.1,'wheel',1.1,516),E(1.25,'high'),E(2.35,'wheel',1,516)])]],
+ [[A('墨灯飘潮',2.8,[E(.1,'orb',1.2,360),E(1.4,'orb',1.2,505)]),A('未寄封口',2.7,[E(.35,'high'),E(1.65,'lock')])],[A('四灯轮转',3.4,[E(.1,'orb',1,360),E(.85,'orb',1,505),E(1.75,'orb',1,360),E(2.5,'orb',.85,505)]),A('墨迹两折',3.1,[E(.3,'high'),E(1.5,'floor'),E(2.5,'lock')])]],
+ [[A('秤盘落地',2.8,[E(.3,'floor'),E(1.7,'high')]),A('早点滚篮',2.8,[E(.15,'wheel',1.1,516),E(1.5,'lock')])],[A('收摊三称',3.6,[E(.3,'floor'),E(1.7,'high'),E(3,'floor')]),A('晨市忙线',3.4,[E(.1,'wheel',1.1,516),E(1.3,'lock'),E(2.4,'bolt',.9,365)])]]
+];

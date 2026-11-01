@@ -1,0 +1,547 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "true-v5-save-full-migration-equipment-dev-record-achievement-motion",
+      "passed": true,
+      "data": {
+        "route": "story",
+        "life": 3,
+        "finished": false,
+        "reason": "",
+        "milestone": 0,
+        "shieldMark": 0,
+        "elapsed": 0,
+        "goals": [],
+        "daily": "",
+        "gear": "stock",
+        "resultCoins": 0,
+        "recorded": false,
+        "tier": 0,
+        "panel": "",
+        "devClaimed": true,
+        "motion": "reduce",
+        "reduced": true,
+        "achievements": [
+          "first",
+          "cruise",
+          "minute"
+        ],
+        "secrets": [
+          "dog",
+          "0217"
+        ],
+        "records": {
+          "cruise:stock": {
+            "runs": 2,
+            "best": 777,
+            "time": 90,
+            "wins": 0
+          },
+          "endless:equipped": {
+            "runs": 1,
+            "best": 1900,
+            "time": 180,
+            "wins": 0
+          }
+        },
+        "runs": 3,
+        "pinLength": 0
+      }
+    },
+    {
+      "name": "one-developer-marker-both-menu-paths-and-extra-save-preserves-v5",
+      "passed": true
+    },
+    {
+      "name": "daily-fair-skill-lock-restores-native-contract-chrono",
+      "passed": true
+    },
+    {
+      "name": "raw-endless-and-armored-supplied-v5-loop-both-retained-explicit-inv-rule-isolation",
+      "passed": true,
+      "data": {
+        "route": "endless",
+        "life": 3,
+        "finished": false,
+        "reason": "",
+        "milestone": 2,
+        "shieldMark": 1,
+        "elapsed": 60.99999999999782,
+        "goals": [],
+        "daily": "",
+        "gear": "equipped",
+        "resultCoins": 0,
+        "recorded": false,
+        "tier": 2,
+        "panel": "",
+        "devClaimed": true,
+        "motion": "reduce",
+        "reduced": true,
+        "achievements": [
+          "first",
+          "cruise",
+          "minute"
+        ],
+        "secrets": [
+          "dog",
+          "0217"
+        ],
+        "records": {
+          "cruise:stock": {
+            "runs": 2,
+            "best": 777,
+            "time": 90,
+            "wins": 0
+          },
+          "endless:equipped": {
+            "runs": 1,
+            "best": 1900,
+            "time": 180,
+            "wins": 0
+          }
+        },
+        "runs": 3,
+        "pinLength": 0
+      }
+    },
+    {
+      "name": "legacy-archive-still-five-routes-new-records-independent",
+      "passed": true
+    },
+    {
+      "name": "cross-menu-pause-restores-original-manual-or-running-state",
+      "passed": true
+    },
+    {
+      "name": "live-route-change-double-confirm-no-unintended-start",
+      "passed": true
+    },
+    {
+      "name": "daily-object-coordinates-stats-identical-all-aspects",
+      "passed": true,
+      "data": {
+        "seed": 1300187212,
+        "items": [
+          {
+            "x": 367.09333333338043,
+            "y": 508,
+            "coffee": false,
+            "coin": true,
+            "type": "coin",
+            "armored": false
+          },
+          {
+            "x": 413.09333333337986,
+            "y": 462,
+            "coffee": false,
+            "coin": true,
+            "type": "coin",
+            "armored": false
+          },
+          {
+            "x": 459.09333333337935,
+            "y": 432,
+            "coffee": false,
+            "coin": true,
+            "type": "coin",
+            "armored": false
+          },
+          {
+            "x": 505.09333333337884,
+            "y": 462,
+            "coffee": false,
+            "coin": true,
+            "type": "coin",
+            "armored": false
+          },
+          {
+            "x": 551.0933333333788,
+            "y": 508,
+            "coffee": false,
+            "coin": true,
+            "type": "coin",
+            "armored": false
+          },
+          {
+            "x": 613.4133333333822,
+            "y": 560,
+            "coffee": false,
+            "coin": false,
+            "type": "folder",
+            "armored": false
+          }
+        ],
+        "coffee": 2,
+        "hits": 3,
+        "coins": 8
+      }
+    },
+    {
+      "name": "all-entry-menu-controls-clues-real-hit-test 360",
+      "passed": true,
+      "data": {
+        "cover": [
+          {
+            "id": "voyageBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "arcadeBtn",
+            "inside": true,
+            "hit": true
+          }
+        ],
+        "native": [
+          {
+            "id": "extraMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay0",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay1",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay2",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay3",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "devOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "settingsOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "menuCloseBtn",
+            "inside": true,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "all-entry-menu-controls-clues-real-hit-test 390",
+      "passed": true,
+      "data": {
+        "cover": [
+          {
+            "id": "voyageBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "arcadeBtn",
+            "inside": true,
+            "hit": true
+          }
+        ],
+        "native": [
+          {
+            "id": "extraMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay0",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay1",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay2",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay3",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "devOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "settingsOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "menuCloseBtn",
+            "inside": true,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "all-entry-menu-controls-clues-real-hit-test 844",
+      "passed": true,
+      "data": {
+        "cover": [
+          {
+            "id": "voyageBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "arcadeBtn",
+            "inside": true,
+            "hit": true
+          }
+        ],
+        "native": [
+          {
+            "id": "extraMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay0",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay1",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay2",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay3",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "devOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "settingsOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "menuCloseBtn",
+            "inside": true,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "all-entry-menu-controls-clues-real-hit-test 768",
+      "passed": true,
+      "data": {
+        "cover": [
+          {
+            "id": "voyageBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "arcadeBtn",
+            "inside": true,
+            "hit": true
+          }
+        ],
+        "native": [
+          {
+            "id": "extraMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay0",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay1",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay2",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay3",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "devOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "settingsOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "menuCloseBtn",
+            "inside": true,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "all-entry-menu-controls-clues-real-hit-test 1920",
+      "passed": true,
+      "data": {
+        "cover": [
+          {
+            "id": "voyageBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "arcadeBtn",
+            "inside": true,
+            "hit": true
+          }
+        ],
+        "native": [
+          {
+            "id": "extraMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay0",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay1",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay2",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "routePlay3",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "devOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "settingsOpenBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "archiveMenuBtn",
+            "inside": true,
+            "hit": true
+          },
+          {
+            "id": "menuCloseBtn",
+            "inside": true,
+            "hit": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "perfect-gate-counts-main-once-even-after-boss-failure-reward-once",
+      "passed": true
+    },
+    {
+      "name": "storage-denied-gallery-and-extra-mode-work-in-memory",
+      "passed": true
+    },
+    {
+      "name": "svg-merge-runs-normal-entry-has-no-qa-and-offline",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

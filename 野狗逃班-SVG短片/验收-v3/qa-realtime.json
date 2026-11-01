@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "artifact_sha256": "2f2d9b0940795a1843016a666671102e6ee7d43717af6c777af363521e58f686",
+  "tests": [
+    {
+      "name": "actual-clock-input-dispatched-boss-victory",
+      "passed": true,
+      "data": {
+        "wall_seconds": 30.511,
+        "boss_seconds": 30.505500000000385,
+        "stages": [
+          1,
+          2,
+          3
+        ],
+        "boss_damage": 0,
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 120,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0.7834666666666777,
+          "coffee": 0,
+          "hits": 0,
+          "smashed": 0,
+          "distance": 2146.411833333453,
+          "spawn": 0.5645666666662941,
+          "chapter": 3,
+          "ending": "终审作废，准时自由",
+          "toast": 0,
+          "shake": 0,
+          "combo": 7,
+          "maxCombo": 7,
+          "comboTime": 1.283466666666675,
+          "energy": 6,
+          "freedom": 0,
+          "superUses": 2,
+          "nearMiss": 0,
+          "jumpBuffer": 0,
+          "score": 435,
+          "beat": 85,
+          "spawnIndex": 0,
+          "completedMain": true,
+          "bossEligible": true,
+          "bossWon": true,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [
+            "天亮了",
+            "不批不改"
+          ],
+          "version": "3.0",
+          "duration": 120,
+          "boss": {
+            "t": 30.505500000000385,
+            "hp": 0,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 3,
+            "state": "defeated",
+            "timer": -0.016533333333323998,
+            "elapsed": 3.6332333333333255,
+            "pattern": "double",
+            "cycle": 5,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 10,
+            "blocked": 1,
+            "won": true,
+            "flash": 0,
+            "burst": 3.216533333333326,
+            "notice": "",
+            "openSerial": 5,
+            "shots": 0
+          },
+          "mainHits": 0
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "note": "Only gate entry used an explicit QA scenario. During Boss fight no clock acceleration or state mutation: real requestAnimationFrame with actual CDP mouse input at ~25ms polls. WSL Chromium mobile viewport, not physical device."
+}

@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "failure only retry battle resets actual threats not escrow or wallet",
+      "passed": true
+    },
+    {
+      "name": "reload checkpoint retains original locked skill skin and route points",
+      "passed": true
+    },
+    {
+      "name": "Boss overlay loadout purchase remains locked",
+      "passed": true
+    },
+    {
+      "name": "direction alias identities do not release still-held key",
+      "passed": true
+    },
+    {
+      "name": "blur clears movement and pauses",
+      "passed": true
+    },
+    {
+      "name": "actual main completion retains qualification rule",
+      "passed": true,
+      "data": {
+        "hits": 5,
+        "eligible": false
+      }
+    },
+    {
+      "name": "standalone SVG also initializes full 7.0",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

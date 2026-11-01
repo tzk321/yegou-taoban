@@ -1,0 +1,930 @@
+{
+  "success": true,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "tests": [
+    {
+      "name": "extra-ending-layout-replay daily 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay courier 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay wildrun 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay tutorial 360x640",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay daily 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay courier 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay wildrun 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay tutorial 390x844",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay daily 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay courier 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay wildrun 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay tutorial 844x390",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay daily 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay courier 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay wildrun 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay tutorial 768x1024",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay daily 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay courier 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay wildrun 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    },
+    {
+      "name": "extra-ending-layout-replay tutorial 1920x1080",
+      "passed": true,
+      "data": [
+        {
+          "id": "endTitle",
+          "inside": true
+        },
+        {
+          "id": "endLine",
+          "inside": true
+        },
+        {
+          "id": "endStats",
+          "inside": true
+        },
+        {
+          "id": "bestText",
+          "inside": true
+        },
+        {
+          "id": "badgeText",
+          "inside": true
+        },
+        {
+          "id": "ticketHint",
+          "inside": true
+        },
+        {
+          "id": "againBtn",
+          "inside": true
+        },
+        {
+          "id": "endHomeBtn",
+          "inside": true
+        },
+        {
+          "id": "ticketBtn",
+          "inside": true
+        },
+        {
+          "id": "quickMenuBtn",
+          "inside": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Explicit QA threshold setup exercises longest score/wallet labels, correct independent endings and route replay."
+}

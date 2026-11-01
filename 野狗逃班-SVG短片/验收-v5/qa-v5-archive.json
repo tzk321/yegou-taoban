@@ -1,0 +1,166 @@
+{
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "tests": [
+    {
+      "name": "film-no-new-records-no-coins-preserve-old-badges",
+      "passed": true
+    },
+    {
+      "name": "natural-main-skip-boss-record-stock-perfect-v2-best-kept",
+      "passed": true,
+      "data": {
+        "route": "story",
+        "life": 3,
+        "finished": false,
+        "reason": "",
+        "milestone": 0,
+        "shieldMark": 0,
+        "elapsed": 0,
+        "goals": [],
+        "daily": "",
+        "gear": "stock",
+        "resultCoins": 0,
+        "recorded": true,
+        "tier": 0,
+        "panel": "",
+        "devClaimed": false,
+        "motion": "system",
+        "reduced": false,
+        "achievements": [
+          "first",
+          "story",
+          "perfect"
+        ],
+        "secrets": [],
+        "records": {
+          "story:stock": {
+            "runs": 1,
+            "best": 1604,
+            "time": 120,
+            "wins": 0
+          }
+        },
+        "runs": 1,
+        "pinLength": 0
+      }
+    },
+    {
+      "name": "story-record-once-ending-duplicate-actions",
+      "passed": true
+    },
+    {
+      "name": "story-equipped-record-separated-boss-win-counted",
+      "passed": true,
+      "data": {
+        "route": "story",
+        "life": 3,
+        "finished": false,
+        "reason": "",
+        "milestone": 0,
+        "shieldMark": 0,
+        "elapsed": 0,
+        "goals": [],
+        "daily": "",
+        "gear": "equipped",
+        "resultCoins": 0,
+        "recorded": true,
+        "tier": 0,
+        "panel": "",
+        "devClaimed": false,
+        "motion": "system",
+        "reduced": false,
+        "achievements": [
+          "first",
+          "story",
+          "perfect"
+        ],
+        "secrets": [],
+        "records": {
+          "story:stock": {
+            "runs": 1,
+            "best": 1604,
+            "time": 120,
+            "wins": 0
+          },
+          "story:equipped": {
+            "runs": 1,
+            "best": 420,
+            "time": 120,
+            "wins": 1
+          }
+        },
+        "runs": 2,
+        "pinLength": 0
+      }
+    },
+    {
+      "name": "180-second-achievement-unlocks-and-equipment-record",
+      "passed": true,
+      "data": {
+        "route": "endless",
+        "life": 3,
+        "finished": true,
+        "reason": "cashout",
+        "milestone": 6,
+        "shieldMark": 3,
+        "elapsed": 180.08000000000007,
+        "goals": [],
+        "daily": "",
+        "gear": "equipped",
+        "resultCoins": 120,
+        "recorded": true,
+        "tier": 6,
+        "panel": "",
+        "devClaimed": false,
+        "motion": "system",
+        "reduced": false,
+        "achievements": [
+          "first",
+          "story",
+          "perfect",
+          "minute",
+          "three"
+        ],
+        "secrets": [],
+        "records": {
+          "story:stock": {
+            "runs": 1,
+            "best": 1604,
+            "time": 120,
+            "wins": 0
+          },
+          "story:equipped": {
+            "runs": 1,
+            "best": 420,
+            "time": 120,
+            "wins": 1
+          },
+          "endless:equipped": {
+            "runs": 1,
+            "best": 1800,
+            "time": 180.08000000000007,
+            "wins": 0
+          }
+        },
+        "runs": 3,
+        "pinLength": 0
+      }
+    },
+    {
+      "name": "all-archive-stats-persist-across-reload",
+      "passed": true
+    },
+    {
+      "name": "deep-night-archive-secret-controlled-clock",
+      "passed": true,
+      "data": [
+        "night"
+      ]
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Natural original main with action-only planner; specific equipment Boss gate and 180s threshold are explicit QA scenarios. Deep-night Date mock isolated, no phone clock changed."
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "actual Download entry bytes and final sha256",
+      "passed": true,
+      "data": 1519815
+    },
+    {
+      "name": "actual Download normal entry init no QA hooks",
+      "passed": true
+    },
+    {
+      "name": "actual Download real playable map entry RAF no test wallet grant",
+      "passed": true,
+      "data": {
+        "route": "map1",
+        "t": 3.067800000002974,
+        "balance": 0
+      }
+    },
+    {
+      "name": "actual Download original cruise real scene intact",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Actual public file in isolated Chromium normal profile. No real user browser store; no dev claim/test wallet; real RAF subset, not physical phone play."
+}

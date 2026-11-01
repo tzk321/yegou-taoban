@@ -1,0 +1,259 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "pin-backspace-clear-limit-no-duplicate-keydown",
+      "passed": true
+    },
+    {
+      "name": "escape-dev-to-menu-to-game",
+      "passed": true
+    },
+    {
+      "name": "developer-entry-live-run-pauses-no-score-no-extra",
+      "passed": true
+    },
+    {
+      "name": "legacy-shop-escape-no-voyage-interference",
+      "passed": true
+    },
+    {
+      "name": "motion-panel-time-lock-paused-mechanics-continue",
+      "passed": true
+    },
+    {
+      "name": "under-overlay-pointer-actions-guarded",
+      "passed": true
+    },
+    {
+      "name": "contract-loadout-locked",
+      "passed": true
+    },
+    {
+      "name": "developer-focus-trap-30-tabs",
+      "passed": true,
+      "data": "devKey1"
+    },
+    {
+      "name": "new-route-two-finger-input",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 0,
+        "paused": false,
+        "y": 0,
+        "vy": -635,
+        "jumps": 1,
+        "dash": 0.57,
+        "cool": 3.2,
+        "inv": 0.98,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 0,
+        "spawn": 0.6,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": -1,
+        "spawnIndex": 0,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 0,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 17,
+        "badges": [],
+        "version": "5.2",
+        "wallet": {
+          "balance": 987,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [
+            "orbit",
+            "chrono",
+            "leviathan"
+          ],
+          "skin": "original",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0,
+            "extras": {
+              "records": {},
+              "secrets": [],
+              "seen": [],
+              "contracts": [],
+              "storyRuns": 0,
+              "bossWins": 0,
+              "delivered": 0,
+              "endlessBest": 0,
+              "nightTint": 0,
+              "maps": {
+                "wins": [],
+                "records": {},
+                "awards": {},
+                "checkpoint": null
+              }
+            }
+          }
+        },
+        "maps": null,
+        "extras": {
+          "route": "cruise",
+          "bag": 0,
+          "delivered": 0,
+          "station": 1,
+          "date": "2026-10-15",
+          "seed": 71,
+          "hubOpen": false,
+          "hubTab": "routes",
+          "routeConfirm": "",
+          "mapIndex": 0,
+          "secrets": [],
+          "records": {},
+          "contracts": []
+        },
+        "voyage": {
+          "route": "cruise",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "windowDamage": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "malformed-wallet-fallback-play-no-badge-erasure",
+      "passed": true
+    },
+    {
+      "name": "journey-save-validation-clamps-whitelist",
+      "passed": true,
+      "data": {
+        "route": "story",
+        "life": 3,
+        "finished": false,
+        "reason": "",
+        "milestone": 0,
+        "shieldMark": 0,
+        "elapsed": 0,
+        "goals": [],
+        "daily": "",
+        "gear": "stock",
+        "resultCoins": 0,
+        "recorded": false,
+        "tier": 0,
+        "panel": "",
+        "devClaimed": false,
+        "motion": "system",
+        "reduced": false,
+        "achievements": [
+          "first"
+        ],
+        "secrets": [
+          "dog"
+        ],
+        "records": {
+          "story:stock": {
+            "runs": 7,
+            "best": 0,
+            "time": 900,
+            "wins": 0
+          }
+        },
+        "runs": 0,
+        "pinLength": 0
+      }
+    },
+    {
+      "name": "write-quota-failure-developer-memory-once-honest",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Explicit isolated profiles and QA boundary setups; touchscreen input real CDP. No user storage touched."
+}

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "html_sha256": "bb70ebc65c38950c5a1c8be4c118a5425d795c2e7a00cfe562a90802e77cf0ab",
+  "svg_sha256": "e30f9e0c363594e447fb5a8aa225629b5cc3fc3b8d31ae3ff0a53fecd8fde71f",
+  "reports": {
+    "qa-v41.json": 29,
+    "qa-v41-regression.json": 30,
+    "qa-v41-edges.json": 10,
+    "qa-v41-realtime.json": 3
+  },
+  "tests": 72,
+  "source_rebuild_identical": true,
+  "old_v4_intact": true,
+  "html_bytes": 163000
+}

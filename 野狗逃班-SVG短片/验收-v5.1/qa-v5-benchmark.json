@@ -1,0 +1,199 @@
+{
+  "success": true,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "tests": [
+    {
+      "name": "actual-raf-dragon-orbit-3s-sandbox-benchmark",
+      "passed": true,
+      "data": {
+        "frames": 181,
+        "p50": 16.699999999999818,
+        "p95": 16.700000000000273,
+        "max": 33.29999999999973,
+        "nodes": 11297,
+        "particles": 13,
+        "bolts": 0
+      }
+    },
+    {
+      "name": "reduced-motion-disables-rain-halo-retains-orbit",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 4.362100000001483,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 1,
+        "hits": 0,
+        "smashed": 1,
+        "distance": 1308.6300000004494,
+        "spawn": 0.04095321734199853,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 2,
+        "maxCombo": 2,
+        "comboTime": 3.383366666666662,
+        "energy": 1.5,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 40,
+        "beat": 10,
+        "spawnIndex": 3,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 15,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 6,
+        "particles": 0,
+        "badges": [],
+        "version": "5.1",
+        "wallet": {
+          "balance": 115,
+          "ownedSkins": [
+            "original",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "orbit"
+          ],
+          "skin": "dragon",
+          "skill": "orbit",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "reduce"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0,
+            "extras": {
+              "records": {},
+              "secrets": [],
+              "seen": [],
+              "contracts": [],
+              "storyRuns": 0,
+              "bossWins": 0,
+              "delivered": 0,
+              "endlessBest": 0,
+              "nightTint": 0
+            }
+          }
+        },
+        "extras": {
+          "route": "endless",
+          "bag": 0,
+          "delivered": 0,
+          "station": 1,
+          "date": "2026-10-15",
+          "seed": 1537678883,
+          "hubOpen": false,
+          "hubTab": "routes",
+          "routeConfirm": "",
+          "mapIndex": 0,
+          "secrets": [],
+          "records": {},
+          "contracts": []
+        },
+        "voyage": {
+          "route": "endless",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 4.362100000001483,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "reduce",
+          "reduced": true,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "12-start-home-cycles-no-dom-node-leak",
+      "passed": true,
+      "data": {
+        "before": 11276,
+        "after": 11276
+      }
+    },
+    {
+      "name": "20-archive-flips-bounded-text-dom",
+      "passed": true,
+      "data": {
+        "menuBefore": 11276,
+        "menuAfter": 11288
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Performance numbers specific to sandbox headless Chromium under concurrent QA, not physical phone FPS. DOM cycles QA advance. User profile untouched."
+}

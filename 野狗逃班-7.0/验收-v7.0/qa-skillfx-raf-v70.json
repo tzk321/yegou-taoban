@@ -1,0 +1,70 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "ordinary RAF advances bounded skill state wind",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "active": 1
+      }
+    },
+    {
+      "name": "ordinary RAF advances bounded skill state glide",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "active": 1
+      }
+    },
+    {
+      "name": "ordinary RAF advances bounded skill state crane",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "active": 0
+      }
+    },
+    {
+      "name": "ordinary RAF advances bounded skill state nightvision",
+      "passed": true,
+      "data": {
+        "nodes": 99,
+        "active": 0
+      }
+    },
+    {
+      "name": "ordinary RAF pause freezes both visual slots and actual crane nodes",
+      "passed": true
+    },
+    {
+      "name": "ordinary RAF background document.hidden stops visual clock and automatically pauses",
+      "passed": true
+    },
+    {
+      "name": "home clears true crane and transient state after background resume",
+      "passed": true
+    },
+    {
+      "name": "ordinary RAF reduced pulse remains real but expires within bounded lifetime",
+      "passed": true
+    },
+    {
+      "name": "reduced-motion shop stays steady and free under ordinary RAF",
+      "passed": true
+    },
+    {
+      "name": "ordinary RAF shop preview is animated and replayable without per-frame node churn",
+      "passed": true,
+      "data": {
+        "add": 0,
+        "remove": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "All time here comes from ordinary RAF and real waits; never QA.advance/scenario. Profiles isolated. Simulated hidden lifecycle explicitly labelled. Not physical phone frame-rate guarantee."
+}

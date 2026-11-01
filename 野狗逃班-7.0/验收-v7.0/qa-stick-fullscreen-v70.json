@@ -1,0 +1,538 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "single finger up-drag jumps once; hold/noisy movement never auto double-jumps",
+      "passed": true,
+      "data": {
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 444.8844444444444
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 203.0769230769231,
+            "y": 1362.4615384615386,
+            "r": 110.76923076923077,
+            "unit": 1.8461538461538463
+          }
+        },
+        "move": 0,
+        "moveVX": 0,
+        "clock": 0.12,
+        "counterCool": 0,
+        "railHistory": [],
+        "counterHistory": [],
+        "bullets": [],
+        "bossPosition": {
+          "x": 674.5621966880752,
+          "y": 393.47161669250465
+        },
+        "mechanicEvents": [],
+        "prism": null,
+        "echoCool": 0,
+        "newSkills": {
+          "chargeCups": 0,
+          "pulseReadyAt": 0,
+          "glideDrop": false,
+          "glideActive": false
+        },
+        "cranes": 0,
+        "nvNodes": 0,
+        "stickAxis": 0,
+        "stickY": -0.97800911797417,
+        "stickVisualX": 0.030092504289415706,
+        "stickVisualY": -0.97800911797417,
+        "stickJumpLatched": true,
+        "stickPointer": 2,
+        "stickActive": true,
+        "deckOpen": false,
+        "fullscreen": {
+          "active": true,
+          "note": ""
+        },
+        "audio": {
+          "on": false,
+          "volume": 0.55,
+          "busGain": 0,
+          "masterGain": 0.8,
+          "levels": [
+            0.2,
+            0.35,
+            0.55,
+            0.8,
+            1
+          ],
+          "peak": 0,
+          "allowed": false,
+          "context": "none",
+          "theme": "",
+          "beat": 0,
+          "active": 0,
+          "started": 0,
+          "rms": 0,
+          "contexts": 0,
+          "scheduled": 0,
+          "next": 0,
+          "tracks": [
+            "street",
+            "night",
+            "boss",
+            "rain",
+            "dawn",
+            "signal",
+            "nav"
+          ]
+        }
+      }
+    },
+    {
+      "name": "same finger returns to center then diagonal-up: real double-jump and horizontal air movement without immunity",
+      "passed": true
+    },
+    {
+      "name": "down-drag fast-falls; release clears both axes and centers visual knob",
+      "passed": true
+    },
+    {
+      "name": "horizontal swipe with slight vertical jitter does not cause accidental jumps",
+      "passed": true
+    },
+    {
+      "name": "opening menu during drag releases capture; paused gestures do nothing; fresh touch after resume works",
+      "passed": true
+    },
+    {
+      "name": "OS touch cancellation clears stick without stuck walking",
+      "passed": true
+    },
+    {
+      "name": "orientation resize safely releases stale pointer capture",
+      "passed": true
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 390x844",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 844
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 390,
+          "h": 843.9999796549479
+        },
+        "stick": {
+          "w": 120,
+          "h": 120.00006103515625
+        },
+        "dog": {
+          "x": 108.90750122070312,
+          "y": 444.91998291015625,
+          "w": 80.72999572753906,
+          "h": 51.480010986328125
+        },
+        "scroll": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 360x780",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 780
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 360,
+          "h": 780
+        },
+        "stick": {
+          "w": 120,
+          "h": 120
+        },
+        "dog": {
+          "x": 100.52999877929688,
+          "y": 411.239990234375,
+          "w": 74.52000427246094,
+          "h": 47.519989013671875
+        },
+        "scroll": [
+          360,
+          780
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 412x915",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 412,
+          "h": 915
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 411.9999874801964,
+          "h": 915
+        },
+        "stick": {
+          "w": 120.00000762939453,
+          "h": 120
+        },
+        "dog": {
+          "x": 115.05099487304688,
+          "y": 483.8180236816406,
+          "w": 85.28401184082031,
+          "h": 54.384002685546875
+        },
+        "scroll": [
+          412,
+          915
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 844x390",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 390
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 844,
+          "h": 389.9999887466431
+        },
+        "stick": {
+          "w": 97.5,
+          "h": 97.50001525878906
+        },
+        "dog": {
+          "x": 147.3043670654297,
+          "y": 162.260009765625,
+          "w": 109.19252014160156,
+          "h": 69.62998962402344
+        },
+        "scroll": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 915x412",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 915,
+          "h": 412
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 914.9999925870341,
+          "h": 412.00000000000006
+        },
+        "stick": {
+          "w": 103,
+          "h": 102.99996948242188
+        },
+        "dog": {
+          "x": 159.6960906982422,
+          "y": 169.4250030517578,
+          "w": 118.37812805175781,
+          "h": 75.48747253417969
+        },
+        "scroll": [
+          915,
+          412
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 1365x900",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 1365,
+          "h": 900
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 1364.9999826431279,
+          "h": 900.0000000000001
+        },
+        "stick": {
+          "w": 120.00000762939453,
+          "h": 120
+        },
+        "dog": {
+          "x": 238.2351531982422,
+          "y": 423.9750061035156,
+          "w": 176.5968780517578,
+          "h": 112.61245727539062
+        },
+        "scroll": [
+          1365,
+          900
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 1024x768",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 768
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 1024,
+          "h": 768
+        },
+        "stick": {
+          "w": 120,
+          "h": 120
+        },
+        "dog": {
+          "x": 178.72000122070312,
+          "y": 373.760009765625,
+          "w": 132.48001098632812,
+          "h": 84.47998046875
+        },
+        "scroll": [
+          1024,
+          768
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 1920x1080",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 1920,
+          "h": 1080
+        },
+        "stick": {
+          "w": 120,
+          "h": 120
+        },
+        "dog": {
+          "x": 335.0999755859375,
+          "y": 484.8000183105469,
+          "w": 248.4000244140625,
+          "h": 158.39993286132812
+        },
+        "scroll": [
+          1920,
+          1080
+        ]
+      }
+    },
+    {
+      "name": "edge-to-edge game/scene, round stick, no scroll/clipped player or controls 720x720",
+      "passed": true,
+      "data": {
+        "root": {
+          "x": 0,
+          "y": 0,
+          "w": 720,
+          "h": 720
+        },
+        "scene": {
+          "x": 0,
+          "y": 0,
+          "w": 720,
+          "h": 720
+        },
+        "stick": {
+          "w": 120,
+          "h": 120
+        },
+        "dog": {
+          "x": 201.05999755859375,
+          "y": 326.8800048828125,
+          "w": 149.04000854492188,
+          "h": 95.03997802734375
+        },
+        "scroll": [
+          720,
+          720
+        ]
+      }
+    },
+    {
+      "name": "same diagonal joystick gesture works in actual Boss phase, not just runner",
+      "passed": true
+    },
+    {
+      "name": "trusted Play gesture actually enters native fullscreen in Chromium",
+      "passed": true
+    },
+    {
+      "name": "visible menu fullscreen button exits and re-enters native fullscreen",
+      "passed": true
+    },
+    {
+      "name": "rejected fullscreen promise handled honestly without breaking play",
+      "passed": true
+    },
+    {
+      "name": "unsupported fullscreen API keeps game playable and reports fallback without exception",
+      "passed": true
+    },
+    {
+      "name": "standalone SVG also initializes full-window controls",
+      "passed": true,
+      "data": {
+        "version": "7.0",
+        "w": 390,
+        "h": 844
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Isolated Chromium profile; real CDP touch movement and native Fullscreen API, viewport geometry. Not physical Android browser chrome validation."
+}

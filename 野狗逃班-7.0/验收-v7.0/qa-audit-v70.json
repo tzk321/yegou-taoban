@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "All hostile damage call sites originate only in visible bullet integrator",
+      "passed": true,
+      "data": {
+        "hostileDamageCallers": [
+          "bossDamage",
+          "mapBossDamage",
+          "tickBullets"
+        ],
+        "functions": 278,
+        "duplicateFunctions": []
+      }
+    },
+    {
+      "name": "Frozen 5.2 source and actual pre-release baseline backup hash verified",
+      "passed": true
+    },
+    {
+      "name": "7.0 title cover runtime manifest and ticket branding consistent",
+      "passed": true
+    },
+    {
+      "name": "Legacy wallet and audio keys retained without second wallet",
+      "passed": true
+    },
+    {
+      "name": "5.3 original HTML and SVG remain byte-identical during independent 7.0 construction",
+      "passed": true
+    }
+  ],
+  "environment": "Static AST callsite audit plus SHA256 byte checks, complementary to actual Chromium collision tests."
+}

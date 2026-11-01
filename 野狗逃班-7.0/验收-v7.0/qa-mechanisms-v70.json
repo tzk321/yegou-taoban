@@ -1,0 +1,257 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "rail actual 8 seconds and super cannot reset",
+      "passed": true,
+      "data": [
+        0,
+        8.009999999999977
+      ]
+    },
+    {
+      "name": "real top-right menu opens unified deck pauses and resumes",
+      "passed": true,
+      "data": {
+        "menu": {
+          "x": 350.00001525878906,
+          "y": 40.000009536743164,
+          "w": 47.999969482421875,
+          "h": 48
+        },
+        "pause": {
+          "x": 124.58333206176758,
+          "y": 39.54167556762695,
+          "w": 162.5,
+          "h": 50.916664123535156
+        }
+      }
+    },
+    {
+      "name": "real translucent stick drag steers dog and releases",
+      "passed": true,
+      "data": {
+        "move": -160
+      }
+    },
+    {
+      "name": "fastfall and deck pause guard freezes movement",
+      "passed": true
+    },
+    {
+      "name": "two-finger stick and floating dash real touch",
+      "passed": true
+    },
+    {
+      "name": "visible control bounds 390",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "dashBtn",
+            "x": 312,
+            "y": 772,
+            "w": 62,
+            "h": 53.99993896484375,
+            "hide": false
+          },
+          {
+            "id": "superBtn",
+            "x": 240,
+            "y": 772,
+            "w": 62,
+            "h": 53.99993896484375,
+            "hide": false
+          },
+          {
+            "id": "counterBtn",
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "hide": true
+          },
+          {
+            "id": "v70MenuBtn",
+            "x": 326.0000305175781,
+            "y": 16.000009536743164,
+            "w": 47.999969482421875,
+            "h": 48,
+            "hide": false
+          },
+          {
+            "id": "stickBase",
+            "x": 49.999996185302734,
+            "y": 678,
+            "w": 120,
+            "h": 120.00006103515625,
+            "hide": false
+          },
+          {
+            "id": "stickKnob",
+            "x": 87.20000457763672,
+            "y": 715.2000122070312,
+            "w": 45.59998321533203,
+            "h": 45.5999755859375,
+            "hide": false
+          }
+        ],
+        "screen": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "visible control bounds 844",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "dashBtn",
+            "x": 766,
+            "y": 318,
+            "w": 62,
+            "h": 54,
+            "hide": false
+          },
+          {
+            "id": "superBtn",
+            "x": 694,
+            "y": 318,
+            "w": 62,
+            "h": 54,
+            "hide": false
+          },
+          {
+            "id": "counterBtn",
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "hide": true
+          },
+          {
+            "id": "v70MenuBtn",
+            "x": 780.0000610351562,
+            "y": 16.000003814697266,
+            "w": 47.99993896484375,
+            "h": 48.000003814697266,
+            "hide": false
+          },
+          {
+            "id": "stickBase",
+            "x": 50,
+            "y": 246.50001525878906,
+            "w": 97.5,
+            "h": 97.50001525878906,
+            "hide": false
+          },
+          {
+            "id": "stickKnob",
+            "x": 80.2249984741211,
+            "y": 276.7250061035156,
+            "w": 37.05000305175781,
+            "h": 37.050018310546875,
+            "hide": false
+          }
+        ],
+        "screen": [
+          844,
+          390
+        ]
+      }
+    },
+    {
+      "name": "visible control bounds 1280",
+      "passed": true,
+      "data": {
+        "a": [
+          {
+            "id": "dashBtn",
+            "x": 1202,
+            "y": 868,
+            "w": 62,
+            "h": 54,
+            "hide": false
+          },
+          {
+            "id": "superBtn",
+            "x": 1130,
+            "y": 868,
+            "w": 62,
+            "h": 54,
+            "hide": false
+          },
+          {
+            "id": "counterBtn",
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "hide": true
+          },
+          {
+            "id": "v70MenuBtn",
+            "x": 1216,
+            "y": 16,
+            "w": 48,
+            "h": 48,
+            "hide": false
+          },
+          {
+            "id": "stickBase",
+            "x": 50,
+            "y": 774,
+            "w": 120,
+            "h": 120,
+            "hide": false
+          },
+          {
+            "id": "stickKnob",
+            "x": 87.19999694824219,
+            "y": 811.2000122070312,
+            "w": 45.600006103515625,
+            "h": 45.5999755859375,
+            "hide": false
+          }
+        ],
+        "screen": [
+          1280,
+          940
+        ]
+      }
+    },
+    {
+      "name": "prism real .9 second barrier lifecycle",
+      "passed": true
+    },
+    {
+      "name": "echo two-jump landing real wave and 6 second cooldown",
+      "passed": true
+    },
+    {
+      "name": "crane spawns real escort every three seconds",
+      "passed": true,
+      "data": [
+        {
+          "kind": "crane-spawn",
+          "t": 3.016666666666661
+        }
+      ]
+    },
+    {
+      "name": "nightvision draws real projectile prediction lines",
+      "passed": true,
+      "data": 4
+    },
+    {
+      "name": "daily and tutorial all skills remain disabled",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

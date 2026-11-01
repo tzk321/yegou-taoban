@@ -1,0 +1,1043 @@
+{
+  "success": true,
+  "artifact_sha256": "ed9a61bd526aa9ffa13017869a231ccd81e35ad81f6f70c0381193d7b91ede89",
+  "tests": [
+    {
+      "name": "hand-layout 360x640",
+      "passed": true,
+      "data": {
+        "mobile": true,
+        "compact": false,
+        "all": [
+          {
+            "id": "jumpBtn",
+            "width": 105,
+            "height": 53.5,
+            "x": 20,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 105,
+            "height": 53.5,
+            "x": 235,
+            "inside": true
+          },
+          {
+            "id": "superBtn",
+            "width": 93,
+            "height": 53.5,
+            "x": 133.5,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 98,
+            "height": 41,
+            "x": 20,
+            "inside": true
+          },
+          {
+            "id": "homeBtn",
+            "width": 98,
+            "height": 41,
+            "x": 242,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 98,
+            "height": 41,
+            "x": 20,
+            "inside": true
+          },
+          {
+            "id": "filmBtn",
+            "width": 147.5,
+            "height": 43,
+            "x": 22,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 157.5,
+            "height": 43,
+            "x": 180,
+            "inside": true
+          }
+        ],
+        "rightHand": true
+      }
+    },
+    {
+      "name": "hand-layout 390x844",
+      "passed": true,
+      "data": {
+        "mobile": true,
+        "compact": false,
+        "all": [
+          {
+            "id": "jumpBtn",
+            "width": 113.74913024902344,
+            "height": 57.9578857421875,
+            "x": 21.667999267578125,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 113.74913024902344,
+            "height": 57.9578857421875,
+            "x": 254.58287048339844,
+            "inside": true
+          },
+          {
+            "id": "superBtn",
+            "width": 100.74923706054688,
+            "height": 57.9578857421875,
+            "x": 144.62538146972656,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 106.16584777832031,
+            "height": 44.41632080078125,
+            "x": 21.667999267578125,
+            "inside": true
+          },
+          {
+            "id": "homeBtn",
+            "width": 106.16586303710938,
+            "height": 44.41632080078125,
+            "x": 262.1661376953125,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 106.16584777832031,
+            "height": 44.41632080078125,
+            "x": 21.667999267578125,
+            "inside": true
+          },
+          {
+            "id": "filmBtn",
+            "width": 159.79043579101562,
+            "height": 46.582977294921875,
+            "x": 23.83465003967285,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 170.62368774414062,
+            "height": 46.582977294921875,
+            "x": 195,
+            "inside": true
+          }
+        ],
+        "rightHand": true
+      }
+    },
+    {
+      "name": "hand-layout 768x1024",
+      "passed": true,
+      "data": {
+        "mobile": true,
+        "compact": false,
+        "all": [
+          {
+            "id": "jumpBtn",
+            "width": 172.02865600585938,
+            "height": 87.6527099609375,
+            "x": 121.86111450195312,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 172.0286865234375,
+            "height": 87.6527099609375,
+            "x": 474.1102294921875,
+            "inside": true
+          },
+          {
+            "id": "superBtn",
+            "width": 152.36822509765625,
+            "height": 87.6527099609375,
+            "x": 307.8158874511719,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 160.56005859375,
+            "height": 67.17303466796875,
+            "x": 121.86111450195312,
+            "inside": true
+          },
+          {
+            "id": "homeBtn",
+            "width": 160.56008911132812,
+            "height": 67.17303466796875,
+            "x": 485.5788269042969,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 160.56005859375,
+            "height": 67.173095703125,
+            "x": 121.86111450195312,
+            "inside": true
+          },
+          {
+            "id": "filmBtn",
+            "width": 241.6593017578125,
+            "height": 70.4498291015625,
+            "x": 125.13784790039062,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 258.04296875,
+            "height": 70.4498291015625,
+            "x": 384,
+            "inside": true
+          }
+        ],
+        "rightHand": true
+      }
+    },
+    {
+      "name": "hand-layout 844x390",
+      "passed": true,
+      "data": {
+        "mobile": false,
+        "compact": true,
+        "all": [
+          {
+            "id": "jumpBtn",
+            "width": 109.20000457763672,
+            "height": 46.800018310546875,
+            "x": 125.5999984741211,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 109.20001220703125,
+            "height": 46.800018310546875,
+            "x": 609.2000122070312,
+            "inside": true
+          },
+          {
+            "id": "superBtn",
+            "width": 133.57501220703125,
+            "height": 46.800018310546875,
+            "x": 355.2124938964844,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 63.375,
+            "height": 45.82501220703125,
+            "x": 245.03750610351562,
+            "inside": true
+          },
+          {
+            "id": "homeBtn",
+            "width": 63.375,
+            "height": 45.82501220703125,
+            "x": 386.4125061035156,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 63.374969482421875,
+            "height": 45.82501220703125,
+            "x": 457.1000061035156,
+            "inside": true
+          },
+          {
+            "id": "filmBtn",
+            "width": 114.5625,
+            "height": 39,
+            "x": 149,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 121.875,
+            "height": 39,
+            "x": 272.3374938964844,
+            "inside": true
+          }
+        ],
+        "rightHand": true
+      }
+    },
+    {
+      "name": "hand-layout 1365x768",
+      "passed": true,
+      "data": {
+        "mobile": false,
+        "compact": false,
+        "all": [
+          {
+            "id": "jumpBtn",
+            "width": 204.254150390625,
+            "height": 78.43359375,
+            "x": 192.2900390625,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 204.254150390625,
+            "height": 78.43359375,
+            "x": 968.455810546875,
+            "inside": true
+          },
+          {
+            "id": "superBtn",
+            "width": 245.10498046875,
+            "height": 78.43359375,
+            "x": 559.947509765625,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 106.212158203125,
+            "height": 39.216796875,
+            "x": 404.71435546875,
+            "inside": true
+          },
+          {
+            "id": "homeBtn",
+            "width": 106.212158203125,
+            "height": 39.216796875,
+            "x": 636.7470703125,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 106.212158203125,
+            "height": 39.216796875,
+            "x": 752.763427734375,
+            "inside": true
+          },
+          {
+            "id": "filmBtn",
+            "width": 191.9989013671875,
+            "height": 54.7401123046875,
+            "x": 224.970703125,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 204.254150390625,
+            "height": 54.7401123046875,
+            "x": 431.6759033203125,
+            "inside": true
+          }
+        ],
+        "rightHand": true
+      }
+    },
+    {
+      "name": "hand-layout 1920x1080",
+      "passed": true,
+      "data": {
+        "mobile": false,
+        "compact": false,
+        "all": [
+          {
+            "id": "jumpBtn",
+            "width": 287.2314453125,
+            "height": 110.296875,
+            "x": 270.64453125,
+            "inside": true
+          },
+          {
+            "id": "dashBtn",
+            "width": 287.2314453125,
+            "height": 110.296875,
+            "x": 1362.1240234375,
+            "inside": true
+          },
+          {
+            "id": "superBtn",
+            "width": 344.677734375,
+            "height": 110.296875,
+            "x": 787.6611328125,
+            "inside": true
+          },
+          {
+            "id": "pauseBtn",
+            "width": 149.3603515625,
+            "height": 55.1484375,
+            "x": 569.365234375,
+            "inside": true
+          },
+          {
+            "id": "homeBtn",
+            "width": 149.3603515625,
+            "height": 55.1484375,
+            "x": 895.66015625,
+            "inside": true
+          },
+          {
+            "id": "soundBtn",
+            "width": 149.3603515625,
+            "height": 55.1484375,
+            "x": 1058.8076171875,
+            "inside": true
+          },
+          {
+            "id": "filmBtn",
+            "width": 269.99755859375,
+            "height": 76.97802734375,
+            "x": 316.6015625,
+            "inside": true
+          },
+          {
+            "id": "playBtn",
+            "width": 287.2314453125,
+            "height": 76.97802734375,
+            "x": 607.27978515625,
+            "inside": true
+          }
+        ],
+        "rightHand": true
+      }
+    },
+    {
+      "name": "two-fingers-immediate-no-extra-click",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 0.09380000000037253,
+        "paused": false,
+        "y": -10.159164888888892,
+        "vy": -608.2800000000001,
+        "jumps": 1,
+        "dash": 0.57,
+        "cool": 3.2,
+        "inv": 0.68,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 22.512000000089404,
+        "spawn": 0.5061999999996273,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 0,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 17,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "prelanding-input-buffer",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 0.14040000000018624,
+        "paused": false,
+        "y": -37.85720977777778,
+        "vy": -528.4400000000002,
+        "jumps": 1,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 33.6960000000447,
+        "spawn": 0.45959999999981344,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 0,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 12,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "super-activation-and-pause",
+      "passed": true,
+      "data": {
+        "energy": 0,
+        "freedom": 3.7333
+      }
+    },
+    {
+      "name": "super-expires",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 4.509100000000362,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 1,
+        "hits": 0,
+        "smashed": 1,
+        "distance": 1228.2947200000951,
+        "spawn": 1.0148771710398918,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 2,
+        "maxCombo": 2,
+        "comboTime": 3.433333333333337,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 1,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 40,
+        "beat": 10,
+        "mobile": true,
+        "compact": false,
+        "items": 3,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "super-coffee-magnet",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 6.760900000000168,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0.4667000000000096,
+        "coffee": 3,
+        "hits": 0,
+        "smashed": 3,
+        "distance": 1764.05472000006,
+        "spawn": 0.37332008468291344,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0.7667333333333329,
+        "shake": 0,
+        "combo": 6,
+        "maxCombo": 6,
+        "comboTime": 4.416733333333333,
+        "energy": 0,
+        "freedom": 0.11670000000000788,
+        "superUses": 1,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 120,
+        "beat": 15,
+        "mobile": true,
+        "compact": false,
+        "items": 1,
+        "particles": 10,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "whale-cinematic-reveal",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "film",
+        "t": 50.45679999999841,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 26,
+        "hits": 0,
+        "smashed": 12,
+        "distance": 14813.681166666574,
+        "spawn": 0.14424298341230715,
+        "chapter": 2,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 38,
+        "maxCombo": 38,
+        "comboTime": 1.3000000000000111,
+        "energy": 3.5,
+        "freedom": 0,
+        "superUses": 3,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 690,
+        "beat": 117,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "natural-full-play-session",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 65,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 27,
+        "hits": 3,
+        "smashed": 0,
+        "distance": 19397.0106800003,
+        "spawn": -4.695560646203026,
+        "chapter": 2,
+        "ending": "野狗，彻底脱缰",
+        "toast": 0,
+        "shake": 0,
+        "combo": 5,
+        "maxCombo": 12,
+        "comboTime": 1.483333333333344,
+        "energy": 5,
+        "freedom": 0,
+        "superUses": 3,
+        "nearMiss": 4,
+        "jumpBuffer": 0,
+        "score": 369,
+        "beat": 151,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "legendary-ending-and-badges-unit-scenario",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 65,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 21,
+        "hits": 2,
+        "smashed": 8,
+        "distance": 45.751999999999995,
+        "spawn": 0.4401999999999998,
+        "chapter": 2,
+        "ending": "野狗，彻底脱缰",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 14,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 3,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 434,
+        "beat": 151,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "badges-persist-local",
+      "passed": true,
+      "data": [
+        "天亮了",
+        "三杯续命",
+        "脱缰野狗",
+        "消息免疫"
+      ]
+    },
+    {
+      "name": "ending-unit 无米，但自由",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 65,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 5,
+        "hits": 2,
+        "smashed": 0,
+        "distance": 45.75200000013411,
+        "spawn": 0.44019999999944115,
+        "chapter": 2,
+        "ending": "无米，但自由",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 3,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 59,
+        "beat": 151,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "ending-unit 咖啡因自由人",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 65,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 20,
+        "hits": 7,
+        "smashed": 0,
+        "distance": 46.49600000017882,
+        "spawn": 0.43709999999925475,
+        "chapter": 2,
+        "ending": "咖啡因自由人",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 4,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 199,
+        "beat": 151,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "ending-unit 带薪精神离职",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 65,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 4,
+        "hits": 15,
+        "smashed": 0,
+        "distance": 47.408,
+        "spawn": 0.43329999999999985,
+        "chapter": 2,
+        "ending": "带薪精神离职",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 3,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 10,
+        "beat": 151,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "actual-svg-ticket-download",
+      "passed": true,
+      "data": [
+        "野狗逃班-票根-1791920130360.svg"
+      ]
+    },
+    {
+      "name": "music-mute-pause-no-errors",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 0.37429999999962743,
+        "paused": true,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 89.8319999999106,
+        "spawn": 0.22570000000037238,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "standalone-svg-new-features",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "film",
+        "t": 50.18439999999862,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 26,
+        "hits": 0,
+        "smashed": 12,
+        "distance": 14778.841702666627,
+        "spawn": 0.4108763167456405,
+        "chapter": 2,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 38,
+        "maxCombo": 38,
+        "comboTime": 3.483300000000004,
+        "energy": 2.5,
+        "freedom": 0,
+        "superUses": 3,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 690,
+        "beat": 116,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "real-time-65s-film-normal-entry",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "film",
+        "t": 65,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 31,
+        "hits": 0,
+        "smashed": 14,
+        "distance": 19739.272205333615,
+        "spawn": -4.695393979536359,
+        "chapter": 2,
+        "ending": "今天不改了",
+        "toast": 0,
+        "shake": 0,
+        "combo": 7,
+        "maxCombo": 38,
+        "comboTime": 0.6167000000000057,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 4,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 780,
+        "beat": 151,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "脱缰野狗",
+          "消息免疫"
+        ],
+        "version": "2.0"
+      }
+    },
+    {
+      "name": "no-js-exceptions-or-external-network",
+      "passed": true,
+      "data": {
+        "errors": [],
+        "externals": []
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "notes": "Natural session uses a QA input bot with only inspection/advance/actions. Unit ending and energy tests explicitly use controlled state. Touch is Chromium emulation, not a physical phone.",
+  "timestamp": "2026-10-13T19:36:41.516Z"
+}

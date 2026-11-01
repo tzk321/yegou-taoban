@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "tests": [
+    {
+      "name": "contract-zero-targets-only-base60",
+      "passed": true,
+      "data": 60
+    },
+    {
+      "name": "contract-one-target-base-plus25",
+      "passed": true
+    },
+    {
+      "name": "contract-two-targets-base-plus50",
+      "passed": true
+    },
+    {
+      "name": "endless-30s-awards20-home-keeps-earned-no-extra",
+      "passed": true
+    },
+    {
+      "name": "abandon-cruise-only-pickups-no-finish40-no-record",
+      "passed": true
+    },
+    {
+      "name": "armored-survives-passive rail",
+      "passed": true,
+      "data": {
+        "armor": {
+          "x": 593.7199999999984,
+          "y": 560,
+          "coffee": false,
+          "coin": false,
+          "type": "folder",
+          "armored": true
+        },
+        "smash": 0
+      }
+    },
+    {
+      "name": "armored-survives-passive orbit",
+      "passed": true,
+      "data": {
+        "armor": {
+          "x": 593.9999999999986,
+          "y": 560,
+          "coffee": false,
+          "coin": false,
+          "type": "folder",
+          "armored": true
+        },
+        "smash": 0
+      }
+    },
+    {
+      "name": "whale-super-still-breaks-armored-no-skill-nerf",
+      "passed": true,
+      "data": 1
+    },
+    {
+      "name": "contract-clock-not-extended-by-time-stop-cleanup",
+      "passed": true
+    },
+    {
+      "name": "passive-orbit-idle-cannot-farm-forever",
+      "passed": true,
+      "data": 86.89999999999635
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Explicit QA reward thresholds and skill setups; last idle orbit endless uses natural spawns without life/time mutations. Test wallets isolated."
+}

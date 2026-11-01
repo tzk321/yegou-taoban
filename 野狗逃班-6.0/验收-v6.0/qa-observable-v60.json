@@ -1,0 +1,193 @@
+{
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "tests": [
+    {
+      "name": "standing damage preceded by real visible moving bullet contacts",
+      "passed": true,
+      "data": [
+        {
+          "t": 4.475000000000012,
+          "before": [
+            {
+              "x": 355.18117282450606,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.7749999999999997,
+              "owner": 0,
+              "base": 507,
+              "amp": 0,
+              "index": 0,
+              "event": "floor"
+            },
+            {
+              "x": 379.8478394911726,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.703,
+              "owner": 0,
+              "base": 507,
+              "amp": 0,
+              "index": 1,
+              "event": "floor"
+            },
+            {
+              "x": 407.5978394911724,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.6310000000000002,
+              "owner": 0,
+              "base": 507,
+              "amp": 0,
+              "index": 2,
+              "event": "floor"
+            },
+            {
+              "x": 432.2645061578389,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.5590000000000005,
+              "owner": 0,
+              "base": 507,
+              "amp": 0,
+              "index": 3,
+              "event": "floor"
+            },
+            {
+              "x": 460.01450615783875,
+              "y": 507,
+              "vx": -370,
+              "vy": 0,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.48700000000000077,
+              "owner": 0,
+              "base": 507,
+              "amp": 0,
+              "index": 4,
+              "event": "floor"
+            }
+          ],
+          "life": 2
+        },
+        {
+          "t": 14.483333333333151,
+          "before": [
+            {
+              "x": 382.102172129303,
+              "y": 548.7252937516215,
+              "vx": -307.1565122164834,
+              "vy": 206.28833462657374,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.8499999999999994,
+              "owner": 0,
+              "base": 373.38020931903253,
+              "amp": 0,
+              "index": 0,
+              "event": "lock"
+            },
+            {
+              "x": 352.4707599096779,
+              "y": 493.3608742384751,
+              "vx": -342.0169971807495,
+              "vy": 141.1537234346412,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.8499999999999994,
+              "owner": 0,
+              "base": 373.38020931903253,
+              "amp": 0,
+              "index": 1,
+              "event": "lock"
+            },
+            {
+              "x": 334.42921531351715,
+              "y": 433.21320423587764,
+              "vx": -363.2423437644661,
+              "vy": 70.39175872570195,
+              "r": 14,
+              "kind": "tooth",
+              "age": 0.8499999999999994,
+              "owner": 0,
+              "base": 373.38020931903253,
+              "amp": 0,
+              "index": 2,
+              "event": "lock"
+            }
+          ],
+          "life": 1
+        }
+      ]
+    },
+    {
+      "name": "moving and jumping outside real bullets does not take timed zone damage",
+      "passed": true
+    },
+    {
+      "name": "prism intercepts actual hostile geometry",
+      "passed": true,
+      "data": [
+        {
+          "kind": "prism-created",
+          "data": {
+            "x": 335,
+            "y": 495
+          },
+          "t": 3.899999999999991
+        },
+        {
+          "kind": "prism-block",
+          "data": 1,
+          "t": 4.29999999999999
+        },
+        {
+          "kind": "prism-block",
+          "data": 2,
+          "t": 4.39999999999999
+        },
+        {
+          "kind": "prism-block",
+          "data": 3,
+          "t": 4.516666666666656
+        }
+      ]
+    },
+    {
+      "name": "echo landing wave clears actual nearby bullets",
+      "passed": true,
+      "data": [
+        {
+          "kind": "echo-wave",
+          "data": {
+            "count": 3,
+            "x": 317,
+            "y": 495
+          },
+          "t": 4.333333333333323
+        }
+      ]
+    },
+    {
+      "name": "rail boss green window does not erase actual cooldown",
+      "passed": true,
+      "data": 3.800000000000015
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Explicit checkpoint fixtures to isolate Boss. Standing contact checked against preceding visible projectile snapshots; no hidden time-zone damage."
+}

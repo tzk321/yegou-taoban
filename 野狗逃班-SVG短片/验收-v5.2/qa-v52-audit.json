@@ -1,0 +1,622 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "5.1 imported dragon actual model and reflection",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": null,
+        "sceneOn": false,
+        "mid": null,
+        "far": null,
+        "bgTransform": null
+      }
+    },
+    {
+      "name": "real scene and equipped dragon cruise",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "8",
+        "sceneOn": true,
+        "mid": "#nightMid8",
+        "far": "#nightFar8",
+        "bgTransform": "translate(-167.69999999999976,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon contract",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "1",
+        "sceneOn": true,
+        "mid": "#nightMid1",
+        "far": "#nightFar1",
+        "bgTransform": "translate(-234,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon endless",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "6",
+        "sceneOn": true,
+        "mid": "#nightMid6",
+        "far": "#nightFar6",
+        "bgTransform": "translate(-234,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon dojo",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "4",
+        "sceneOn": true,
+        "mid": "#nightMid4",
+        "far": "#nightFar4",
+        "bgTransform": "translate(-54.600000000000044,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon courier",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "2",
+        "sceneOn": true,
+        "mid": "#nightMid2",
+        "far": "#nightFar2",
+        "bgTransform": "translate(-217.03499999999983,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon daily",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "5",
+        "sceneOn": true,
+        "mid": "#nightMid5",
+        "far": "#nightFar5",
+        "bgTransform": "translate(-231.5040000000001,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon wildrun",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "7",
+        "sceneOn": true,
+        "mid": "#nightMid7",
+        "far": "#nightFar7",
+        "bgTransform": "translate(-207.19624404761902,0)"
+      }
+    },
+    {
+      "name": "real scene and equipped dragon tutorial",
+      "passed": true,
+      "data": {
+        "skin": "dragon",
+        "hood": "#71beb8",
+        "coat": [
+          "#adecd9",
+          "#377e89",
+          "#193f57"
+        ],
+        "reflection": "url(#coatGrad)",
+        "refHood": "#71beb8",
+        "scene": "0",
+        "sceneOn": true,
+        "mid": "#nightMid0",
+        "far": "#nightFar0",
+        "bgTransform": "translate(-206.70000000000027,0)"
+      }
+    },
+    {
+      "name": "actual model reflection echo original",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "original",
+          "hood": "#ffdd77",
+          "coat": [
+            "#ffe09a",
+            "#ffc64e",
+            "#e6a72b"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#ffdd77",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#ffdd77",
+          "#ffdd77"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo mint",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "mint",
+          "hood": "#b1f6df",
+          "coat": [
+            "#c4ffec",
+            "#68d8bf",
+            "#319f9b"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#b1f6df",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#b1f6df",
+          "#b1f6df"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo soda",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "soda",
+          "hood": "#ffc1b1",
+          "coat": [
+            "#ffd5bd",
+            "#f58d9b",
+            "#ba526e"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#ffc1b1",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#ffc1b1",
+          "#ffc1b1"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo whale",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "whale",
+          "hood": "#e8f8ed",
+          "coat": [
+            "#f4fff1",
+            "#c4e5ea",
+            "#86b5cc"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#e8f8ed",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#e8f8ed",
+          "#e8f8ed"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo neon",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "neon",
+          "hood": "#213e57",
+          "coat": [
+            "#394b71",
+            "#162f48",
+            "#091526"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#213e57",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#213e57",
+          "#213e57"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo eclipse",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "eclipse",
+          "hood": "#e1e7fc",
+          "coat": [
+            "#fffcef",
+            "#c9d9f4",
+            "#7689b2"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#e1e7fc",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#e1e7fc",
+          "#e1e7fc"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo corona",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "corona",
+          "hood": "#d4b164",
+          "coat": [
+            "#55492e",
+            "#25292e",
+            "#121a23"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#d4b164",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#d4b164",
+          "#d4b164"
+        ]
+      }
+    },
+    {
+      "name": "actual model reflection echo dragon",
+      "passed": true,
+      "data": {
+        "a": {
+          "skin": "dragon",
+          "hood": "#71beb8",
+          "coat": [
+            "#adecd9",
+            "#377e89",
+            "#193f57"
+          ],
+          "reflection": "url(#coatGrad)",
+          "refHood": "#71beb8",
+          "scene": "8",
+          "sceneOn": true,
+          "mid": "#nightMid8",
+          "far": "#nightFar8",
+          "bgTransform": "translate(0,0)"
+        },
+        "echo": [
+          "#71beb8",
+          "#71beb8"
+        ]
+      }
+    },
+    {
+      "name": "real map entry centers 360",
+      "passed": true,
+      "data": [
+        {
+          "id": "routeTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "journalTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "settingsTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPrevBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapNextBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "postcardSaveBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPlayBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubNativeBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubCloseBtn",
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "real map entry centers 390",
+      "passed": true,
+      "data": [
+        {
+          "id": "routeTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "journalTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "settingsTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPrevBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapNextBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "postcardSaveBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPlayBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubNativeBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubCloseBtn",
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "real map entry centers 844",
+      "passed": true,
+      "data": [
+        {
+          "id": "routeTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "journalTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "settingsTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPrevBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapNextBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "postcardSaveBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPlayBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubNativeBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubCloseBtn",
+          "inside": true,
+          "hit": true
+        }
+      ]
+    },
+    {
+      "name": "real map entry centers 1365",
+      "passed": true,
+      "data": [
+        {
+          "id": "routeTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "journalTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "settingsTab",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPrevBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapNextBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "postcardSaveBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "mapPlayBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubNativeBtn",
+          "inside": true,
+          "hit": true
+        },
+        {
+          "id": "hubCloseBtn",
+          "inside": true,
+          "hit": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Root preliminary artifact; current skin code observed working in old routes, not proof of original user failure cause. Headless CDP, not physical phone."
+}

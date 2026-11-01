@@ -1,0 +1,214 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "12 authored live scenes silhouettes distinct obstacles and retained postcard sources",
+      "passed": true,
+      "data": [
+        {
+          "name": "雨夜门口",
+          "midChars": 2152,
+          "bossChars": 647,
+          "postChars": 87697
+        },
+        {
+          "name": "凌晨骑楼",
+          "midChars": 2721,
+          "bossChars": 1129,
+          "postChars": 89193
+        },
+        {
+          "name": "冰美式窗口",
+          "midChars": 7971,
+          "bossChars": 1114,
+          "postChars": 79962
+        },
+        {
+          "name": "旧书铺",
+          "midChars": 24437,
+          "bossChars": 671,
+          "postChars": 116186
+        },
+        {
+          "name": "机修棚",
+          "midChars": 10426,
+          "bossChars": 884,
+          "postChars": 79383
+        },
+        {
+          "name": "地铁末班",
+          "midChars": 2778,
+          "bossChars": 1422,
+          "postChars": 68231
+        },
+        {
+          "name": "高架底下",
+          "midChars": 851,
+          "bossChars": 689,
+          "postChars": 88696
+        },
+        {
+          "name": "屋顶电台",
+          "midChars": 1910,
+          "bossChars": 804,
+          "postChars": 75667
+        },
+        {
+          "name": "邕江南岸",
+          "midChars": 2321,
+          "bossChars": 714,
+          "postChars": 103379
+        },
+        {
+          "name": "码头仓库",
+          "midChars": 5012,
+          "bossChars": 1190,
+          "postChars": 82960
+        },
+        {
+          "name": "纸鲸灯会",
+          "midChars": 4229,
+          "bossChars": 797,
+          "postChars": 95954
+        },
+        {
+          "name": "天亮早市",
+          "midChars": 6667,
+          "bossChars": 837,
+          "postChars": 89039
+        }
+      ]
+    },
+    {
+      "name": "all 12 actual offline postcard downloads",
+      "passed": true,
+      "data": [
+        "野狗逃班-明信片-冰美式窗口.svg",
+        "野狗逃班-明信片-凌晨骑楼.svg",
+        "野狗逃班-明信片-地铁末班.svg",
+        "野狗逃班-明信片-天亮早市.svg",
+        "野狗逃班-明信片-屋顶电台.svg",
+        "野狗逃班-明信片-旧书铺.svg",
+        "野狗逃班-明信片-机修棚.svg",
+        "野狗逃班-明信片-码头仓库.svg",
+        "野狗逃班-明信片-纸鲸灯会.svg",
+        "野狗逃班-明信片-邕江南岸.svg",
+        "野狗逃班-明信片-雨夜门口.svg",
+        "野狗逃班-明信片-高架底下.svg"
+      ]
+    },
+    {
+      "name": "live scene readable player size 0 390",
+      "passed": true,
+      "data": {
+        "dog": 0.0765024700435982,
+        "inside": true,
+        "bg": "0"
+      }
+    },
+    {
+      "name": "live scene readable player size 3 390",
+      "passed": true,
+      "data": {
+        "dog": 0.0765024700435982,
+        "inside": true,
+        "bg": "3"
+      }
+    },
+    {
+      "name": "live scene readable player size 5 390",
+      "passed": true,
+      "data": {
+        "dog": 0.0765024700435982,
+        "inside": true,
+        "bg": "5"
+      }
+    },
+    {
+      "name": "live scene readable player size 8 390",
+      "passed": true,
+      "data": {
+        "dog": 0.0765024700435982,
+        "inside": true,
+        "bg": "8"
+      }
+    },
+    {
+      "name": "live scene readable player size 10 390",
+      "passed": true,
+      "data": {
+        "dog": 0.0765024700435982,
+        "inside": true,
+        "bg": "10"
+      }
+    },
+    {
+      "name": "live scene readable player size 11 390",
+      "passed": true,
+      "data": {
+        "dog": 0.0765024700435982,
+        "inside": true,
+        "bg": "11"
+      }
+    },
+    {
+      "name": "live scene readable player size 0 844",
+      "passed": true,
+      "data": {
+        "dog": 0.1655591524564303,
+        "inside": true,
+        "bg": "0"
+      }
+    },
+    {
+      "name": "live scene readable player size 3 844",
+      "passed": true,
+      "data": {
+        "dog": 0.1655591524564303,
+        "inside": true,
+        "bg": "3"
+      }
+    },
+    {
+      "name": "live scene readable player size 5 844",
+      "passed": true,
+      "data": {
+        "dog": 0.1655591524564303,
+        "inside": true,
+        "bg": "5"
+      }
+    },
+    {
+      "name": "live scene readable player size 8 844",
+      "passed": true,
+      "data": {
+        "dog": 0.1655591524564303,
+        "inside": true,
+        "bg": "8"
+      }
+    },
+    {
+      "name": "live scene readable player size 10 844",
+      "passed": true,
+      "data": {
+        "dog": 0.1655591524564303,
+        "inside": true,
+        "bg": "10"
+      }
+    },
+    {
+      "name": "live scene readable player size 11 844",
+      "passed": true,
+      "data": {
+        "dog": 0.1655591524564303,
+        "inside": true,
+        "bg": "11"
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "No static postcard backgrounds in live scenes: separate far/mid/front nodes. Screenshots are headless browser, not phone photos."
+}

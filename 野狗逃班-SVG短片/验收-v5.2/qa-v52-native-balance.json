@@ -1,0 +1,6830 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "natural-action-bot cruise stock",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 20,
+          "hits": 0,
+          "smashed": 3,
+          "distance": 19920.538333333134,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 5,
+          "maxCombo": 5,
+          "comboTime": 1.4333333333333442,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 381,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 262,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 262,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:stock": {
+                  "runs": 1,
+                  "best": 381,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "stock",
+            "resultCoins": 262,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:stock": {
+                "runs": 1,
+                "best": 381,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 50,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise wind",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 20,
+          "hits": 0,
+          "smashed": 3,
+          "distance": 19920.538333333134,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 5,
+          "maxCombo": 5,
+          "comboTime": 1.4333333333333442,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 381,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 262,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 262,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "wind",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 381,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 262,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 381,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 50,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise magnet",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 26,
+          "hits": 0,
+          "smashed": 4,
+          "distance": 20051.831666666145,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 9,
+          "maxCombo": 20,
+          "comboTime": 1.4333333333333442,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 4,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 536,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 454,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 454,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "magnet",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 536,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 454,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 536,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 55,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise shield",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 20,
+          "hits": 0,
+          "smashed": 3,
+          "distance": 19920.538333333134,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 5,
+          "maxCombo": 5,
+          "comboTime": 1.4333333333333442,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 381,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 262,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 262,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "shield",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 381,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 262,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 381,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 50,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise rail",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 26,
+          "hits": 0,
+          "smashed": 9,
+          "distance": 20051.831666666145,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 5,
+          "maxCombo": 5,
+          "comboTime": 1.4333333333333442,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 4,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 561,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 322,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 322,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "rail",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 561,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 322,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 561,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 58,
+          "bolts": 2,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise orbit",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 26,
+          "hits": 0,
+          "smashed": 9,
+          "distance": 19747.463333333133,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 5,
+          "maxCombo": 15,
+          "comboTime": 2.4833333333333405,
+          "energy": 2.5,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 611,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 454,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 454,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "orbit",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 611,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 454,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 611,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 50,
+          "bolts": 1,
+          "echoes": 0,
+          "trails": 3
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise leviathan",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 20,
+          "hits": 0,
+          "smashed": 3,
+          "distance": 19982.458333333096,
+          "spawn": -2.695834786457315,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 5,
+          "maxCombo": 5,
+          "comboTime": 1.4333333333333442,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 381,
+          "beat": 209,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 298,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0.7666666666666659,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 298,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "leviathan",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 381,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 298,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 381,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 54,
+          "bolts": 1,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot cruise chrono",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 90,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 15,
+          "hits": 0,
+          "smashed": 0,
+          "distance": 18038.070000000527,
+          "spawn": -2.105503914300349,
+          "chapter": 3,
+          "ending": "江风不催人",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 1,
+          "maxCombo": 3,
+          "comboTime": 3.866666666666669,
+          "energy": 0.5,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 8,
+          "jumpBuffer": 0,
+          "score": 261,
+          "beat": 209,
+          "spawnIndex": 47,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 238,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 238,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "chrono",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "cruise:equipped": {
+                  "runs": 1,
+                  "best": 261,
+                  "time": 90,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "cruise"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "cruise",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 71,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "cruise",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 90,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 238,
+            "recorded": true,
+            "tier": 3,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "records": {
+              "cruise:equipped": {
+                "runs": 1,
+                "best": 261,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 50,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract stock",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 18,
+          "hits": 0,
+          "smashed": 5,
+          "distance": 18957.099999999613,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "委托收工，不用加班",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 38,
+          "maxCombo": 38,
+          "comboTime": 2.766666666666673,
+          "energy": 2.5,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 15,
+          "jumpBuffer": 0,
+          "score": 650,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 365,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 365,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:stock": {
+                  "runs": 1,
+                  "best": 650,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 18
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 5
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 15
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "stock",
+            "resultCoins": 365,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:stock": {
+                "runs": 1,
+                "best": 650,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 63,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract wind",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 19,
+          "hits": 0,
+          "smashed": 4,
+          "distance": 19021.5999999996,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "委托收工，不用加班",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 35,
+          "maxCombo": 35,
+          "comboTime": 2.766666666666673,
+          "energy": 2.5,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 13,
+          "jumpBuffer": 0,
+          "score": 601,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 374,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 374,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "wind",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 601,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 19
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 4
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 13
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 374,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 601,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 63,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract magnet",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 1.3166666666666762,
+          "coffee": 24,
+          "hits": 0,
+          "smashed": 5,
+          "distance": 19093.099999999555,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "委托收工，不用加班",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 44,
+          "maxCombo": 44,
+          "comboTime": 1.9833333333333423,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 4,
+          "nearMiss": 15,
+          "jumpBuffer": 0,
+          "score": 740,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 500,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 500,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "magnet",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 740,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 24
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 5
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 15
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 500,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 740,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 53,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract shield",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 18,
+          "hits": 0,
+          "smashed": 5,
+          "distance": 18957.099999999613,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "委托收工，不用加班",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 38,
+          "maxCombo": 38,
+          "comboTime": 2.766666666666673,
+          "energy": 2.5,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 15,
+          "jumpBuffer": 0,
+          "score": 650,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 365,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 365,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "shield",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 650,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 18
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 5
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 15
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 365,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 650,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 63,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract rail",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 20,
+          "hits": 0,
+          "smashed": 20,
+          "distance": 19005.599999999664,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "三单齐收，今晚自由",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 49,
+          "maxCombo": 49,
+          "comboTime": 2.766666666666673,
+          "energy": 2.5,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 9,
+          "jumpBuffer": 0,
+          "score": 953,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 471,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 471,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "rail",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 953,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract",
+                "triple"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 20
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 20
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 9
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 471,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract",
+              "triple"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 953,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 80,
+          "bolts": 3,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract orbit",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 2.266666666666673,
+          "coffee": 24,
+          "hits": 0,
+          "smashed": 13,
+          "distance": 18904.54999999975,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "三单齐收，今晚自由",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 53,
+          "maxCombo": 53,
+          "comboTime": 2.6166666666666734,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 16,
+          "jumpBuffer": 0,
+          "score": 957,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 525,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 525,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "orbit",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 957,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract",
+                "triple"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 24
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 13
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 16
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 525,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract",
+              "triple"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 957,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 54,
+          "bolts": 1,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract leviathan",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 18,
+          "hits": 0,
+          "smashed": 7,
+          "distance": 19043.499999999567,
+          "spawn": -2.5810528019784615,
+          "chapter": 2,
+          "ending": "委托收工，不用加班",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 39,
+          "maxCombo": 39,
+          "comboTime": 2.766666666666673,
+          "energy": 2,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 14,
+          "jumpBuffer": 0,
+          "score": 683,
+          "beat": 139,
+          "spawnIndex": 51,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 374,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0.7666666666666659,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 374,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "leviathan",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 683,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 18
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 7
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 14
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 374,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 683,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 67,
+          "bolts": 1,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot contract chrono",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 60,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0.6666666666666736,
+          "inv": 0,
+          "coffee": 13,
+          "hits": 0,
+          "smashed": 0,
+          "distance": 16330.399999999876,
+          "spawn": -1.9862983402796082,
+          "chapter": 2,
+          "ending": "委托收工，不用加班",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 3,
+          "maxCombo": 18,
+          "comboTime": 3.150000000000005,
+          "energy": 2,
+          "freedom": 0,
+          "superUses": 3,
+          "nearMiss": 16,
+          "jumpBuffer": 0,
+          "score": 412,
+          "beat": 139,
+          "spawnIndex": 45,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 335,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 0,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 335,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "chrono",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "contract:equipped": {
+                  "runs": 1,
+                  "best": 412,
+                  "time": 60,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "contract"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "contract",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1300187212,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "contract",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 0,
+            "shieldMark": 0,
+            "elapsed": 60,
+            "goals": [
+              {
+                "kind": "coffee",
+                "name": "冰美式",
+                "need": 7,
+                "current": 13
+              },
+              {
+                "kind": "smashed",
+                "name": "撕碎通知",
+                "need": 12,
+                "current": 0
+              },
+              {
+                "kind": "nearMiss",
+                "name": "擦身闪避",
+                "need": 2,
+                "current": 16
+              }
+            ],
+            "daily": "2026-10-15",
+            "gear": "equipped",
+            "resultCoins": 335,
+            "recorded": true,
+            "tier": 2,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "contract"
+            ],
+            "secrets": [],
+            "records": {
+              "contract:equipped": {
+                "runs": 1,
+                "best": 412,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 63,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless stock",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 287,
+          "hits": 0,
+          "smashed": 86,
+          "distance": 461023.0150000171,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 0,
+          "maxCombo": 136,
+          "comboTime": 0,
+          "energy": 4,
+          "freedom": 0,
+          "superUses": 45,
+          "nearMiss": 132,
+          "jumpBuffer": 0,
+          "score": 6854,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 4464,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 4464,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:stock": {
+                  "runs": 1,
+                  "best": 15854,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "stock",
+            "resultCoins": 4464,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:stock": {
+                "runs": 1,
+                "best": 15854,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 60,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless wind",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 315,
+          "hits": 0,
+          "smashed": 75,
+          "distance": 462862.6310000213,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 75,
+          "maxCombo": 297,
+          "comboTime": 1.3333333333333446,
+          "energy": 0,
+          "freedom": 0,
+          "superUses": 48,
+          "nearMiss": 129,
+          "jumpBuffer": 0,
+          "score": 7683,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 4746,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 4746,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "wind",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 16683,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 4746,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 16683,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 61,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless magnet",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 432,
+          "hits": 0,
+          "smashed": 161,
+          "distance": 466096.3420000238,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 730,
+          "maxCombo": 730,
+          "comboTime": 0.3166666666666776,
+          "energy": 4.5,
+          "freedom": 0,
+          "superUses": 65,
+          "nearMiss": 137,
+          "jumpBuffer": 0,
+          "score": 12834,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 7080,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 7080,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "magnet",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 21834,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 7080,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 21834,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 57,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless shield",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 287,
+          "hits": 0,
+          "smashed": 86,
+          "distance": 461023.0150000171,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 0,
+          "maxCombo": 136,
+          "comboTime": 0,
+          "energy": 4,
+          "freedom": 0,
+          "superUses": 45,
+          "nearMiss": 132,
+          "jumpBuffer": 0,
+          "score": 6854,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 4464,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 4464,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "shield",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 15854,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 4464,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 15854,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 60,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless rail",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 317,
+          "hits": 0,
+          "smashed": 259,
+          "distance": 462789.01000002126,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 7,
+          "maxCombo": 173,
+          "comboTime": 0.9333333333333456,
+          "energy": 4,
+          "freedom": 0,
+          "superUses": 46,
+          "nearMiss": 122,
+          "jumpBuffer": 0,
+          "score": 10679,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 6798,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 6798,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "rail",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 19679,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 6798,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 19679,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 69,
+          "bolts": 3,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless orbit",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0.15000000000000652,
+          "inv": 0,
+          "coffee": 432,
+          "hits": 0,
+          "smashed": 171,
+          "distance": 465322.98700002645,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 733,
+          "maxCombo": 733,
+          "comboTime": 0.23333333333334427,
+          "energy": 5,
+          "freedom": 0,
+          "superUses": 60,
+          "nearMiss": 130,
+          "jumpBuffer": 0,
+          "score": 12965,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 7026,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 7026,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "orbit",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 21965,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 7026,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 21965,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 66,
+          "bolts": 1,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless leviathan",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 294,
+          "hits": 0,
+          "smashed": 124,
+          "distance": 462802.19000002055,
+          "spawn": -3.6060065159123944,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 0,
+          "maxCombo": 86,
+          "comboTime": 0,
+          "energy": 4.5,
+          "freedom": 0,
+          "superUses": 44,
+          "nearMiss": 139,
+          "jumpBuffer": 0,
+          "score": 7518,
+          "beat": 2093,
+          "spawnIndex": 951,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 4392,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0.6833333333333323,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 4392,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "leviathan",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 16518,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 4392,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 16518,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 60,
+          "bolts": 1,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "natural-action-bot endless chrono",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 900,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0,
+          "coffee": 200,
+          "hits": 0,
+          "smashed": 0,
+          "distance": 396886.0580000294,
+          "spawn": -3.7756518422874237,
+          "chapter": 1,
+          "ending": "凌晨循环，自愿收工",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 1,
+          "maxCombo": 16,
+          "comboTime": 1.0833333333333455,
+          "energy": 3,
+          "freedom": 0,
+          "superUses": 45,
+          "nearMiss": 156,
+          "jumpBuffer": 0,
+          "score": 3952,
+          "beat": 2093,
+          "spawnIndex": 835,
+          "completedMain": false,
+          "bossEligible": false,
+          "bossWon": false,
+          "offset": 0,
+          "runCoins": 3660,
+          "mainReward": false,
+          "bossReward": false,
+          "guard": 1,
+          "safeGap": 0,
+          "chrono": 0,
+          "legendPulse": 0,
+          "orbitTick": 0,
+          "paperTick": 0,
+          "whaleTick": 0,
+          "legendSerial": -1,
+          "mobile": true,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [],
+          "version": "5.2",
+          "wallet": {
+            "balance": 3660,
+            "ownedSkins": [
+              "original",
+              "dragon"
+            ],
+            "ownedSkills": [
+              "wind",
+              "magnet",
+              "shield",
+              "rail",
+              "orbit",
+              "leviathan",
+              "chrono"
+            ],
+            "skin": "dragon",
+            "skill": "chrono",
+            "voyage": {
+              "version": 1,
+              "devClaimed": false,
+              "settings": {
+                "motion": "system"
+              },
+              "records": {
+                "endless:equipped": {
+                  "runs": 1,
+                  "best": 12952,
+                  "time": 900,
+                  "wins": 0
+                }
+              },
+              "achievements": [
+                "first",
+                "minute",
+                "three"
+              ],
+              "secrets": [],
+              "runs": 1,
+              "extras": {
+                "records": {},
+                "secrets": [],
+                "seen": [],
+                "contracts": [],
+                "storyRuns": 0,
+                "bossWins": 0,
+                "delivered": 0,
+                "endlessBest": 0,
+                "nightTint": 0,
+                "maps": {
+                  "wins": [],
+                  "records": {},
+                  "awards": {},
+                  "checkpoint": null
+                }
+              }
+            }
+          },
+          "maps": null,
+          "extras": {
+            "route": "endless",
+            "bag": 0,
+            "delivered": 0,
+            "station": 1,
+            "date": "2026-10-15",
+            "seed": 1537678883,
+            "hubOpen": false,
+            "hubTab": "routes",
+            "routeConfirm": "",
+            "mapIndex": 0,
+            "secrets": [],
+            "records": {},
+            "contracts": []
+          },
+          "voyage": {
+            "route": "endless",
+            "life": 3,
+            "finished": true,
+            "reason": "complete",
+            "milestone": 30,
+            "shieldMark": 15,
+            "elapsed": 900,
+            "goals": [],
+            "daily": "",
+            "gear": "equipped",
+            "resultCoins": 3660,
+            "recorded": true,
+            "tier": 30,
+            "panel": "",
+            "devClaimed": false,
+            "motion": "system",
+            "reduced": false,
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 12952,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "runs": 1,
+            "pinLength": 0
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "shopPage": 0,
+          "detailId": "",
+          "legendBolts": 0,
+          "duration": 120,
+          "boss": {
+            "t": 0,
+            "hp": 12,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 1,
+            "state": "intro",
+            "timer": 3.5,
+            "elapsed": 0,
+            "pattern": "low",
+            "cycle": 0,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 0,
+            "blocked": 0,
+            "won": false,
+            "flash": 0,
+            "burst": 0,
+            "notice": "",
+            "openSerial": 0,
+            "windowDamage": 0,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "peak": {
+          "particles": 52,
+          "bolts": 0,
+          "echoes": 4,
+          "trails": 6
+        },
+        "hits": [],
+        "milestones": [
+          {
+            "t": 0.016666666666666666,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 30.016666666666243,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 60.01666666666454,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 90.01666666666284,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 120.01666666666114,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 150.0166666666782,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 180.01666666670206,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 210.01666666672594,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 240.0166666667498,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 270.01666666674976,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 300.0166666667225,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 330.0166666666952,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 360.0166666666679,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 390.0166666666406,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 420.01666666661333,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 450.01666666658605,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 480.01666666655876,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 510.0166666665315,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 540.0166666665042,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 570.0166666664769,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 600.0166666664496,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 630.0166666664223,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 660.016666666395,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 690.0166666663678,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 720.0166666663405,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 750.0166666663132,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 780.0166666662859,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 810.0166666662586,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 840.0166666662313,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 870.0166666662041,
+            "life": 3,
+            "hits": 0
+          },
+          {
+            "t": 900,
+            "life": 3,
+            "hits": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "developer-grant-exact-even-old-wallet-cap",
+      "passed": true
+    },
+    {
+      "name": "already-claimed-current-page-no-extra",
+      "passed": true
+    },
+    {
+      "name": "stale-second-page-cannot-repeat-developer-grant",
+      "passed": true
+    },
+    {
+      "name": "endless-900s-cap-all-30-milestones-no-repeat",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 900,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 9098.983333346681,
+        "coffee": 432,
+        "hits": 0,
+        "smashed": 191,
+        "distance": 434350.49999985,
+        "spawn": -3.589339849245728,
+        "chapter": 1,
+        "ending": "凌晨循环，自愿收工",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 623,
+        "maxCombo": 623,
+        "comboTime": 1.0500000000000123,
+        "energy": 5,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 11255,
+        "beat": 2093,
+        "spawnIndex": 951,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 7740,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 1,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.2",
+        "wallet": {
+          "balance": 7740,
+          "ownedSkins": [
+            "original",
+            "dragon"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield",
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "dragon",
+          "skill": "orbit",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "endless:equipped": {
+                "runs": 1,
+                "best": 20255,
+                "time": 900,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "minute",
+              "three"
+            ],
+            "secrets": [],
+            "runs": 1,
+            "extras": {
+              "records": {},
+              "secrets": [],
+              "seen": [],
+              "contracts": [],
+              "storyRuns": 0,
+              "bossWins": 0,
+              "delivered": 0,
+              "endlessBest": 0,
+              "nightTint": 0,
+              "maps": {
+                "wins": [],
+                "records": {},
+                "awards": {},
+                "checkpoint": null
+              }
+            }
+          }
+        },
+        "maps": null,
+        "extras": {
+          "route": "endless",
+          "bag": 0,
+          "delivered": 0,
+          "station": 1,
+          "date": "2026-10-15",
+          "seed": 1537678883,
+          "hubOpen": false,
+          "hubTab": "routes",
+          "routeConfirm": "",
+          "mapIndex": 0,
+          "secrets": [],
+          "records": {},
+          "contracts": []
+        },
+        "voyage": {
+          "route": "endless",
+          "life": 3,
+          "finished": true,
+          "reason": "complete",
+          "milestone": 30,
+          "shieldMark": 15,
+          "elapsed": 900,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 7740,
+          "recorded": true,
+          "tier": 30,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "minute",
+            "three"
+          ],
+          "secrets": [],
+          "records": {
+            "endless:equipped": {
+              "runs": 1,
+              "best": 20255,
+              "time": 900,
+              "wins": 0
+            }
+          },
+          "runs": 1,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "windowDamage": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "24 natural action-only bot runs in 30s QA advance chunks with seeded gear only in isolated profile; no time/life mutations. Separate cap/stale-tab boundary tests explicit QA inv scenario for 900s exhaustion."
+}

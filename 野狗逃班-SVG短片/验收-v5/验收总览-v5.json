@@ -1,0 +1,63 @@
+{
+  "version": "5.0",
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "svg_sha256": "be18d3ec8db826f11e039bded477f3f537cb644a23a04eae9dd267e1932c5318",
+  "reports": [
+    {
+      "name": "qa-v5.json",
+      "tests": 46
+    },
+    {
+      "name": "qa-v5-boundaries.json",
+      "tests": 12
+    },
+    {
+      "name": "qa-v5-balance.json",
+      "tests": 28
+    },
+    {
+      "name": "qa-v5-visual.json",
+      "tests": 50
+    },
+    {
+      "name": "qa-v5-results.json",
+      "tests": 20
+    },
+    {
+      "name": "qa-v5-economy.json",
+      "tests": 10
+    },
+    {
+      "name": "qa-v5-archive.json",
+      "tests": 7
+    },
+    {
+      "name": "qa-v5-benchmark.json",
+      "tests": 4
+    },
+    {
+      "name": "qa-v5-realtime.json",
+      "tests": 6
+    },
+    {
+      "name": "qa-v41.json",
+      "tests": 29
+    },
+    {
+      "name": "qa-v41-regression.json",
+      "tests": 30
+    },
+    {
+      "name": "qa-v41-edges.json",
+      "tests": 10
+    },
+    {
+      "name": "qa-v41-realtime.json",
+      "tests": 3
+    }
+  ],
+  "total_tests": 255,
+  "xml_unique_ids": 311,
+  "environment": "Kali Chromium150 / Node24 CDP. DOM + OCR + real wall clock. Not physical phone gameplay."
+}

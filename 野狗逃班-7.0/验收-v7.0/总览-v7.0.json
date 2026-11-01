@@ -1,0 +1,162 @@
+{
+  "version": "7.0",
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "reports": [
+    {
+      "report": "qa-bosses-v70.json",
+      "tests": 28,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-mechanisms-v70.json",
+      "tests": 13,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-audio-v70.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-bgm-level-v70.json",
+      "tests": 13,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-visual-v70.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-realtime-v70.json",
+      "tests": 4,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-regression-v70.json",
+      "tests": 48,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-hud-v70.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-movehud-v70.json",
+      "tests": 12,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-persistence-v70.json",
+      "tests": 7,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-observable-v70.json",
+      "tests": 5,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-overlap-v70.json",
+      "tests": 26,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-gear-matrix-v70.json",
+      "tests": 60,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-lastedges-v70.json",
+      "tests": 7,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-grant-quota-v70.json",
+      "tests": 3,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-audit-v70.json",
+      "tests": 5,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-stick-fullscreen-v70.json",
+      "tests": 22,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-polish-v70.json",
+      "tests": 47,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-tuning-v70.json",
+      "tests": 10,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-newgear-matrix-v70.json",
+      "tests": 72,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-perf-v70.json",
+      "tests": 3,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-skillfx-v70.json",
+      "tests": 87,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-skillfx-raf-v70.json",
+      "tests": 10,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    },
+    {
+      "report": "qa-public-v70.json",
+      "tests": 10,
+      "success": true,
+      "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb"
+    }
+  ],
+  "report_count": 24,
+  "test_count": 528,
+  "rebuild": {
+    "success": true,
+    "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+    "html_equal": true,
+    "svg_equal": true,
+    "note": "Copied public source into independent directory and rebuilt only with packaged files"
+  },
+  "note": "Isolated Chromium/CDP, not physical phone gameplay/FPS/speaker listening; ordinary public entry post-copy report added after release.",
+  "public_entry_verified": true
+}

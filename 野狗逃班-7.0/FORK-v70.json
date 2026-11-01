@@ -1,0 +1,8 @@
+{
+  "version": "7.0",
+  "reason": "User explicitly requests standalone 7.0 HTML to share after skill FX repair",
+  "parent_html_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "parent_public_entry": "/sdcard/Download/野狗逃班-6.0.html",
+  "parent_must_remain_unchanged": true,
+  "scope": "14 real skill FX; no changes to balance, wallet, prices or controls"
+}

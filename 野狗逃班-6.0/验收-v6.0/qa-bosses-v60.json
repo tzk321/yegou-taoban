@@ -1,0 +1,929 @@
+{
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "tests": [
+    {
+      "name": "map 0 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 0,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "tooth"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 1 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 1,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "bell"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 2 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 2,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "ice"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 3 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 3,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "page"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 4 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 4,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "gear"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 5 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 5,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "train"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 6 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 6,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "ring"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 7 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 7,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "spectrum"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 8 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 8,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "water"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 9 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 9,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "hook",
+          "gear"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 10 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 10,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "ink"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 11 stock real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 11,
+        "skill": "",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "seed",
+          "gear"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 0 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 0,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "tooth"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 1 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 1,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "bell"
+        ],
+        "rail": [
+          34.74999999999931
+        ]
+      }
+    },
+    {
+      "name": "map 2 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 2,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "ice"
+        ],
+        "rail": [
+          24.216666666666573,
+          33.88333333333269
+        ]
+      }
+    },
+    {
+      "name": "map 3 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 3,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "page"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 4 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 4,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 1,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "gear"
+        ],
+        "rail": [
+          31.683333333332815,
+          42.283333333332216,
+          53.04999999999827
+        ]
+      }
+    },
+    {
+      "name": "map 5 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 5,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "train"
+        ],
+        "rail": [
+          54.99999999999816
+        ]
+      }
+    },
+    {
+      "name": "map 6 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 6,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "ring"
+        ],
+        "rail": [
+          34.21666666666601,
+          55.88333333333144
+        ]
+      }
+    },
+    {
+      "name": "map 7 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 7,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "spectrum"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 8 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 8,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "water"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "map 9 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 9,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "hook",
+          "gear"
+        ],
+        "rail": [
+          5.366666666666653,
+          46.26666666666532
+        ]
+      }
+    },
+    {
+      "name": "map 10 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 10,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 1,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "ink"
+        ],
+        "rail": [
+          36.46666666666588,
+          45.516666666665365,
+          58.283333333331306
+        ]
+      }
+    },
+    {
+      "name": "map 11 rail real bullet legal victory",
+      "passed": true,
+      "data": {
+        "id": 11,
+        "skill": "rail",
+        "phase": "ending",
+        "hp": 0,
+        "hits": 0,
+        "stages": [
+          1,
+          2
+        ],
+        "kinds": [
+          "seed",
+          "gear"
+        ],
+        "rail": [
+          15.750000000000362
+        ]
+      }
+    },
+    {
+      "name": "legacy three-stage dojo stock",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "kinds": [
+          "stamp"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "legacy three-stage dojo rail",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "kinds": [
+          "stamp"
+        ],
+        "rail": [
+          44.349999999998765,
+          56.6833333333314
+        ]
+      }
+    },
+    {
+      "name": "legacy three-stage dojo prism",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "kinds": [
+          "stamp"
+        ],
+        "rail": []
+      }
+    },
+    {
+      "name": "legacy three-stage dojo echo",
+      "passed": true,
+      "data": {
+        "hits": 0,
+        "kinds": [
+          "stamp"
+        ],
+        "rail": []
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "results": [
+    {
+      "id": 0,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "tooth"
+      ],
+      "rail": []
+    },
+    {
+      "id": 1,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "bell"
+      ],
+      "rail": []
+    },
+    {
+      "id": 2,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "ice"
+      ],
+      "rail": []
+    },
+    {
+      "id": 3,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "page"
+      ],
+      "rail": []
+    },
+    {
+      "id": 4,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "gear"
+      ],
+      "rail": []
+    },
+    {
+      "id": 5,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "train"
+      ],
+      "rail": []
+    },
+    {
+      "id": 6,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "ring"
+      ],
+      "rail": []
+    },
+    {
+      "id": 7,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "spectrum"
+      ],
+      "rail": []
+    },
+    {
+      "id": 8,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "water"
+      ],
+      "rail": []
+    },
+    {
+      "id": 9,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "hook",
+        "gear"
+      ],
+      "rail": []
+    },
+    {
+      "id": 10,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "ink"
+      ],
+      "rail": []
+    },
+    {
+      "id": 11,
+      "skill": "",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "seed",
+        "gear"
+      ],
+      "rail": []
+    },
+    {
+      "id": 0,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "tooth"
+      ],
+      "rail": []
+    },
+    {
+      "id": 1,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "bell"
+      ],
+      "rail": [
+        34.74999999999931
+      ]
+    },
+    {
+      "id": 2,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "ice"
+      ],
+      "rail": [
+        24.216666666666573,
+        33.88333333333269
+      ]
+    },
+    {
+      "id": 3,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "page"
+      ],
+      "rail": []
+    },
+    {
+      "id": 4,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 1,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "gear"
+      ],
+      "rail": [
+        31.683333333332815,
+        42.283333333332216,
+        53.04999999999827
+      ]
+    },
+    {
+      "id": 5,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "train"
+      ],
+      "rail": [
+        54.99999999999816
+      ]
+    },
+    {
+      "id": 6,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "ring"
+      ],
+      "rail": [
+        34.21666666666601,
+        55.88333333333144
+      ]
+    },
+    {
+      "id": 7,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "spectrum"
+      ],
+      "rail": []
+    },
+    {
+      "id": 8,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "water"
+      ],
+      "rail": []
+    },
+    {
+      "id": 9,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "hook",
+        "gear"
+      ],
+      "rail": [
+        5.366666666666653,
+        46.26666666666532
+      ]
+    },
+    {
+      "id": 10,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 1,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "ink"
+      ],
+      "rail": [
+        36.46666666666588,
+        45.516666666665365,
+        58.283333333331306
+      ]
+    },
+    {
+      "id": 11,
+      "skill": "rail",
+      "phase": "ending",
+      "hp": 0,
+      "hits": 0,
+      "stages": [
+        1,
+        2
+      ],
+      "kinds": [
+        "seed",
+        "gear"
+      ],
+      "rail": [
+        15.750000000000362
+      ]
+    }
+  ],
+  "note": "Explicit checkpoint fixtures only for battle isolation. Victories use observation-only legal input bot, no life/HP/score edits."
+}

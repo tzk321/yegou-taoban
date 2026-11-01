@@ -1,0 +1,240 @@
+{
+  "success": true,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "tests": [
+    {
+      "name": "chrono-does-not-pierce-closed-shield",
+      "passed": true,
+      "data": {
+        "t": 3.9999999999999907,
+        "hp": 12,
+        "maxHP": 12,
+        "player": 3,
+        "stage": 1,
+        "state": "telegraph",
+        "timer": 0.8166666666666672,
+        "elapsed": 0.4833333333333333,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": false,
+        "pulse2": false,
+        "hits": 0,
+        "landed": 0,
+        "blocked": 1,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "护盾还没开 / 先躲完这一轮",
+        "openSerial": 0,
+        "shots": 0
+      }
+    },
+    {
+      "name": "home-main-restart-clear-time-lock",
+      "passed": true
+    },
+    {
+      "name": "whale-long-super-meter-bounded",
+      "passed": true,
+      "data": {
+        "width": 120.029411764706,
+        "button": 186
+      }
+    },
+    {
+      "name": "shop-preview-freezes-live-legend-no-loadout-change",
+      "passed": true
+    },
+    {
+      "name": "legend-effects-bounded-and-home-clears",
+      "passed": true,
+      "data": {
+        "bolts": 0,
+        "echoes": 0,
+        "particles": 0,
+        "trails": 0
+      }
+    },
+    {
+      "name": "orbit-complete-two-acts-zero-hit",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 44.99999999999873,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 12,
+        "hits": 0,
+        "smashed": 31,
+        "distance": 12393.000000000546,
+        "spawn": 1.0413840673041221,
+        "chapter": 1,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 43,
+        "maxCombo": 43,
+        "comboTime": 3.7166666666666694,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 955,
+        "beat": 104,
+        "spawnIndex": 39,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 93,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 9,
+        "particles": 9,
+        "badges": [],
+        "version": "5.1",
+        "wallet": {
+          "balance": 100093,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [
+            "rail",
+            "orbit",
+            "leviathan",
+            "chrono"
+          ],
+          "skin": "original",
+          "skill": "orbit",
+          "voyage": {
+            "version": 1,
+            "devClaimed": false,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {},
+            "achievements": [],
+            "secrets": [],
+            "runs": 0,
+            "extras": {
+              "records": {},
+              "secrets": [],
+              "seen": [],
+              "contracts": [],
+              "storyRuns": 0,
+              "bossWins": 0,
+              "delivered": 0,
+              "endlessBest": 0,
+              "nightTint": 0
+            }
+          }
+        },
+        "extras": {
+          "route": "story",
+          "bag": 0,
+          "delivered": 0,
+          "station": 1,
+          "date": "2026-10-15",
+          "seed": 71,
+          "hubOpen": false,
+          "hubTab": "routes",
+          "routeConfirm": "",
+          "mapIndex": 0,
+          "secrets": [],
+          "records": {},
+          "contracts": []
+        },
+        "voyage": {
+          "route": "story",
+          "life": 3,
+          "finished": false,
+          "reason": "",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 0,
+          "goals": [],
+          "daily": "",
+          "gear": "equipped",
+          "resultCoins": 0,
+          "recorded": false,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": false,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [],
+          "secrets": [],
+          "records": {},
+          "runs": 0,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "escape-closes-detail-first-then-shop",
+      "passed": true
+    },
+    {
+      "name": "detail-text-controls-fit 360x640",
+      "passed": true
+    },
+    {
+      "name": "detail-text-controls-fit 844x390",
+      "passed": true
+    },
+    {
+      "name": "storage-write-failure-memory-purchase-still-works",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

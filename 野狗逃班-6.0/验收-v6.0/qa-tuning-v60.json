@@ -1,0 +1,1010 @@
+{
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "tests": [
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 390",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 109.99999618530273,
+          "y": 738.0000305175781,
+          "w": 120,
+          "h": 120.00006103515625
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 203.0769230769231,
+            "y": 1362.4615384615386,
+            "r": 110.76923076923077,
+            "unit": 1.8461538461538463
+          }
+        }
+      }
+    },
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 360",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 110,
+          "y": 674,
+          "w": 120,
+          "h": 120
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 220,
+            "y": 1348,
+            "r": 120,
+            "unit": 2
+          }
+        }
+      }
+    },
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 844",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 98.75,
+          "y": 295.2500228881836,
+          "w": 97.5,
+          "h": 97.50001525878906
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 149.76303317535545,
+            "y": 447.7725118483412,
+            "r": 73.93364928909952,
+            "unit": 1.5165876777251184
+          }
+        }
+      }
+    },
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 915",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 101.50000381469727,
+          "y": 314.50001525878906,
+          "w": 103,
+          "h": 102.99996948242188
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 141.98907103825138,
+            "y": 439.9562841530054,
+            "r": 72.04371584699453,
+            "unit": 1.3989071038251366
+          }
+        }
+      }
+    },
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 2400",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 110.0000114440918,
+          "y": 974,
+          "w": 120.00001525878906,
+          "h": 120
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 58.66666666666667,
+            "y": 519.4666666666667,
+            "r": 32,
+            "unit": 0.5333333333333333
+          }
+        }
+      }
+    },
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 1365",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 110.0000114440918,
+          "y": 794,
+          "w": 120.00000762939453,
+          "h": 120
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 103.15018315018315,
+            "y": 744.5567765567765,
+            "r": 56.26373626373626,
+            "unit": 0.9377289377289377
+          }
+        }
+      }
+    },
+    {
+      "name": "right/up shifted stick, 80 percent dog and matching smaller hit radius 720",
+      "passed": true,
+      "data": {
+        "stick": {
+          "x": 110,
+          "y": 614,
+          "w": 120,
+          "h": 120
+        },
+        "tuning": {
+          "playerScale": 0.8,
+          "playerRadius": 21.6,
+          "center": {
+            "x": 317,
+            "y": 508
+          },
+          "runReach": 57.6,
+          "bulletLimit": 64,
+          "bulletStats": {
+            "launched": 0,
+            "contacts": 0,
+            "culled": 0
+          },
+          "profiles": [
+            {
+              "kind": "tooth",
+              "r": 14,
+              "speed": 370,
+              "count": 5,
+              "gap": 0.2
+            },
+            {
+              "kind": "bell",
+              "r": 13,
+              "speed": 355,
+              "count": 4,
+              "gap": 0.28
+            },
+            {
+              "kind": "ice",
+              "r": 16,
+              "speed": 340,
+              "count": 5,
+              "gap": 0.22
+            },
+            {
+              "kind": "page",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "gear",
+              "r": 19,
+              "speed": 350,
+              "count": 4,
+              "gap": 0.32
+            },
+            {
+              "kind": "train",
+              "r": 15,
+              "speed": 410,
+              "count": 5,
+              "gap": 0.17
+            },
+            {
+              "kind": "ring",
+              "r": 14,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.31
+            },
+            {
+              "kind": "spectrum",
+              "r": 11,
+              "speed": 400,
+              "count": 5,
+              "gap": 0.16
+            },
+            {
+              "kind": "water",
+              "r": 17,
+              "speed": 325,
+              "count": 5,
+              "gap": 0.24
+            },
+            {
+              "kind": "hook",
+              "r": 15,
+              "speed": 365,
+              "count": 4,
+              "gap": 0.3
+            },
+            {
+              "kind": "ink",
+              "r": 13,
+              "speed": 350,
+              "count": 5,
+              "gap": 0.21
+            },
+            {
+              "kind": "seed",
+              "r": 12,
+              "speed": 390,
+              "count": 5,
+              "gap": 0.19
+            },
+            {
+              "kind": "stamp",
+              "r": 16,
+              "speed": 380,
+              "count": 5,
+              "gap": 0.22
+            }
+          ],
+          "stick": {
+            "x": 110,
+            "y": 614,
+            "r": 60,
+            "unit": 1
+          }
+        }
+      }
+    },
+    {
+      "name": "actual collision helpers reject former large edge, hit interior and swept contacts; pickups remain forgiving",
+      "passed": true,
+      "data": {
+        "edge": false,
+        "inside": true,
+        "swept": true,
+        "runnerOldEdge": false,
+        "runnerInside": true,
+        "pickup": true
+      }
+    },
+    {
+      "name": "Boss first real low salvo has five bullets with bounded entity count",
+      "passed": true,
+      "data": {
+        "launched": 5,
+        "bullets": 5,
+        "profiles": [
+          {
+            "kind": "tooth",
+            "r": 14,
+            "speed": 370,
+            "count": 5,
+            "gap": 0.2
+          },
+          {
+            "kind": "bell",
+            "r": 13,
+            "speed": 355,
+            "count": 4,
+            "gap": 0.28
+          },
+          {
+            "kind": "ice",
+            "r": 16,
+            "speed": 340,
+            "count": 5,
+            "gap": 0.22
+          },
+          {
+            "kind": "page",
+            "r": 12,
+            "speed": 390,
+            "count": 5,
+            "gap": 0.17
+          },
+          {
+            "kind": "gear",
+            "r": 19,
+            "speed": 350,
+            "count": 4,
+            "gap": 0.32
+          },
+          {
+            "kind": "train",
+            "r": 15,
+            "speed": 410,
+            "count": 5,
+            "gap": 0.17
+          },
+          {
+            "kind": "ring",
+            "r": 14,
+            "speed": 365,
+            "count": 4,
+            "gap": 0.31
+          },
+          {
+            "kind": "spectrum",
+            "r": 11,
+            "speed": 400,
+            "count": 5,
+            "gap": 0.16
+          },
+          {
+            "kind": "water",
+            "r": 17,
+            "speed": 325,
+            "count": 5,
+            "gap": 0.24
+          },
+          {
+            "kind": "hook",
+            "r": 15,
+            "speed": 365,
+            "count": 4,
+            "gap": 0.3
+          },
+          {
+            "kind": "ink",
+            "r": 13,
+            "speed": 350,
+            "count": 5,
+            "gap": 0.21
+          },
+          {
+            "kind": "seed",
+            "r": 12,
+            "speed": 390,
+            "count": 5,
+            "gap": 0.19
+          },
+          {
+            "kind": "stamp",
+            "r": 16,
+            "speed": 380,
+            "count": 5,
+            "gap": 0.22
+          }
+        ]
+      }
+    },
+    {
+      "name": "dense projectiles remain bounded through active/open lifecycle",
+      "passed": true,
+      "data": 3
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Real DOM screen-coordinate joystick placement, actual collision helper edge tests and live generated Boss salvo. Full matrices separately verify legal victories."
+}

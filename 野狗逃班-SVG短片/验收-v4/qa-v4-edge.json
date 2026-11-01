@@ -1,0 +1,155 @@
+{
+  "success": true,
+  "artifact_sha256": "25eb7b1c2d7354d174b6ba7471f6eb8bba5e0437ad4a6889c57d9e39455d2b9d",
+  "tests": [
+    {
+      "name": "portrait-main-natural-perfect-no-skills",
+      "passed": true,
+      "data": {
+        "phase": "bossGate",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 20,
+        "hits": 0,
+        "smashed": 33,
+        "distance": 37381.63416666866,
+        "spawn": -6.342234536171874,
+        "chapter": 3,
+        "ending": "",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 65,
+        "comboTime": 0,
+        "energy": 3.5,
+        "freedom": 0,
+        "superUses": 6,
+        "nearMiss": 33,
+        "jumpBuffer": 0,
+        "score": 1581,
+        "beat": 279,
+        "spawnIndex": 88,
+        "completedMain": true,
+        "bossEligible": true,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 155,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "4.0",
+        "wallet": {
+          "balance": 155,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": ""
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "perfect-can-skip-boss",
+      "passed": true
+    },
+    {
+      "name": "closed-shield-denies-paper-plane",
+      "passed": true,
+      "data": {
+        "t": 4.64999999999999,
+        "hp": 12,
+        "maxHP": 12,
+        "player": 3,
+        "stage": 1,
+        "state": "telegraph",
+        "timer": 0.1500999999999997,
+        "elapsed": 1.1499000000000008,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": false,
+        "pulse2": false,
+        "hits": 0,
+        "landed": 0,
+        "blocked": 1,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "护盾还没开 / 先躲完这一轮",
+        "openSerial": 0,
+        "shots": 0
+      }
+    },
+    {
+      "name": "open-shield-plane-counter",
+      "passed": true
+    },
+    {
+      "name": "low-jump-avoids-and-pulse-no-late-hit",
+      "passed": true
+    },
+    {
+      "name": "boss-super-keeps-invulnerability",
+      "passed": true
+    },
+    {
+      "name": "background-boss-pauses-no-clock-jump",
+      "passed": true
+    },
+    {
+      "name": "shop-close-retains-manual-pause",
+      "passed": true
+    },
+    {
+      "name": "portrait-skin-real-transaction",
+      "passed": true
+    },
+    {
+      "name": "audio-user-toggle",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

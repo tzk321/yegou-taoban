@@ -1,0 +1,10 @@
+{
+  "version": "5.1",
+  "base": "frozen 5.0 + playground extras",
+  "html_bytes": 1232915,
+  "svg_bytes": 1232273,
+  "sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "postcards": 12,
+  "unique_ids": 352,
+  "size_floor_bytes": 524288
+}

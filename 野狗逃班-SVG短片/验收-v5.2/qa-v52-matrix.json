@@ -1,0 +1,57 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "real boss failure/retry/victory aspect 390",
+      "passed": true,
+      "data": {
+        "coins": 33,
+        "windows": 6,
+        "hits": 0
+      }
+    },
+    {
+      "name": "real boss failure/retry/victory aspect 844",
+      "passed": true,
+      "data": {
+        "coins": 33,
+        "windows": 6,
+        "hits": 0
+      }
+    },
+    {
+      "name": "real boss failure/retry/victory aspect 1365",
+      "passed": true,
+      "data": {
+        "coins": 33,
+        "windows": 6,
+        "hits": 0
+      }
+    },
+    {
+      "name": "map boss full modal pause input and slot lock 0",
+      "passed": true
+    },
+    {
+      "name": "map boss full modal pause input and slot lock 1",
+      "passed": true
+    },
+    {
+      "name": "map boss full modal pause input and slot lock 4",
+      "passed": true
+    },
+    {
+      "name": "map boss full modal pause input and slot lock 7",
+      "passed": true
+    },
+    {
+      "name": "map boss full modal pause input and slot lock 10",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Stock legal route then natural idle failure and boss legal actions; viewports CDP only, no state injections."
+}

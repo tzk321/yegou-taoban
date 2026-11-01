@@ -1,0 +1,244 @@
+{
+  "success": true,
+  "artifact_sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "tests": [
+    {
+      "name": "cover 390x844",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 390x844",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 390x844",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 844x390",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 844x390",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 844x390",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 1365x900",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 1365x900",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 1365x900",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 360x780",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 360x780",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 360x780",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 1024x768",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 1024x768",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 1024x768",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 1220x600",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 1220x600",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 1220x600",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 1920x1080",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 1920x1080",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 1920x1080",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "cover 720x720",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 6
+      }
+    },
+    {
+      "name": "running 720x720",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "boss 720x720",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 5
+      }
+    },
+    {
+      "name": "walkright 390x844",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    },
+    {
+      "name": "walkleft 844x390",
+      "passed": true,
+      "data": {
+        "bad": [],
+        "near": [],
+        "count": 4
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Pairwise real DOM overlap of every visible interactive control including the circular stick hot area across eight viewports and cover/run/Boss/walking phases; no QA-time manipulation of layout."
+}

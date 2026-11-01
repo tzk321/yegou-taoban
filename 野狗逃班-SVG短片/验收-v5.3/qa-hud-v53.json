@@ -1,0 +1,199 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "map vitals clear of dog and readable 390x844",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "雨夜门口 · 耐心 ◆◆◆◆ 4/4",
+        "font": 34,
+        "textW": 417,
+        "bgW": 620,
+        "bgH": 78,
+        "screenH": 42,
+        "screenW": 336,
+        "box": [
+          14,
+          133,
+          350,
+          176
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog at jump apex 390x844",
+      "passed": true,
+      "data": [
+        71,
+        269,
+        198,
+        361
+      ]
+    },
+    {
+      "name": "obstacles spawn off-screen right 390x844",
+      "passed": true,
+      "data": {
+        "edge": 800,
+        "xs": [
+          913,
+          1008,
+          1063,
+          1118
+        ]
+      }
+    },
+    {
+      "name": "retained extra route badge fits 390x844",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "咖啡快送 / 杯架 1 / 3",
+        "font": 34,
+        "textW": 324,
+        "bgW": 620,
+        "bgH": 78,
+        "screenH": 42,
+        "screenW": 336,
+        "box": [
+          14,
+          133,
+          350,
+          176
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog and readable 844x390",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "雨夜门口 · 耐心 ◆◆◆◆ 4/4",
+        "font": 33,
+        "textW": 405,
+        "bgW": 470,
+        "bgH": 72,
+        "screenH": 33,
+        "screenW": 213,
+        "box": [
+          485,
+          47,
+          699,
+          80
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog at jump apex 844x390",
+      "passed": true,
+      "data": [
+        97,
+        57,
+        268,
+        182
+      ]
+    },
+    {
+      "name": "obstacles spawn off-screen right 844x390",
+      "passed": true,
+      "data": {
+        "edge": 1280,
+        "xs": [
+          1383,
+          1478,
+          1533,
+          1588
+        ]
+      }
+    },
+    {
+      "name": "retained extra route badge fits 844x390",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "咖啡快送 / 杯架 0 / 3",
+        "font": 33,
+        "textW": 314,
+        "bgW": 470,
+        "bgH": 72,
+        "screenH": 33,
+        "screenW": 213,
+        "box": [
+          485,
+          47,
+          699,
+          80
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog and readable 1365x900",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "雨夜门口 · 耐心 ◆◆◆◆ 4/4",
+        "font": 26,
+        "textW": 319,
+        "bgW": 470,
+        "bgH": 64,
+        "screenH": 55,
+        "screenW": 407,
+        "box": [
+          804,
+          130,
+          1210,
+          185
+        ]
+      }
+    },
+    {
+      "name": "map vitals clear of dog at jump apex 1365x900",
+      "passed": true,
+      "data": [
+        156,
+        268,
+        433,
+        470
+      ]
+    },
+    {
+      "name": "obstacles spawn off-screen right 1365x900",
+      "passed": true,
+      "data": {
+        "edge": 1280,
+        "xs": [
+          1383,
+          1478,
+          1533,
+          1588
+        ]
+      }
+    },
+    {
+      "name": "retained extra route badge fits 1365x900",
+      "passed": true,
+      "data": {
+        "hide": false,
+        "text": "咖啡快送 / 杯架 0 / 3",
+        "font": 26,
+        "textW": 248,
+        "bgW": 470,
+        "bgH": 64,
+        "screenH": 55,
+        "screenW": 407,
+        "box": [
+          804,
+          130,
+          1210,
+          185
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Overlap measured on real DOM box geometry, painted-after-the-dog only, full-screen tints/weather/effects exempt. Not a physical phone."
+}

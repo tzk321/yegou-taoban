@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "retained branch cruise settles once",
+      "passed": true,
+      "data": {
+        "t": 90,
+        "hits": 0,
+        "coins": 220
+      }
+    },
+    {
+      "name": "retained branch contract settles once",
+      "passed": true,
+      "data": {
+        "t": 60,
+        "hits": 18,
+        "coins": 266
+      }
+    },
+    {
+      "name": "retained branch endless settles once",
+      "passed": true,
+      "data": {
+        "t": 9.833333333333401,
+        "hits": 3,
+        "coins": 18
+      }
+    },
+    {
+      "name": "retained branch courier settles once",
+      "passed": true,
+      "data": {
+        "t": 90,
+        "hits": 17,
+        "coins": 153
+      }
+    },
+    {
+      "name": "retained branch daily settles once",
+      "passed": true,
+      "data": {
+        "t": 75,
+        "hits": 25,
+        "coins": 82
+      }
+    },
+    {
+      "name": "retained branch wildrun settles once",
+      "passed": true,
+      "data": {
+        "t": 9.250000000000039,
+        "hits": 3,
+        "coins": 7
+      }
+    },
+    {
+      "name": "retained branch tutorial settles once",
+      "passed": true,
+      "data": {
+        "t": 30,
+        "hits": 4,
+        "coins": 0
+      }
+    },
+    {
+      "name": "daily actual coordinates and stats equal three viewports",
+      "passed": true
+    },
+    {
+      "name": "motion/tint/secrets same save persists",
+      "passed": true
+    },
+    {
+      "name": "independent SVG and normal no-QA offline",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay"
+}

@@ -1,0 +1,33 @@
+{
+  "success": true,
+  "artifact_sha256": "b928b79087c1fcd6e73567f4dde7802598d19d1e19cc392857a97b79ea15e9d6",
+  "tests": [
+    {
+      "name": "24-four-tab-cycles-and-288-postcard-pages-no-dom-leak",
+      "passed": true,
+      "data": {
+        "before": 11307,
+        "after": 11307
+      }
+    },
+    {
+      "name": "12-extra-route-start-home-cycles-no-effect-dom-leak",
+      "passed": true
+    },
+    {
+      "name": "visible-vector-gallery-ordinary-raf-sandbox-3-second-benchmark",
+      "passed": true,
+      "data": {
+        "frames": 129,
+        "p50": 16.700000000000045,
+        "p95": 50,
+        "max": 66.60000000000014,
+        "nodes": 11278
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Headless sandbox frame metrics, not physical phone FPS; 12 hidden symbol definitions are not per-frame animated. No duplicated full scenes added during gallery paging."
+}

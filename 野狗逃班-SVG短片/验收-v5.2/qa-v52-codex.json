@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "checkpoint reload locked equipped ranking and actual neon trails",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Isolated CDP 9532; RAF disabled; legal route bot. Owned-gear fixture only for checkpoint test; not natural victory or device FPS."
+}

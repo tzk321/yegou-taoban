@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "artifact_sha256": "3b143c50da46bcf79e105414c8d4002eaf19774236456f4850ef13f67ecabbeb",
+  "tests": [
+    {
+      "name": "ordinary entry actual RAF no QA hook",
+      "passed": true,
+      "data": 0.9831000000000006
+    },
+    {
+      "name": "ordinary RAF actual keyboard walk",
+      "passed": true,
+      "data": -140.7650337760667
+    },
+    {
+      "name": "ordinary RAF pause resume and BGM gesture",
+      "passed": true
+    },
+    {
+      "name": "ordinary active rotation real RAF",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Actual requestAnimationFrame ordinary HTML. Not mixed with QA.advance; isolated profile, no real user wallet."
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "All hostile damage call sites originate only in visible bullet integrator",
+      "passed": true,
+      "data": {
+        "hostileDamageCallers": [
+          "bossDamage",
+          "mapBossDamage",
+          "tickBullets"
+        ],
+        "functions": 239,
+        "duplicateFunctions": []
+      }
+    },
+    {
+      "name": "Frozen 5.2 source and actual pre-release baseline backup hash verified",
+      "passed": true
+    }
+  ],
+  "environment": "Static AST callsite audit plus SHA256 byte checks, complementary to actual Chromium collision tests."
+}

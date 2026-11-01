@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "actual purchase detail persistence wind",
+      "passed": true,
+      "data": {
+        "price": 45,
+        "detail": "冲刺位移118→142；跑图冷却2.7秒，Boss1.2秒。大招3.8秒。单槽，不能叠加。"
+      }
+    },
+    {
+      "name": "actual purchase detail persistence magnet",
+      "passed": true,
+      "data": {
+        "price": 65,
+        "detail": "金币吸附140，咖啡吸附85。没有自动破障或无敌，不改变大招。"
+      }
+    },
+    {
+      "name": "actual purchase detail persistence shield",
+      "passed": true,
+      "data": {
+        "price": 80,
+        "detail": "开局免伤一次；Boss每次重试补一盾，不叠层。单槽，不与其他技能叠加。"
+      }
+    },
+    {
+      "name": "actual purchase detail persistence rail",
+      "passed": true,
+      "data": {
+        "price": 800,
+        "detail": "冲刺真实雷弧，最多穿三障，沿途收币；跑图冷却2.6秒、Boss1.6秒且反击1伤。每窗最多2伤。雷弧破障不回能。"
+      }
+    },
+    {
+      "name": "actual purchase detail persistence orbit",
+      "passed": true,
+      "data": {
+        "price": 1800,
+        "detail": "纸护范围100、每2.1秒拦一障且耗1杯能量；吸附135。Boss取消自动纸，主动大招双纸；每窗最多3伤。纸护破障不回能，不能挂机无敌。"
+      }
+    },
+    {
+      "name": "actual purchase detail persistence leviathan",
+      "passed": true,
+      "data": {
+        "price": 3600,
+        "detail": "六杯开鲸：首拍480范围；鲸息4.4秒，每1秒扫前方180。Boss大招2伤、每窗最多3伤。鲸破障不回能，仍需捡咖啡。"
+      }
+    },
+    {
+      "name": "actual purchase detail persistence chrono",
+      "passed": true,
+      "data": {
+        "price": 9800,
+        "detail": "六杯时停2.4秒，玩家可跳冲；时停冲刺冷却1.4秒。Boss闭盾仍得等，每绿窗最多3伤，不能冻窗秒杀。"
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Seeded isolated test budget; actual shop clicks and persisted debit, confirmation retained at >=800."
+}

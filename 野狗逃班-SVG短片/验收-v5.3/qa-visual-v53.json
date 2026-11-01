@@ -1,0 +1,181 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "tests": [
+    {
+      "name": "new spawns outside viewport 390",
+      "passed": true,
+      "data": [
+        913.4666666666669,
+        1008.4666666666669,
+        1063.4666666666665,
+        1118.4666666666665
+      ]
+    },
+    {
+      "name": "danger red with marks and pickups unfiltered 390",
+      "passed": true,
+      "data": {
+        "colors": [
+          {
+            "filter": "url(#dangerRed53)",
+            "mark": true
+          }
+        ],
+        "safe": [
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "Boss collision source actually changes position 390",
+      "passed": true,
+      "data": {
+        "p1": {
+          "x": 626.9658496491438,
+          "y": 357.9651793243437
+        },
+        "p2": {
+          "x": 632.7276279879737,
+          "y": 367.68048054223306
+        }
+      }
+    },
+    {
+      "name": "new spawns outside viewport 844",
+      "passed": true,
+      "data": [
+        1383.4666666666665,
+        1478.4666666666665,
+        1533.4666666666665,
+        1588.4666666666665
+      ]
+    },
+    {
+      "name": "danger red with marks and pickups unfiltered 844",
+      "passed": true,
+      "data": {
+        "colors": [
+          {
+            "filter": "url(#dangerRed53)",
+            "mark": true
+          }
+        ],
+        "safe": [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "Boss collision source actually changes position 844",
+      "passed": true,
+      "data": {
+        "p1": {
+          "x": 829.6157988869388,
+          "y": 357.9651793243437
+        },
+        "p2": {
+          "x": 847.8945439618476,
+          "y": 367.68048054223306
+        }
+      }
+    },
+    {
+      "name": "new spawns outside viewport 1365",
+      "passed": true,
+      "data": [
+        1383.4666666666665,
+        1478.4666666666665,
+        1533.4666666666665,
+        1588.4666666666665
+      ]
+    },
+    {
+      "name": "danger red with marks and pickups unfiltered 1365",
+      "passed": true,
+      "data": {
+        "colors": [
+          {
+            "filter": "url(#dangerRed53)",
+            "mark": true
+          }
+        ],
+        "safe": [
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "name": "Boss collision source actually changes position 1365",
+      "passed": true,
+      "data": {
+        "p1": {
+          "x": 829.6157988869388,
+          "y": 357.9651793243437
+        },
+        "p2": {
+          "x": 847.8945439618476,
+          "y": 367.68048054223306
+        }
+      }
+    },
+    {
+      "name": "rotate portrait to landscape does not reveal queued obstacles mid-screen",
+      "passed": true,
+      "data": [
+        {
+          "x": 1393.2,
+          "y": 506,
+          "coffee": true,
+          "coin": false,
+          "type": "coffee",
+          "armored": false
+        },
+        {
+          "x": 1488.2,
+          "y": 506,
+          "coffee": false,
+          "coin": true,
+          "type": "coin",
+          "armored": false
+        },
+        {
+          "x": 1543.2,
+          "y": 455,
+          "coffee": false,
+          "coin": true,
+          "type": "coin",
+          "armored": false
+        },
+        {
+          "x": 1598.2,
+          "y": 506,
+          "coffee": false,
+          "coin": true,
+          "type": "coin",
+          "armored": false
+        }
+      ]
+    },
+    {
+      "name": "daily coordinates unchanged across rotation",
+      "passed": true
+    },
+    {
+      "name": "new skins have distinct actual preview accessories",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "DOM styling, positions and headless screenshots. Not physical phone performance."
+}

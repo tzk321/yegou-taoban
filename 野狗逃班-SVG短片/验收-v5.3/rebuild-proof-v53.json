@@ -1,0 +1,7 @@
+{
+  "success": true,
+  "artifact_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "html_equal": true,
+  "svg_equal": true,
+  "note": "Copied public source into independent directory and rebuilt only with packaged files"
+}

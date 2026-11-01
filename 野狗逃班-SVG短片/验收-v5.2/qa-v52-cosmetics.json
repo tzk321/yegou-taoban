@@ -1,0 +1,102 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "all actual skin preview clone no equip debit 0",
+      "passed": true,
+      "data": {
+        "hood": "#ffdd77",
+        "coat": "#ffc64e",
+        "accessories": 0,
+        "detail": "熟悉的黄雨衣，继续脱缰。",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 1",
+      "passed": true,
+      "data": {
+        "hood": "#b1f6df",
+        "coat": "#68d8bf",
+        "accessories": 3,
+        "detail": "薄荷雨衣 / 反光条 / 夜跑臂章",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 2",
+      "passed": true,
+      "data": {
+        "hood": "#ffc1b1",
+        "coat": "#f58d9b",
+        "accessories": 3,
+        "detail": "珊瑚雨衣 / 汽水徽章 / 流苏",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 3",
+      "passed": true,
+      "data": {
+        "hood": "#e8f8ed",
+        "coat": "#c4e5ea",
+        "accessories": 3,
+        "detail": "纸白外套 / 折纸翼 / 江蓝围巾",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 4",
+      "passed": true,
+      "data": {
+        "hood": "#213e57",
+        "coat": "#162f48",
+        "accessories": 5,
+        "detail": "墨蓝机能雨衣，双色光纤、悬浮雨滴与雷光脚印。纯外观，不改碰撞。",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 5",
+      "passed": true,
+      "data": {
+        "hood": "#e1e7fc",
+        "coat": "#c9d9f4",
+        "accessories": 5,
+        "detail": "月白长披风、银月头冠、缓转月蚀环与漂浮碎星。纯外观，仍是那只野狗。",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 6",
+      "passed": true,
+      "data": {
+        "hood": "#d4b164",
+        "coat": "#25292e",
+        "accessories": 5,
+        "detail": "黑金织纹礼装、日冕冠、太阳仪轨和金焰脚印。贵在造型，不靠数值加成。",
+        "balance": 50
+      }
+    },
+    {
+      "name": "all actual skin preview clone no equip debit 7",
+      "passed": true,
+      "data": {
+        "hood": "#71beb8",
+        "coat": "#377e89",
+        "accessories": 6,
+        "detail": "江青鳞甲、鎏金双角、折纸龙脊、飘动长绫与水纹仪轨。最贵的不是狗，是排场。",
+        "balance": 50
+      }
+    },
+    {
+      "name": "WebLocks unavailable fallback retains claimed developer same-wallet no grant",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "All eight real preview models and accessory nodes, isolated owned fixture, no actual user save."
+}

@@ -1,0 +1,215 @@
+{
+  "success": true,
+  "artifact_sha256": "63e87b2f62b3ddc8bf720bbc95700650404079e88e93706f74080d0bd6c93be3",
+  "tests": [
+    {
+      "name": "no-input map cannot be auto-won stock",
+      "passed": true,
+      "data": {
+        "t": 15.70000000000036,
+        "hits": 4,
+        "energy": 1,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills stock",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won wind",
+      "passed": true,
+      "data": {
+        "t": 15.70000000000036,
+        "hits": 4,
+        "energy": 1,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills wind",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won magnet",
+      "passed": true,
+      "data": {
+        "t": 15.70000000000036,
+        "hits": 4,
+        "energy": 2,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills magnet",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won shield",
+      "passed": true,
+      "data": {
+        "t": 21.81666666666671,
+        "hits": 4,
+        "energy": 2,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills shield",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won rail",
+      "passed": true,
+      "data": {
+        "t": 15.70000000000036,
+        "hits": 4,
+        "energy": 1,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills rail",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won orbit",
+      "passed": true,
+      "data": {
+        "t": 51.83333333333167,
+        "hits": 4,
+        "energy": 0,
+        "smashed": 7,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills orbit",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won leviathan",
+      "passed": true,
+      "data": {
+        "t": 15.70000000000036,
+        "hits": 4,
+        "energy": 1,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills leviathan",
+      "passed": true
+    },
+    {
+      "name": "no-input map cannot be auto-won chrono",
+      "passed": true,
+      "data": {
+        "t": 15.70000000000036,
+        "hits": 4,
+        "energy": 1,
+        "smashed": 0,
+        "wallet": 20000
+      }
+    },
+    {
+      "name": "daily still disables all equipped skills chrono",
+      "passed": true
+    },
+    {
+      "name": "actual durations cooldown leviathan",
+      "passed": true,
+      "data": {
+        "freedom": 4.4,
+        "chrono": 0,
+        "cool": 1.8
+      }
+    },
+    {
+      "name": "shop actual prices page leviathan",
+      "passed": true,
+      "data": [
+        "已经拥有",
+        "已经拥有",
+        "已经拥有",
+        "已经拥有"
+      ]
+    },
+    {
+      "name": "actual durations cooldown chrono",
+      "passed": true,
+      "data": {
+        "freedom": 2.4,
+        "chrono": 2.4,
+        "cool": 1.4
+      }
+    },
+    {
+      "name": "shop actual prices page chrono",
+      "passed": true,
+      "data": [
+        "已经拥有",
+        "已经拥有",
+        "已经拥有",
+        "已经拥有"
+      ]
+    },
+    {
+      "name": "actual durations cooldown orbit",
+      "passed": true,
+      "data": {
+        "freedom": 3.8,
+        "chrono": 0,
+        "cool": 1.8
+      }
+    },
+    {
+      "name": "shop actual prices page orbit",
+      "passed": true,
+      "data": [
+        "已经拥有",
+        "已经拥有",
+        "已经拥有",
+        "已经拥有"
+      ]
+    },
+    {
+      "name": "actual durations cooldown rail",
+      "passed": true,
+      "data": {
+        "freedom": 3.8,
+        "chrono": 0,
+        "cool": 2.6
+      }
+    },
+    {
+      "name": "shop actual prices page rail",
+      "passed": true,
+      "data": [
+        "已经拥有",
+        "已经拥有",
+        "已经拥有",
+        "正在使用"
+      ]
+    },
+    {
+      "name": "orbit passive not invincible no recursive auto-super",
+      "passed": true,
+      "data": {
+        "hits": 5,
+        "smashed": 13,
+        "energy": 6
+      }
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Root preliminary isolated QA: seeded owned gear and wallet, no real user profile. Explicit six-energy scenario for cooldown/duration mechanism only. No-input runs no state mutations."
+}

@@ -1,0 +1,15 @@
+{
+  "version": "6.0",
+  "html_bytes": 1566454,
+  "svg_bytes": 1565637,
+  "sha256": "78639afd827d23130d9263fb82799555b347e5ae6751741232eeaed6ef0536a5",
+  "svg_sha256": "b3eee59889b87857b440a7e780227896f54bb5e0e6fcb7add1033d90da2bc057",
+  "branch": "standalone 6.0 fork from 5.3 joystick/fullscreen revision",
+  "parent_html_sha256": "e598bab91e88711decee3eac7d79b2df55bee624168ba68645ec6b99d4ad1811",
+  "frozen_baseline": "5.2 published landscape/HUD repair",
+  "bosses": 13,
+  "skins": 10,
+  "skills": 14,
+  "tracks": 7,
+  "size_floor_bytes": 524288
+}

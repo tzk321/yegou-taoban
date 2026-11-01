@@ -1,0 +1,1415 @@
+{
+  "success": true,
+  "artifact_sha256": "25eb7b1c2d7354d174b6ba7471f6eb8bba5e0437ad4a6889c57d9e39455d2b9d",
+  "tests": [
+    {
+      "name": "v4-clean-start",
+      "passed": true,
+      "data": {
+        "phase": "cover",
+        "mode": "film",
+        "t": 0,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 0,
+        "spawn": 0.6,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": -1,
+        "spawnIndex": 0,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 0,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "4.0",
+        "wallet": {
+          "balance": 0,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": ""
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "shop-rejects-insufficient-coins",
+      "passed": true,
+      "data": {
+        "balance": 0,
+        "ownedSkins": [
+          "original"
+        ],
+        "ownedSkills": [],
+        "skin": "original",
+        "skill": ""
+      }
+    },
+    {
+      "name": "dash-real-displacement-afterimages-return",
+      "passed": true,
+      "data": {
+        "max": 118,
+        "transform": "translate(418,560)"
+      }
+    },
+    {
+      "name": "shop-freezes-run-and-locks-loadout",
+      "passed": true
+    },
+    {
+      "name": "first-act-challenge-and-real-earned-coins",
+      "passed": true,
+      "data": {
+        "hits": 10,
+        "spawns": 23,
+        "coins": 20
+      }
+    },
+    {
+      "name": "idle-main-locks-boss-single-completion-reward",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 15,
+        "hits": 37,
+        "smashed": 0,
+        "distance": 35826.19346666852,
+        "spawn": -6.342234536171874,
+        "chapter": 3,
+        "ending": "咖啡因自由人",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 2,
+        "comboTime": 0,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 15,
+        "jumpBuffer": 0,
+        "score": 229,
+        "beat": 279,
+        "spawnIndex": 88,
+        "completedMain": true,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 100,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 100,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": ""
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 37
+      }
+    },
+    {
+      "name": "coin-wallet-persists-through-reload",
+      "passed": true,
+      "data": 100
+    },
+    {
+      "name": "natural-full-120s-perfect-without-scenario",
+      "passed": true,
+      "data": {
+        "phase": "bossGate",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 20,
+        "hits": 0,
+        "smashed": 32,
+        "distance": 37287.59650000151,
+        "spawn": -6.342234536171874,
+        "chapter": 3,
+        "ending": "",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 9,
+        "maxCombo": 79,
+        "comboTime": 0.3000000000000109,
+        "energy": 1,
+        "freedom": 0,
+        "superUses": 6,
+        "nearMiss": 36,
+        "jumpBuffer": 0,
+        "score": 1667,
+        "beat": 279,
+        "spawnIndex": 88,
+        "completedMain": true,
+        "bossEligible": true,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 163,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 263,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": ""
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "natural-main-to-three-stage-boss-win",
+      "passed": true,
+      "data": {
+        "state": {
+          "phase": "ending",
+          "mode": "play",
+          "t": 120,
+          "paused": false,
+          "y": 0,
+          "vy": 0,
+          "jumps": 0,
+          "dash": 0,
+          "cool": 0,
+          "inv": 0.7916666666666781,
+          "coffee": 20,
+          "hits": 0,
+          "smashed": 32,
+          "distance": 39502.172500010696,
+          "spawn": -6.342234536171874,
+          "chapter": 3,
+          "ending": "终审作废，准时自由",
+          "toast": 0.85,
+          "shake": 0,
+          "combo": 3,
+          "maxCombo": 79,
+          "comboTime": 1.2916666666666519,
+          "energy": 6,
+          "freedom": 0,
+          "superUses": 8,
+          "nearMiss": 36,
+          "jumpBuffer": 0,
+          "score": 2067,
+          "beat": 88,
+          "spawnIndex": 88,
+          "completedMain": true,
+          "bossEligible": true,
+          "bossWon": true,
+          "offset": 0,
+          "runCoins": 193,
+          "mainReward": true,
+          "bossReward": true,
+          "guard": 0,
+          "safeGap": 0,
+          "mobile": false,
+          "compact": false,
+          "items": 0,
+          "particles": 0,
+          "badges": [
+            "天亮了",
+            "三杯续命",
+            "不批不改",
+            "消息免疫"
+          ],
+          "version": "4.0",
+          "wallet": {
+            "balance": 293,
+            "ownedSkins": [
+              "original"
+            ],
+            "ownedSkills": [],
+            "skin": "original",
+            "skill": ""
+          },
+          "shopOpen": false,
+          "storageOK": true,
+          "duration": 120,
+          "boss": {
+            "t": 31.636799999998846,
+            "hp": 0,
+            "maxHP": 12,
+            "player": 3,
+            "stage": 3,
+            "state": "defeated",
+            "timer": -0.008333333333324288,
+            "elapsed": 3.9249999999999887,
+            "pattern": "double",
+            "cycle": 5,
+            "pulse1": false,
+            "pulse2": false,
+            "hits": 0,
+            "landed": 10,
+            "blocked": 1,
+            "won": true,
+            "flash": 0,
+            "burst": 3.2083333333333246,
+            "notice": "",
+            "openSerial": 5,
+            "shots": 0
+          },
+          "mainHits": 0
+        },
+        "stages": [
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "name": "ticket-has-victory-coins-and-outfit",
+      "passed": true,
+      "data": 1387
+    },
+    {
+      "name": "purchase-once-equip-persist-skin-and-skill",
+      "passed": true,
+      "data": {
+        "balance": 188,
+        "ownedSkins": [
+          "original",
+          "mint"
+        ],
+        "ownedSkills": [
+          "wind"
+        ],
+        "skin": "mint",
+        "skill": "wind"
+      }
+    },
+    {
+      "name": "wind-skill-changes-displacement-and-cooldown",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 0.37999999999999995,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0.2566999999999998,
+        "cool": 2.086700000000001,
+        "inv": 0.7366999999999997,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 119.79563500000002,
+        "spawn": 0.2199999999999999,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 0,
+        "spawnIndex": 0,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 152,
+        "runCoins": 0,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 10,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "不批不改",
+          "消息免疫"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 188,
+          "ownedSkins": [
+            "original",
+            "mint"
+          ],
+          "ownedSkills": [
+            "wind"
+          ],
+          "skin": "mint",
+          "skill": "wind"
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "magnet-skill-works-with-natural-items",
+      "passed": true,
+      "data": 34
+    },
+    {
+      "name": "shield-once-only-then-normal-damage",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 12.083200000000003,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 1,
+        "hits": 2,
+        "smashed": 0,
+        "distance": 3202.0479999999284,
+        "spawn": 1.0308561687653772,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 2,
+        "comboTime": 0,
+        "energy": 1.5,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 1,
+        "jumpBuffer": 0,
+        "score": 26,
+        "beat": 28,
+        "spawnIndex": 11,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 7,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 19,
+        "particles": 3,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "不批不改",
+          "消息免疫"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 30,
+          "ownedSkins": [
+            "original",
+            "mint"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield"
+          ],
+          "skin": "mint",
+          "skill": "shield"
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 2
+      }
+    },
+    {
+      "name": "boss-shield-consumed-without-patience-loss",
+      "passed": true,
+      "data": {
+        "t": 5.434200000000731,
+        "hp": 12,
+        "maxHP": 12,
+        "player": 3,
+        "stage": 1,
+        "state": "active",
+        "timer": 0.46659999999999896,
+        "elapsed": 0.6334000000000003,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": true,
+        "pulse2": false,
+        "hits": 0,
+        "landed": 0,
+        "blocked": 0,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "",
+        "openSerial": 0,
+        "shots": 0
+      }
+    },
+    {
+      "name": "boss-pause-frozen",
+      "passed": true
+    },
+    {
+      "name": "boss-only-retry-refills-shield-keeps-main",
+      "passed": true,
+      "data": {
+        "phase": "boss",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 29.352333333333338,
+        "spawn": 0.5166666666666665,
+        "chapter": 3,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 3,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 0,
+        "spawnIndex": 0,
+        "completedMain": true,
+        "bossEligible": true,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 12,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 1,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "不批不改",
+          "消息免疫"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 42,
+          "ownedSkins": [
+            "original",
+            "mint"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield"
+          ],
+          "skin": "mint",
+          "skill": "shield"
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0.06670000000000006,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.4333,
+          "elapsed": 0.06670000000000006,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "low-beam-bright-damaging-window",
+      "passed": true,
+      "data": {
+        "t": 5.06,
+        "hp": 12,
+        "maxHP": 12,
+        "player": 2,
+        "stage": 1,
+        "state": "active",
+        "timer": 0.8566666666666541,
+        "elapsed": 0.24333333333334586,
+        "pattern": "low",
+        "cycle": 1,
+        "pulse1": true,
+        "pulse2": false,
+        "hits": 1,
+        "landed": 0,
+        "blocked": 0,
+        "won": false,
+        "flash": 0,
+        "burst": 0,
+        "notice": "",
+        "openSerial": 0,
+        "shots": 0
+      }
+    },
+    {
+      "name": "high-beam-ground-safe-and-visible",
+      "passed": true,
+      "data": {
+        "phase": "boss",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 738.3833333333434,
+        "spawn": 0.5666666666666665,
+        "chapter": 3,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 4,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 32,
+        "spawnIndex": 0,
+        "completedMain": true,
+        "bossEligible": true,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 12,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "不批不改",
+          "消息免疫"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 54,
+          "ownedSkins": [
+            "original",
+            "mint"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield"
+          ],
+          "skin": "mint",
+          "skill": ""
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 10.385000000000037,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 2,
+          "stage": 1,
+          "state": "active",
+          "timer": 0.85,
+          "elapsed": 0.24999999999999997,
+          "pattern": "high",
+          "cycle": 2,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 1,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 1,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "layout-shop-boss-controls 360x640",
+      "passed": true,
+      "data": {
+        "box": [
+          {
+            "id": "shopCloseBtn",
+            "inside": true,
+            "h": 33.5
+          },
+          {
+            "id": "skinTab",
+            "inside": true,
+            "h": 34
+          },
+          {
+            "id": "skillTab",
+            "inside": true,
+            "h": 34
+          },
+          {
+            "id": "shopBuy0",
+            "inside": true,
+            "h": 29
+          },
+          {
+            "id": "shopBuy1",
+            "inside": true,
+            "h": 29
+          },
+          {
+            "id": "shopBuy2",
+            "inside": true,
+            "h": 29
+          },
+          {
+            "id": "shopBuy3",
+            "inside": true,
+            "h": 29
+          }
+        ],
+        "controls": [
+          {
+            "id": "jumpBtn",
+            "inside": true,
+            "h": 53.5
+          },
+          {
+            "id": "dashBtn",
+            "inside": true,
+            "h": 53.5
+          },
+          {
+            "id": "superBtn",
+            "inside": true,
+            "h": 53.5
+          },
+          {
+            "id": "shopBtn",
+            "inside": true,
+            "h": 41
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout-shop-boss-controls 390x844",
+      "passed": true,
+      "data": {
+        "box": [
+          {
+            "id": "shopCloseBtn",
+            "inside": true,
+            "h": 36.2913818359375
+          },
+          {
+            "id": "skinTab",
+            "inside": true,
+            "h": 36.83305358886719
+          },
+          {
+            "id": "skillTab",
+            "inside": true,
+            "h": 36.83305358886719
+          },
+          {
+            "id": "shopBuy0",
+            "inside": true,
+            "h": 31.416412353515625
+          },
+          {
+            "id": "shopBuy1",
+            "inside": true,
+            "h": 31.416412353515625
+          },
+          {
+            "id": "shopBuy2",
+            "inside": true,
+            "h": 31.41644287109375
+          },
+          {
+            "id": "shopBuy3",
+            "inside": true,
+            "h": 31.41644287109375
+          }
+        ],
+        "controls": [
+          {
+            "id": "jumpBtn",
+            "inside": true,
+            "h": 57.9578857421875
+          },
+          {
+            "id": "dashBtn",
+            "inside": true,
+            "h": 57.9578857421875
+          },
+          {
+            "id": "superBtn",
+            "inside": true,
+            "h": 57.9578857421875
+          },
+          {
+            "id": "shopBtn",
+            "inside": true,
+            "h": 44.41632080078125
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout-shop-boss-controls 768x1024",
+      "passed": true,
+      "data": {
+        "box": [
+          {
+            "id": "shopCloseBtn",
+            "inside": true,
+            "h": 54.88531494140625
+          },
+          {
+            "id": "skinTab",
+            "inside": true,
+            "h": 55.70451354980469
+          },
+          {
+            "id": "skillTab",
+            "inside": true,
+            "h": 55.70451354980469
+          },
+          {
+            "id": "shopBuy0",
+            "inside": true,
+            "h": 47.512664794921875
+          },
+          {
+            "id": "shopBuy1",
+            "inside": true,
+            "h": 47.512664794921875
+          },
+          {
+            "id": "shopBuy2",
+            "inside": true,
+            "h": 47.5126953125
+          },
+          {
+            "id": "shopBuy3",
+            "inside": true,
+            "h": 47.5126953125
+          }
+        ],
+        "controls": [
+          {
+            "id": "jumpBtn",
+            "inside": true,
+            "h": 87.6527099609375
+          },
+          {
+            "id": "dashBtn",
+            "inside": true,
+            "h": 87.6527099609375
+          },
+          {
+            "id": "superBtn",
+            "inside": true,
+            "h": 87.6527099609375
+          },
+          {
+            "id": "shopBtn",
+            "inside": true,
+            "h": 67.173095703125
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout-shop-boss-controls 844x390",
+      "passed": true,
+      "data": {
+        "box": [
+          {
+            "id": "shopCloseBtn",
+            "inside": true,
+            "h": 32.662506103515625
+          },
+          {
+            "id": "skinTab",
+            "inside": true,
+            "h": 33.150001525878906
+          },
+          {
+            "id": "skillTab",
+            "inside": true,
+            "h": 33.150001525878906
+          },
+          {
+            "id": "shopBuy0",
+            "inside": true,
+            "h": 30.2249755859375
+          },
+          {
+            "id": "shopBuy1",
+            "inside": true,
+            "h": 30.2249755859375
+          },
+          {
+            "id": "shopBuy2",
+            "inside": true,
+            "h": 30.2249755859375
+          },
+          {
+            "id": "shopBuy3",
+            "inside": true,
+            "h": 30.2249755859375
+          }
+        ],
+        "controls": [
+          {
+            "id": "jumpBtn",
+            "inside": true,
+            "h": 46.800018310546875
+          },
+          {
+            "id": "dashBtn",
+            "inside": true,
+            "h": 46.800018310546875
+          },
+          {
+            "id": "superBtn",
+            "inside": true,
+            "h": 46.800018310546875
+          },
+          {
+            "id": "shopBtn",
+            "inside": true,
+            "h": 45.82501220703125
+          }
+        ]
+      }
+    },
+    {
+      "name": "layout-shop-boss-controls 1920x1080",
+      "passed": true,
+      "data": {
+        "box": [
+          {
+            "id": "shopCloseBtn",
+            "inside": true,
+            "h": 76.97802734375
+          },
+          {
+            "id": "skinTab",
+            "inside": true,
+            "h": 78.126953125
+          },
+          {
+            "id": "skillTab",
+            "inside": true,
+            "h": 78.126953125
+          },
+          {
+            "id": "shopBuy0",
+            "inside": true,
+            "h": 71.2333984375
+          },
+          {
+            "id": "shopBuy1",
+            "inside": true,
+            "h": 71.2333984375
+          },
+          {
+            "id": "shopBuy2",
+            "inside": true,
+            "h": 71.2333984375
+          },
+          {
+            "id": "shopBuy3",
+            "inside": true,
+            "h": 71.2333984375
+          }
+        ],
+        "controls": [
+          {
+            "id": "jumpBtn",
+            "inside": true,
+            "h": 110.296875
+          },
+          {
+            "id": "dashBtn",
+            "inside": true,
+            "h": 110.296875
+          },
+          {
+            "id": "superBtn",
+            "inside": true,
+            "h": 110.296875
+          },
+          {
+            "id": "shopBtn",
+            "inside": true,
+            "h": 55.1484375
+          }
+        ]
+      }
+    },
+    {
+      "name": "two-finger-jump-dash-immediate",
+      "passed": true,
+      "data": {
+        "phase": "running",
+        "mode": "play",
+        "t": 0.11790000000111757,
+        "paused": false,
+        "y": 0,
+        "vy": -635,
+        "jumps": 1,
+        "dash": 0.57,
+        "cool": 3.2,
+        "inv": 0.98,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 31.243500000296155,
+        "spawn": 0.48209999999888237,
+        "chapter": 0,
+        "ending": "",
+        "toast": 0,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 0,
+        "comboTime": 0,
+        "energy": 0,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 0,
+        "beat": 0,
+        "spawnIndex": 0,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 0,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 17,
+        "badges": [
+          "天亮了",
+          "三杯续命",
+          "不批不改",
+          "消息免疫"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 114,
+          "ownedSkins": [
+            "original",
+            "mint"
+          ],
+          "ownedSkills": [
+            "wind",
+            "magnet",
+            "shield"
+          ],
+          "skin": "mint",
+          "skill": ""
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "standalone-svg-and-moving-bridge",
+      "passed": true,
+      "data": "translate(-291.74020720014687,0)"
+    },
+    {
+      "name": "reduced-motion-keeps-readable-warning",
+      "passed": true
+    },
+    {
+      "name": "storage-denied-play-shop-in-memory",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 15,
+        "hits": 37,
+        "smashed": 0,
+        "distance": 35824.948833334995,
+        "spawn": -6.342234536171874,
+        "chapter": 3,
+        "ending": "咖啡因自由人",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 2,
+        "comboTime": 0,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 15,
+        "jumpBuffer": 0,
+        "score": 229,
+        "beat": 279,
+        "spawnIndex": 88,
+        "completedMain": true,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 100,
+        "mainReward": true,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "mobile": false,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [
+          "天亮了",
+          "三杯续命"
+        ],
+        "version": "4.0",
+        "wallet": {
+          "balance": 55,
+          "ownedSkins": [
+            "original",
+            "mint"
+          ],
+          "ownedSkills": [],
+          "skin": "mint",
+          "skill": ""
+        },
+        "shopOpen": true,
+        "storageOK": false,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 37
+      }
+    },
+    {
+      "name": "normal-entry-no-test-hooks",
+      "passed": true
+    },
+    {
+      "name": "no-js-exceptions-or-external-network",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Main and Boss natural chain uses only observe/actions/advance, no scenario. Isolated Boss damage/layout tests use explicit perfect entry scenario."
+}

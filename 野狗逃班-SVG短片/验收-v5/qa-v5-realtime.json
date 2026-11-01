@@ -1,0 +1,721 @@
+{
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "tests": [
+    {
+      "name": "normal-entry-touch-keypad-100000",
+      "passed": true
+    },
+    {
+      "name": "normal-entry-real-90s-cruise-and-modal-pause",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 90,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 17,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 19351.218333333814,
+        "spawn": -2.6957681197906544,
+        "chapter": 3,
+        "ending": "江风不催人",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 3,
+        "comboTime": 0,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 8,
+        "jumpBuffer": 0,
+        "score": 281,
+        "beat": 209,
+        "spawnIndex": 51,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 220,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 100220,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": true,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "cruise:stock": {
+                "runs": 1,
+                "best": 281,
+                "time": 90,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "cruise"
+            ],
+            "secrets": [],
+            "runs": 1
+          }
+        },
+        "voyage": {
+          "route": "cruise",
+          "life": 3,
+          "finished": true,
+          "reason": "complete",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 90,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 220,
+          "recorded": true,
+          "tier": 3,
+          "panel": "",
+          "devClaimed": true,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "cruise"
+          ],
+          "secrets": [],
+          "records": {
+            "cruise:stock": {
+              "runs": 1,
+              "best": 281,
+              "time": 90,
+              "wins": 0
+            }
+          },
+          "runs": 1,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "normal-entry-real-60s-contract",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 60,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0,
+        "coffee": 14,
+        "hits": 19,
+        "smashed": 0,
+        "distance": 18004.27999999992,
+        "spawn": -2.599766666666663,
+        "chapter": 2,
+        "ending": "委托收工，不用加班",
+        "toast": 0.85,
+        "shake": 0,
+        "combo": 0,
+        "maxCombo": 3,
+        "comboTime": 0,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 9,
+        "jumpBuffer": 0,
+        "score": 206,
+        "beat": 139,
+        "spawnIndex": 51,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 266,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 1.4333333333333333,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 100486,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": true,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "cruise:stock": {
+                "runs": 1,
+                "best": 281,
+                "time": 90,
+                "wins": 0
+              },
+              "contract:stock": {
+                "runs": 1,
+                "best": 206,
+                "time": 60,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "cruise",
+              "contract"
+            ],
+            "secrets": [],
+            "runs": 2
+          }
+        },
+        "voyage": {
+          "route": "contract",
+          "life": 3,
+          "finished": true,
+          "reason": "complete",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 60,
+          "goals": [
+            {
+              "kind": "coffee",
+              "name": "冰美式",
+              "need": 6,
+              "current": 14
+            },
+            {
+              "kind": "smashed",
+              "name": "撕碎通知",
+              "need": 11,
+              "current": 0
+            },
+            {
+              "kind": "nearMiss",
+              "name": "擦身闪避",
+              "need": 3,
+              "current": 9
+            }
+          ],
+          "daily": "2026-10-14",
+          "gear": "stock",
+          "resultCoins": 266,
+          "recorded": true,
+          "tier": 2,
+          "panel": "",
+          "devClaimed": true,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "cruise",
+            "contract"
+          ],
+          "secrets": [],
+          "records": {
+            "cruise:stock": {
+              "runs": 1,
+              "best": 281,
+              "time": 90,
+              "wins": 0
+            },
+            "contract:stock": {
+              "runs": 1,
+              "best": 206,
+              "time": 60,
+              "wins": 0
+            }
+          },
+          "runs": 2,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 19
+      }
+    },
+    {
+      "name": "normal-entry-real-endless-3-hit-fail",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 9.849566666666721,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 1.35,
+        "coffee": 2,
+        "hits": 3,
+        "smashed": 0,
+        "distance": 2954.8699999999985,
+        "spawn": 0.5343573251832279,
+        "chapter": 0,
+        "ending": "耐心用完，夜路还在",
+        "toast": 0.85,
+        "shake": 0.17,
+        "combo": 0,
+        "maxCombo": 1,
+        "comboTime": 0,
+        "energy": 2.5,
+        "freedom": 0,
+        "superUses": 0,
+        "nearMiss": 1,
+        "jumpBuffer": 0,
+        "score": 28,
+        "beat": 22,
+        "spawnIndex": 8,
+        "completedMain": false,
+        "bossEligible": false,
+        "bossWon": false,
+        "offset": 0,
+        "runCoins": 18,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 100504,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": true,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "cruise:stock": {
+                "runs": 1,
+                "best": 281,
+                "time": 90,
+                "wins": 0
+              },
+              "contract:stock": {
+                "runs": 1,
+                "best": 206,
+                "time": 60,
+                "wins": 0
+              },
+              "endless:stock": {
+                "runs": 1,
+                "best": 118,
+                "time": 9.849566666666721,
+                "wins": 0
+              }
+            },
+            "achievements": [
+              "first",
+              "cruise",
+              "contract"
+            ],
+            "secrets": [],
+            "runs": 3
+          }
+        },
+        "voyage": {
+          "route": "endless",
+          "life": 0,
+          "finished": true,
+          "reason": "out",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 9.849566666666721,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 18,
+          "recorded": true,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": true,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "cruise",
+            "contract"
+          ],
+          "secrets": [],
+          "records": {
+            "cruise:stock": {
+              "runs": 1,
+              "best": 281,
+              "time": 90,
+              "wins": 0
+            },
+            "contract:stock": {
+              "runs": 1,
+              "best": 206,
+              "time": 60,
+              "wins": 0
+            },
+            "endless:stock": {
+              "runs": 1,
+              "best": 118,
+              "time": 9.849566666666721,
+              "wins": 0
+            }
+          },
+          "runs": 3,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 0,
+          "hp": 12,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 1,
+          "state": "intro",
+          "timer": 3.5,
+          "elapsed": 0,
+          "pattern": "low",
+          "cycle": 0,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 0,
+          "blocked": 0,
+          "won": false,
+          "flash": 0,
+          "burst": 0,
+          "notice": "",
+          "openSerial": 0,
+          "shots": 0
+        },
+        "mainHits": 3
+      }
+    },
+    {
+      "name": "normal-entry-real-three-stage-stock-dojo-victory",
+      "passed": true,
+      "data": {
+        "phase": "ending",
+        "mode": "play",
+        "t": 120,
+        "paused": false,
+        "y": 0,
+        "vy": 0,
+        "jumps": 0,
+        "dash": 0,
+        "cool": 0,
+        "inv": 0.7835333333333574,
+        "coffee": 0,
+        "hits": 0,
+        "smashed": 0,
+        "distance": 2114.053666666753,
+        "spawn": 0.6,
+        "chapter": 0,
+        "ending": "练熟了，拆机就行",
+        "toast": 0,
+        "shake": 0,
+        "combo": 7,
+        "maxCombo": 7,
+        "comboTime": 1.2835333333333585,
+        "energy": 6,
+        "freedom": 0,
+        "superUses": 2,
+        "nearMiss": 0,
+        "jumpBuffer": 0,
+        "score": 435,
+        "beat": 84,
+        "spawnIndex": 0,
+        "completedMain": false,
+        "bossEligible": true,
+        "bossWon": true,
+        "offset": 0,
+        "runCoins": 0,
+        "mainReward": false,
+        "bossReward": false,
+        "guard": 0,
+        "safeGap": 0,
+        "chrono": 0,
+        "legendPulse": 0,
+        "orbitTick": 0,
+        "paperTick": 0,
+        "whaleTick": 0,
+        "legendSerial": -1,
+        "mobile": true,
+        "compact": false,
+        "items": 0,
+        "particles": 0,
+        "badges": [],
+        "version": "5.0",
+        "wallet": {
+          "balance": 100504,
+          "ownedSkins": [
+            "original"
+          ],
+          "ownedSkills": [],
+          "skin": "original",
+          "skill": "",
+          "voyage": {
+            "version": 1,
+            "devClaimed": true,
+            "settings": {
+              "motion": "system"
+            },
+            "records": {
+              "cruise:stock": {
+                "runs": 1,
+                "best": 281,
+                "time": 90,
+                "wins": 0
+              },
+              "contract:stock": {
+                "runs": 1,
+                "best": 206,
+                "time": 60,
+                "wins": 0
+              },
+              "endless:stock": {
+                "runs": 1,
+                "best": 118,
+                "time": 9.849566666666721,
+                "wins": 0
+              },
+              "dojo:stock": {
+                "runs": 1,
+                "best": 1270,
+                "time": 30.200766666667725,
+                "wins": 1
+              }
+            },
+            "achievements": [
+              "first",
+              "cruise",
+              "contract",
+              "dojo"
+            ],
+            "secrets": [],
+            "runs": 4
+          }
+        },
+        "voyage": {
+          "route": "dojo",
+          "life": 3,
+          "finished": true,
+          "reason": "victory",
+          "milestone": 0,
+          "shieldMark": 0,
+          "elapsed": 30.200766666667725,
+          "goals": [],
+          "daily": "",
+          "gear": "stock",
+          "resultCoins": 0,
+          "recorded": true,
+          "tier": 0,
+          "panel": "",
+          "devClaimed": true,
+          "motion": "system",
+          "reduced": false,
+          "achievements": [
+            "first",
+            "cruise",
+            "contract",
+            "dojo"
+          ],
+          "secrets": [],
+          "records": {
+            "cruise:stock": {
+              "runs": 1,
+              "best": 281,
+              "time": 90,
+              "wins": 0
+            },
+            "contract:stock": {
+              "runs": 1,
+              "best": 206,
+              "time": 60,
+              "wins": 0
+            },
+            "endless:stock": {
+              "runs": 1,
+              "best": 118,
+              "time": 9.849566666666721,
+              "wins": 0
+            },
+            "dojo:stock": {
+              "runs": 1,
+              "best": 1270,
+              "time": 30.200766666667725,
+              "wins": 1
+            }
+          },
+          "runs": 4,
+          "pinLength": 0
+        },
+        "shopOpen": false,
+        "storageOK": true,
+        "shopPage": 0,
+        "detailId": "",
+        "legendBolts": 0,
+        "duration": 120,
+        "boss": {
+          "t": 30.200766666667725,
+          "hp": 0,
+          "maxHP": 12,
+          "player": 3,
+          "stage": 3,
+          "state": "defeated",
+          "timer": -0.016466666666646614,
+          "elapsed": 3.5164999999999895,
+          "pattern": "double",
+          "cycle": 5,
+          "pulse1": false,
+          "pulse2": false,
+          "hits": 0,
+          "landed": 10,
+          "blocked": 0,
+          "won": true,
+          "flash": 0,
+          "burst": 3.216466666666646,
+          "notice": "",
+          "openSerial": 5,
+          "shots": 0
+        },
+        "mainHits": 0
+      }
+    },
+    {
+      "name": "no-real-clock-errors-or-external-requests",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "environment": "Kali Chromium 150, real browser with CDP emulated viewports; not physical phone gameplay",
+  "note": "Entire suite ordinary entry without QA. CDP clicks, true RAF/wall clock, no score/life/time mutation. Independent Chromium profile."
+}

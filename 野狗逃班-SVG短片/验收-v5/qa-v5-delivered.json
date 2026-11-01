@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "artifact_sha256": "b8ad4f52ca0bf049174d1b384543d2c1ab40f30f1ff118ca15757e4f3520d27c",
+  "tests": [
+    {
+      "name": "delivered-html-identical-to-tested-artifact",
+      "passed": true
+    },
+    {
+      "name": "actual-public-entry-in-isolated-profile-initializes-controls-no-qa",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externals": [],
+  "note": "Read actual delivered HTML in independent Chromium profile only; no grant or user save mutation."
+}
